@@ -58,8 +58,8 @@
 2003,MotoGP,andrew-pitt,kawasaki-factory,Kawasaki Racing Team,カワサキ,ZX-RR,,26,4,確認済
 2003,MotoGP,tamaki-serizawa,moriwaki,Moriwaki Racing,モリワキ,,,27,0,確認済
 2003,MotoGP,akira-yanagawa,kawasaki-factory,Kawasaki Racing Team,カワサキ,ZX-RR,,28,0,確認済
-2003,MotoGP,jose-david-de-gea,wcm,WCM,WCM,,,29,0,要確認
-2003,MotoGP,chris-burns,wcm,WCM,WCM,,,30,0,要確認
+2003,MotoGP,jose-david-de-gea,wcm,WCM,WCM,ハリスWCM（ヤマハR1ベースエンジン）,,29,0,確認済
+2003,MotoGP,chris-burns,wcm,WCM,WCM,ハリスWCM（ヤマハR1ベースエンジン）,,30,0,確認済
 2003,MotoGP,daijiro-kato,gresini,Telefónica Movistar Honda,ホンダ,RC211V,,31,0,確認済
 2004,MotoGP,valentino-rossi,yamaha-factory,Gauloises Fortuna Yamaha,ヤマハ,YZR-M1,,1,304,確認済
 2004,MotoGP,sete-gibernau,gresini,Telefónica Movistar Honda MotoGP,ホンダ,RC211V,,2,257,確認済
@@ -81,19 +81,19 @@
 2004,MotoGP,kenny-roberts-jr,suzuki-factory,Team Suzuki MotoGP,スズキ,GSV-R,,18,37,確認済
 2004,MotoGP,jeremy-mcwilliams,aprilia-racing,MS Aprilia Racing,アプリリア,RS Cube,,19,26,確認済
 2004,MotoGP,shane-byrne,aprilia-racing,MS Aprilia Racing,アプリリア,RS Cube,,20,18,確認済
-2004,MotoGP,nobuatsu-aoki,team-kr,Proton Team KR,プロトンKR,,,21,10,要確認
-2004,MotoGP,michel-fabrizio,wcm,WCM,WCM,,,22,8,要確認
+2004,MotoGP,nobuatsu-aoki,team-kr,Proton Team KR,プロトンKR,KR5（自社製V5）,,21,10,確認済
+2004,MotoGP,michel-fabrizio,wcm,WCM,WCM,ハリスWCM（ヤマハR1ベースエンジン）,,22,8,確認済
 2004,MotoGP,yukio-kagayama,suzuki-factory,Team Suzuki MotoGP,スズキ,GSV-R,,23,7,確認済
 2004,MotoGP,olivier-jacque,moriwaki,Moriwaki Racing,モリワキ,,,24,5,確認済
-2004,MotoGP,james-haydon,team-kr,Proton Team KR,プロトンKR,,,25,4,要確認
-2004,MotoGP,james-ellison,wcm,WCM,WCM,,,26,3,要確認
+2004,MotoGP,james-haydon,team-kr,Proton Team KR,プロトンKR,KR5（自社製V5）,,25,4,確認済
+2004,MotoGP,james-ellison,wcm,WCM,WCM,ハリスWCM（ヤマハR1ベースエンジン）,,26,3,確認済
 2004,MotoGP,andrew-pitt,moriwaki,Moriwaki Racing,モリワキ,,,27,2,確認済
-2004,MotoGP,youichi-ui,wcm,WCM,WCM,,,28,1,要確認
-2004,MotoGP,kurtis-roberts,team-kr,Proton Team KR,プロトンKR,,,29,1,要確認
+2004,MotoGP,youichi-ui,wcm,WCM,WCM,ハリスWCM（ヤマハR1ベースエンジン）,,28,1,確認済
+2004,MotoGP,kurtis-roberts,team-kr,Proton Team KR,プロトンKR,KR5（自社製V5）,,29,1,確認済
 2004,MotoGP,tohru-ukawa,honda-hrc,HRC,ホンダ,RC211V,,30,0,確認済
 2004,MotoGP,garry-mccoy,aprilia-racing,MS Aprilia Racing,アプリリア,RS Cube,,31,0,確認済
-2004,MotoGP,chris-burns,wcm,WCM,WCM,,,32,0,要確認
-2004,MotoGP,jose-david-de-gea,wcm,WCM,WCM,,,33,0,要確認
+2004,MotoGP,chris-burns,wcm,WCM,WCM,ハリスWCM（ヤマハR1ベースエンジン）,,32,0,確認済
+2004,MotoGP,jose-david-de-gea,wcm,WCM,WCM,ハリスWCM（ヤマハR1ベースエンジン）,,33,0,確認済
 2004,MotoGP,gregorio-lavilla,suzuki-factory,Team Suzuki MotoGP,スズキ,GSV-R,,34,0,確認済
 2005,MotoGP,valentino-rossi,yamaha-factory,Gauloises Yamaha Team,ヤマハ,YZR-M1,,1,367,確認済
 2005,MotoGP,marco-melandri,gresini,Honda Gresini,ホンダ,RC211V,,2,220,確認済
@@ -118,15 +118,15 @@
 2005,MotoGP,chris-vermeulen,pons,Camel Honda,ホンダ,RC211V,,21,10,確認済
 2005,MotoGP,james-ellison,wcm,Blata WCM,ブラタ,,,22,7,確認済
 2005,MotoGP,franco-battaini,wcm,Blata WCM,ブラタ,,,23,7,確認済
-2005,MotoGP,shane-byrne,team-kr,Team Roberts,プロトンKR,,,24,6,要確認
+2005,MotoGP,shane-byrne,team-kr,Team Roberts,プロトンKR,KR5（KTMエンジン、最終戦はホンダエンジン）,,24,6,確認済
 2005,MotoGP,david-checa,tech3,Fortuna Yamaha MotoGP,ヤマハ,YZR-M1,,25,4,確認済
 2005,MotoGP,ryuichi-kiyonari,pons,Camel Honda,ホンダ,RC211V,,26,4,確認済
 2005,MotoGP,tohru-ukawa,moriwaki,Moriwaki Racing,モリワキ,,,27,1,確認済
 2005,MotoGP,nobuatsu-aoki,suzuki-factory,Team Suzuki MotoGP,スズキ,GSV-R,,28,0,確認済
-2005,MotoGP,jeremy-mcwilliams,team-kr,Team Roberts,プロトンKR,,,29,0,要確認
+2005,MotoGP,jeremy-mcwilliams,team-kr,Team Roberts,プロトンKR,KR5（KTMエンジン、最終戦はホンダエンジン）,,29,0,確認済
 2005,MotoGP,naoki-matsudo,moriwaki,Moriwaki Racing,モリワキ,,,30,0,確認済
 2005,MotoGP,shinichi-ito,ducati-lenovo,Ducati Marlboro Team,ドゥカティ,デスモセディチ,,31,0,確認済
-2005,MotoGP,kurtis-roberts,team-kr,Team Roberts,プロトンKR,,,32,0,要確認
+2005,MotoGP,kurtis-roberts,team-kr,Team Roberts,プロトンKR,KR5（KTMエンジン、最終戦はホンダエンジン）,,32,0,確認済
 2006,MotoGP,nicky-hayden,honda-hrc,Repsol Honda Team,ホンダ,RC211V,,1,252,確認済
 2006,MotoGP,valentino-rossi,yamaha-factory,Camel Yamaha Team,ヤマハ,YZR-M1,,2,247,確認済
 2006,MotoGP,loris-capirossi,ducati-lenovo,Ducati Marlboro Team,ドゥカティ,デスモセディチ,,3,229,確認済
@@ -282,24 +282,24 @@
 2012,MotoGP,randy-de-puniet,aspar,Power Electronics Aspar,アプリリア,ART（RSV4ベース）,,13,62,確認済
 2012,MotoGP,karel-abraham,ab-motoracing,Cardion AB Motoracing,ドゥカティ,デスモセディチ,,14,59,確認済
 2012,MotoGP,michele-pirro,gresini,San Carlo Honda Gresini,ホンダ,RC213V,,15,43,確認済
-2012,MotoGP,james-ellison,pbm,Paul Bird Motorsport,アプリリア,ART（RSV4ベース）,,16,35,要確認
-2012,MotoGP,yonny-hernandez,avintia,Avintia Blusens,その他（CRT等）,,,17,28,要確認
+2012,MotoGP,james-ellison,pbm,Paul Bird Motorsport,アプリリア,ART（RSV4ベース）,,16,35,確認済
+2012,MotoGP,yonny-hernandez,avintia,Avintia Blusens,カワサキ,BQR-FTR（カワサキZX-10Rエンジン）,,17,28,確認済
 2012,MotoGP,katsuyuki-nakasuga,yamaha-factory,Yamaha YSP Racing Team,ヤマハ,YZR-M1,,18,27,確認済
-2012,MotoGP,danilo-petrucci,ioda,Came IodaRacing Project,アプリリア,ART（RSV4ベース）,,19,27,要確認
-2012,MotoGP,colin-edwards,forward,NGM Mobile Forward Racing,その他（CRT等）,,,20,27,要確認
+2012,MotoGP,danilo-petrucci,ioda,Came IodaRacing Project,アプリリア,Ioda（アプリリアRSV4エンジン）,,19,27,確認済
+2012,MotoGP,colin-edwards,forward,NGM Mobile Forward Racing,BMW,スーター（BMW S1000RRエンジン）,,20,27,確認済
 2012,MotoGP,jonathan-rea,honda-hrc,Repsol Honda Team,ホンダ,RC213V,,21,17,確認済
-2012,MotoGP,mattia-pasini,speed-master,Speed Master,アプリリア,ART（RSV4ベース）,,22,13,要確認
-2012,MotoGP,ivan-silva,avintia,Avintia Blusens,その他（CRT等）,,,23,12,要確認
+2012,MotoGP,mattia-pasini,speed-master,Speed Master,アプリリア,ART（RSV4ベース）,,22,13,確認済
+2012,MotoGP,ivan-silva,avintia,Avintia Blusens,カワサキ,BQR-FTR（カワサキZX-10Rエンジン）,,23,12,確認済
 2012,MotoGP,toni-elias,pramac,Pramac Racing Team,ドゥカティ,デスモセディチ,,24,10,確認済
-2012,MotoGP,hiroshi-aoyama,avintia,Avintia Blusens,その他（CRT等）,,,25,3,要確認
-2012,MotoGP,steve-rapp,attack,Attack Performance,その他（CRT等）,,,26,2,要確認
-2012,MotoGP,david-salom,avintia,Avintia Blusens,その他（CRT等）,,,27,1,要確認
-2012,MotoGP,roberto-rolfo,speed-master,Speed Master,アプリリア,ART（RSV4ベース）,,28,0,要確認
-2012,MotoGP,aaron-yates,gp-tech,GPTech,その他（CRT等）,,,29,0,要確認
+2012,MotoGP,hiroshi-aoyama,avintia,Avintia Blusens,カワサキ,BQR-FTR（カワサキZX-10Rエンジン）,,25,3,確認済
+2012,MotoGP,steve-rapp,attack,Attack Performance,カワサキ,アタック（カワサキZX-10Rベース）,,26,2,確認済
+2012,MotoGP,david-salom,avintia,Avintia Blusens,カワサキ,BQR-FTR（カワサキZX-10Rエンジン）,,27,1,確認済
+2012,MotoGP,roberto-rolfo,speed-master,Speed Master,アプリリア,ART（RSV4ベース）,,28,0,確認済
+2012,MotoGP,aaron-yates,gp-tech,GPTech,スズキ,BCL（スズキGSX-R1000エンジン）,,29,0,確認済
 2012,MotoGP,franco-battaini,ab-motoracing,Cardion AB Motoracing,ドゥカティ,デスモセディチ,,30,0,確認済
-2012,MotoGP,chris-vermeulen,forward,NGM Mobile Forward Racing,その他（CRT等）,,,31,0,要確認
-2012,MotoGP,claudio-corti,avintia,Avintia Blusens,その他（CRT等）,,,32,0,要確認
-2012,MotoGP,kris-mclaren,avintia,Avintia Blusens,その他（CRT等）,,,33,0,要確認
+2012,MotoGP,chris-vermeulen,forward,NGM Mobile Forward Racing,BMW,スーター（BMW S1000RRエンジン）,,31,0,確認済
+2012,MotoGP,claudio-corti,avintia,Avintia Blusens,カワサキ,BQR-FTR（カワサキZX-10Rエンジン）,,32,0,確認済
+2012,MotoGP,kris-mclaren,avintia,Avintia Blusens,カワサキ,BQR-FTR（カワサキZX-10Rエンジン）,,33,0,確認済
 2013,MotoGP,marc-marquez,honda-hrc,Repsol Honda Team,ホンダ,RC213V,,1,334,確認済
 2013,MotoGP,jorge-lorenzo,yamaha-factory,Yamaha Factory Racing,ヤマハ,YZR-M1,,2,330,確認済
 2013,MotoGP,dani-pedrosa,honda-hrc,Repsol Honda Team,ホンダ,RC213V,,3,300,確認済
@@ -313,27 +313,27 @@
 2013,MotoGP,aleix-espargaro,aspar,Power Electronics Aspar,アプリリア,ART（RSV4ベース）,,11,93,確認済
 2013,MotoGP,andrea-iannone,pramac,Energy T.I. Pramac Racing,ドゥカティ,デスモセディチ,,12,57,確認済
 2013,MotoGP,michele-pirro,ducati-lenovo,Ducati Test Team,ドゥカティ,デスモセディチ,,13,56,確認済
-2013,MotoGP,colin-edwards,forward,NGM Mobile Forward Racing,その他（CRT等）,,,14,41,要確認
+2013,MotoGP,colin-edwards,forward,NGM Mobile Forward Racing,カワサキ,FTR（カワサキエンジン）,,14,41,確認済
 2013,MotoGP,randy-de-puniet,aspar,Power Electronics Aspar,アプリリア,ART（RSV4ベース）,,15,36,確認済
-2013,MotoGP,hector-barbera,avintia,Avintia Blusens,その他（CRT等）,,,16,35,要確認
-2013,MotoGP,danilo-petrucci,ioda,Came IodaRacing Project,その他（CRT等）,,,17,26,要確認
-2013,MotoGP,yonny-hernandez,pbm,Paul Bird Motorsport,アプリリア,ART（RSV4ベース）,,18,21,要確認
-2013,MotoGP,claudio-corti,forward,NGM Mobile Forward Racing,その他（CRT等）,,,19,14,要確認
-2013,MotoGP,hiroshi-aoyama,avintia,Avintia Blusens,その他（CRT等）,,,20,13,要確認
+2013,MotoGP,hector-barbera,avintia,Avintia Blusens,カワサキ,FTR（カワサキエンジン）,,16,35,確認済
+2013,MotoGP,danilo-petrucci,ioda,Came IodaRacing Project,BMW,スーター（BMWエンジン）,,17,26,確認済
+2013,MotoGP,yonny-hernandez,pbm,Paul Bird Motorsport,アプリリア,ART／PBM（アプリリアエンジン）,,18,21,確認済
+2013,MotoGP,claudio-corti,forward,NGM Mobile Forward Racing,カワサキ,FTR（カワサキエンジン）,,19,14,確認済
+2013,MotoGP,hiroshi-aoyama,avintia,Avintia Blusens,カワサキ,FTR（カワサキエンジン）,,20,13,確認済
 2013,MotoGP,ben-spies,pramac,Ignite Pramac Racing,ドゥカティ,デスモセディチ,,21,9,確認済
 2013,MotoGP,katsuyuki-nakasuga,yamaha-factory,Yamaha YSP Racing Team,ヤマハ,YZR-M1,,22,5,確認済
 2013,MotoGP,alex-de-angelis,pramac,Ignite Pramac Racing,ドゥカティ,デスモセディチ,,23,5,確認済
-2013,MotoGP,karel-abraham,ab-motoracing,Cardion AB Motoracing,アプリリア,ART（RSV4ベース）,,24,5,要確認
-2013,MotoGP,michael-laverty,pbm,Paul Bird Motorsport,アプリリア,ART（RSV4ベース）,,25,3,要確認
+2013,MotoGP,karel-abraham,ab-motoracing,Cardion AB Motoracing,アプリリア,ART（RSV4ベース）,,24,5,確認済
+2013,MotoGP,michael-laverty,pbm,Paul Bird Motorsport,アプリリア,ART／PBM（アプリリアエンジン）,,25,3,確認済
 2013,MotoGP,bryan-staring,gresini,Go&Fun Honda Gresini,ホンダ,RC213V,,26,2,確認済
-2013,MotoGP,javier-del-amor,avintia,Avintia Blusens,その他（CRT等）,,,27,1,要確認
-2013,MotoGP,luca-scassa,ab-motoracing,Cardion AB Motoracing,アプリリア,ART（RSV4ベース）,,28,0,要確認
-2013,MotoGP,lukas-pesek,ioda,Came IodaRacing Project,その他（CRT等）,,,29,0,要確認
-2013,MotoGP,martin-bauer,remus,Remus Racing Team,その他（CRT等）,,,30,0,要確認
-2013,MotoGP,damian-cudlin,pbm,Paul Bird Motorsport,アプリリア,ART（RSV4ベース）,,31,0,要確認
-2013,MotoGP,blake-young,attack,Attack Performance Racing,その他（CRT等）,,,32,0,要確認
-2013,MotoGP,ivan-silva,avintia,Avintia Blusens,その他（CRT等）,,,33,0,要確認
-2013,MotoGP,michael-barnes,gp-tech,GP Tech,その他（CRT等）,,,34,0,要確認
+2013,MotoGP,javier-del-amor,avintia,Avintia Blusens,カワサキ,FTR（カワサキエンジン）,,27,1,確認済
+2013,MotoGP,luca-scassa,ab-motoracing,Cardion AB Motoracing,アプリリア,ART（RSV4ベース）,,28,0,確認済
+2013,MotoGP,lukas-pesek,ioda,Came IodaRacing Project,BMW,スーター（BMWエンジン）,,29,0,確認済
+2013,MotoGP,martin-bauer,remus,Remus Racing Team,BMW,スーター（BMWエンジン）,,30,0,確認済
+2013,MotoGP,damian-cudlin,pbm,Paul Bird Motorsport,アプリリア,ART／PBM（アプリリアエンジン）,,31,0,確認済
+2013,MotoGP,blake-young,attack,Attack Performance Racing,カワサキ,アタック（カワサキZX-10Rベース）,,32,0,確認済
+2013,MotoGP,ivan-silva,avintia,Avintia Blusens,カワサキ,FTR（カワサキエンジン）,,33,0,確認済
+2013,MotoGP,michael-barnes,gp-tech,GP Tech,スズキ,BCL（スズキGSX-R1000エンジン）,,34,0,要確認
 2014,MotoGP,marc-marquez,honda-hrc,Repsol Honda Team,ホンダ,RC213V,,1,362,確認済
 2014,MotoGP,valentino-rossi,yamaha-factory,Movistar Yamaha MotoGP,ヤマハ,YZR-M1,,2,295,確認済
 2014,MotoGP,jorge-lorenzo,yamaha-factory,Movistar Yamaha MotoGP,ヤマハ,YZR-M1,,3,263,確認済
@@ -351,17 +351,17 @@
 2014,MotoGP,yonny-hernandez,pramac,Energy T.I. Pramac Racing,ドゥカティ,デスモセディチ,,15,53,確認済
 2014,MotoGP,nicky-hayden,aspar,Drive M7 Aspar,ホンダ,RC213V,,16,47,確認済
 2014,MotoGP,karel-abraham,ab-motoracing,Cardion AB Motoracing,ホンダ,RC213V,,17,33,確認済
-2014,MotoGP,hector-barbera,avintia,Avintia Racing,その他（CRT等）,,,18,26,要確認
+2014,MotoGP,hector-barbera,avintia,Avintia Racing,カワサキ,Avintia GP14（カワサキエンジン）→シーズン途中からドゥカティ,,18,26,確認済
 2014,MotoGP,michele-pirro,ducati-lenovo,Ducati Team,ドゥカティ,デスモセディチ,,19,18,確認済
-2014,MotoGP,danilo-petrucci,ioda,Octo IodaRacing Team,アプリリア,ART（RSV4ベース）,,20,17,要確認
+2014,MotoGP,danilo-petrucci,ioda,Octo IodaRacing Team,アプリリア,ART（RSV4ベース）,,20,17,記憶
 2014,MotoGP,alex-de-angelis,forward,NGM Forward Racing,ヤマハ,YZR-M1,,21,14,確認済
 2014,MotoGP,colin-edwards,forward,NGM Forward Racing,ヤマハ,YZR-M1,,22,11,確認済
-2014,MotoGP,broc-parkes,pbm,Paul Bird Motorsport,アプリリア,ART（RSV4ベース）,,23,9,要確認
-2014,MotoGP,michael-laverty,pbm,Paul Bird Motorsport,アプリリア,ART（RSV4ベース）,,24,9,要確認
-2014,MotoGP,mike-di-meglio,avintia,Avintia Racing,その他（CRT等）,,,25,9,要確認
+2014,MotoGP,broc-parkes,pbm,Paul Bird Motorsport,アプリリア,PBM（アプリリアART エンジン）,,23,9,記憶
+2014,MotoGP,michael-laverty,pbm,Paul Bird Motorsport,アプリリア,PBM（アプリリアART エンジン）,,24,9,記憶
+2014,MotoGP,mike-di-meglio,avintia,Avintia Racing,カワサキ,Avintia GP14（カワサキエンジン）,,25,9,確認済
 2014,MotoGP,katsuyuki-nakasuga,yamaha-factory,Yamalube Racing Team with YSP,ヤマハ,YZR-M1,,26,4,確認済
 2014,MotoGP,leon-camier,aspar,Drive M7 Aspar,ホンダ,RC213V,,27,1,確認済
-2014,MotoGP,michel-fabrizio,ioda,Octo IodaRacing Team,アプリリア,ART（RSV4ベース）,,28,0,要確認
+2014,MotoGP,michel-fabrizio,ioda,Octo IodaRacing Team,アプリリア,ART（RSV4ベース）,,28,0,記憶
 2014,MotoGP,randy-de-puniet,suzuki-factory,Team Suzuki MotoGP,スズキ,GSV-R,,29,0,確認済
 2015,MotoGP,jorge-lorenzo,yamaha-factory,Movistar Yamaha MotoGP,ヤマハ,YZR-M1,,1,330,確認済
 2015,MotoGP,valentino-rossi,yamaha-factory,Movistar Yamaha MotoGP,ヤマハ,YZR-M1,,2,325,確認済
@@ -390,15 +390,15 @@
 2015,MotoGP,hiroshi-aoyama,honda-hrc,Repsol Honda Team,ホンダ,RC213V,,25,5,確認済
 2015,MotoGP,takumi-takahashi,honda-hrc,Team HRC with Nissin,ホンダ,RC213V,,26,4,確認済
 2015,MotoGP,toni-elias,forward,Forward Racing,ヤマハ,YZR-M1,,27,2,確認済
-2015,MotoGP,alex-de-angelis,ioda,E-Motion IodaRacing Team,アプリリア,RS-GP,,28,2,要確認
+2015,MotoGP,alex-de-angelis,ioda,E-Motion IodaRacing Team,アプリリア,ART（RSV4ベース）,,28,2,記憶
 2015,MotoGP,karel-abraham,ab-motoracing,AB Motoracing,ホンダ,RC213V,,29,0,確認済
 2015,MotoGP,marco-melandri,aprilia-racing,Aprilia Racing Team Gresini,アプリリア,RS-GP,,30,0,確認済
 2015,MotoGP,claudio-corti,forward,Forward Racing,ヤマハ,YZR-M1,,31,0,確認済
 2015,MotoGP,kousuke-akiyoshi,ab-motoracing,AB Motoracing,ホンダ,RC213V,,32,0,確認済
 2015,MotoGP,anthony-west,ab-motoracing,AB Motoracing,ホンダ,RC213V,,33,0,確認済
 2015,MotoGP,michael-laverty,aprilia-racing,Aprilia Racing Team Gresini,アプリリア,RS-GP,,34,0,確認済
-2015,MotoGP,damian-cudlin,ioda,E-Motion IodaRacing Team,アプリリア,RS-GP,,35,0,要確認
-2015,MotoGP,broc-parkes,ioda,E-Motion IodaRacing Team,アプリリア,RS-GP,,36,0,要確認
+2015,MotoGP,damian-cudlin,ioda,E-Motion IodaRacing Team,アプリリア,ART（RSV4ベース）,,35,0,記憶
+2015,MotoGP,broc-parkes,ioda,E-Motion IodaRacing Team,アプリリア,ART（RSV4ベース）,,36,0,記憶
 2016,MotoGP,marc-marquez,honda-hrc,Repsol Honda Team,ホンダ,RC213V,,1,298,確認済
 2016,MotoGP,valentino-rossi,yamaha-factory,Movistar Yamaha MotoGP,ヤマハ,YZR-M1,,2,249,確認済
 2016,MotoGP,jorge-lorenzo,yamaha-factory,Movistar Yamaha MotoGP,ヤマハ,YZR-M1,,3,233,確認済
