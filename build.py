@@ -280,6 +280,13 @@ def yr_link(root, y):
     return a(root, f"seasons/{y}.html", yr(y)) if y in SEASON_YEARS else yr(y)
 
 
+def rank_txt(e):
+    """年間順位（ポイントがあれば併記）"""
+    if not e.get("rank_i"):
+        return "—"
+    return f'{e["rank_i"]}位' + (f'（{e["points"]}点）' if e.get("points") else "")
+
+
 def table(head, rows, cls=""):
     th = "".join(f"<th>{h}</th>" for h in head)
     body = "".join("<tr>" + "".join(f"<td>{c}</td>" for c in r) + "</tr>" for r in rows)
@@ -522,11 +529,11 @@ for i, y in enumerate(SEASON_YEARS):
         for tid in order:
             es = by_team[tid]
             trs.append([team_link("{{root}}", tid) + f'<div class="note">{E(es[0].get("entry_name", ""))}</div>',
-                        maker_link("{{root}}", es[0]["maker"]) + (f'<div class="note">{E(es[0].get("machine", ""))}</div>' if es[0].get("machine") else ""),
+                        maker_link("{{root}}", es[0]["maker"]) + (badge("要確認") if any(x.get("status") == "要確認" for x in es) else "") + (f'<div class="note">{E(es[0].get("machine", ""))}</div>' if es[0].get("machine") else ""),
                         "<br>".join(rider_link("{{root}}", e["rider_id"]) + (f' <span class="note">#{E(e["number"])}</span>' if e.get("number") else "") for e in es),
-                        "<br>".join(f'{e["rank_i"]}位' if e["rank_i"] else "—" for e in es)])
+                        "<br>".join(rank_txt(e) for e in es)])
         b.append(f'<h3>{E(code)} 参戦チーム・ライダー</h3>' + table(["チーム", "メーカー", "ライダー", "年間順位"], trs)
-                 + '<p class="note">年間順位は判明分のみ。空欄は未入力。</p>')
+                 + '<p class="note">年間順位は判明分のみ。空欄は未入力。「要確認」の行はメーカー・車両の特定が不確か。</p>')
     # 全クラス王者
     ch = sorted(CH_BY.get(y, []), key=lambda c: cls_order(c["class"]))
     if ch:
@@ -577,7 +584,7 @@ for r in riders:
     if es:
         b.append("<h3>所属の移り変わり</h3>" + table(["年", "クラス", "チーム", "メーカー", "年間順位"],
                  [[a("{{root}}", f'seasons/{e["year"]}.html', yr(e["year"])), E(e["class"]), team_link("{{root}}", e["team_id"]),
-                   maker_link("{{root}}", e["maker"]), f'{e["rank_i"]}位' if e["rank_i"] else "—"] for e in es]))
+                   maker_link("{{root}}", e["maker"]), rank_txt(e)] for e in es]))
     else:
         b.append('<p class="note">参戦記録は未入力。</p>')
     write(f"riders/{rid}.html", ptitle(r["name_ja"]), f'<section class="page">{"".join(b)}</section>', "riders")
@@ -597,7 +604,7 @@ for t in teams:
     for e in es:
         by[(e["year"], e["class"])].append(e)
     trs = [[a("{{root}}", f"seasons/{y}.html", yr(y)), E(c), E(v[0].get("entry_name", "")), maker_link("{{root}}", v[0]["maker"]),
-            "<br>".join(rider_link("{{root}}", e["rider_id"]) + (f'（{e["rank_i"]}位）' if e["rank_i"] else "") for e in v)] for (y, c), v in by.items()]
+            "<br>".join(rider_link("{{root}}", e["rider_id"]) + (f' {rank_txt(e)}' if e["rank_i"] else "") for e in v)] for (y, c), v in by.items()]
     b.append("<h3>年別の体制</h3>" + (table(["年", "クラス", "エントリー名", "メーカー", "ライダー（年間順位）"], trs) if trs else '<p class="note">未入力。</p>'))
     write(f"teams/{t['id']}.html", ptitle(t["name_ja"]), f'<section class="page">{"".join(b)}</section>', "teams")
 

@@ -1,67 +1,709 @@
-﻿year,class,rider_id,team_id,entry_name,maker,machine,number,rank,status
-2024,MotoGP,francesco-bagnaia,ducati-lenovo,Ducati Lenovo Team,ドゥカティ,デスモセディチ,,2,確認済
-2024,MotoGP,enea-bastianini,ducati-lenovo,Ducati Lenovo Team,ドゥカティ,デスモセディチ,,4,確認済
-2024,MotoGP,jorge-martin,pramac,Prima Pramac Racing,ドゥカティ,デスモセディチ,,1,確認済
-2024,MotoGP,franco-morbidelli,pramac,Prima Pramac Racing,ドゥカティ,デスモセディチ,,,確認済
-2024,MotoGP,marc-marquez,gresini,Gresini Racing MotoGP,ドゥカティ,デスモセディチ,,3,確認済
-2024,MotoGP,alex-marquez,gresini,Gresini Racing MotoGP,ドゥカティ,デスモセディチ,,,確認済
-2024,MotoGP,marco-bezzecchi,vr46,Pertamina Enduro VR46 Racing Team,ドゥカティ,デスモセディチ,,,確認済
-2024,MotoGP,fabio-di-giannantonio,vr46,Pertamina Enduro VR46 Racing Team,ドゥカティ,デスモセディチ,,,確認済
-2024,MotoGP,aleix-espargaro,aprilia-racing,Aprilia Racing,アプリリア,RS-GP,,,確認済
-2024,MotoGP,maverick-vinales,aprilia-racing,Aprilia Racing,アプリリア,RS-GP,,,確認済
-2024,MotoGP,miguel-oliveira,trackhouse,Trackhouse Racing,アプリリア,RS-GP,,,確認済
-2024,MotoGP,raul-fernandez,trackhouse,Trackhouse Racing,アプリリア,RS-GP,,,確認済
-2024,MotoGP,brad-binder,ktm-factory,Red Bull KTM Factory Racing,KTM,RC16,,,確認済
-2024,MotoGP,jack-miller,ktm-factory,Red Bull KTM Factory Racing,KTM,RC16,,,確認済
-2024,MotoGP,pedro-acosta,tech3,Red Bull GASGAS Tech3,KTM,RC16,,,確認済
-2024,MotoGP,augusto-fernandez,tech3,Red Bull GASGAS Tech3,KTM,RC16,,,確認済
-2024,MotoGP,fabio-quartararo,yamaha-factory,Monster Energy Yamaha MotoGP,ヤマハ,YZR-M1,,,確認済
-2024,MotoGP,alex-rins,yamaha-factory,Monster Energy Yamaha MotoGP,ヤマハ,YZR-M1,,,確認済
-2024,MotoGP,joan-mir,honda-hrc,Repsol Honda Team,ホンダ,RC213V,,,確認済
-2024,MotoGP,luca-marini,honda-hrc,Repsol Honda Team,ホンダ,RC213V,,,確認済
-2024,MotoGP,johann-zarco,lcr,LCR Honda,ホンダ,RC213V,,,確認済
-2024,MotoGP,takaaki-nakagami,lcr,LCR Honda,ホンダ,RC213V,,,確認済
-2025,MotoGP,marc-marquez,ducati-lenovo,Ducati Lenovo Team,ドゥカティ,デスモセディチ,,1,確認済
-2025,MotoGP,francesco-bagnaia,ducati-lenovo,Ducati Lenovo Team,ドゥカティ,デスモセディチ,,5,確認済
-2025,MotoGP,alex-marquez,gresini,BK8 Gresini Racing MotoGP,ドゥカティ,デスモセディチ,,2,確認済
-2025,MotoGP,fermin-aldeguer,gresini,BK8 Gresini Racing MotoGP,ドゥカティ,デスモセディチ,,8,確認済
-2025,MotoGP,fabio-di-giannantonio,vr46,Pertamina Enduro VR46 Racing Team,ドゥカティ,デスモセディチ,,6,確認済
-2025,MotoGP,franco-morbidelli,vr46,Pertamina Enduro VR46 Racing Team,ドゥカティ,デスモセディチ,,7,確認済
-2025,MotoGP,jorge-martin,aprilia-racing,Aprilia Racing,アプリリア,RS-GP,,,確認済
-2025,MotoGP,marco-bezzecchi,aprilia-racing,Aprilia Racing,アプリリア,RS-GP,,3,確認済
-2025,MotoGP,ai-ogura,trackhouse,Trackhouse MotoGP Team,アプリリア,RS-GP,,,確認済
-2025,MotoGP,raul-fernandez,trackhouse,Trackhouse MotoGP Team,アプリリア,RS-GP,,10,確認済
-2025,MotoGP,brad-binder,ktm-factory,Red Bull KTM Factory Racing,KTM,RC16,,,確認済
-2025,MotoGP,pedro-acosta,ktm-factory,Red Bull KTM Factory Racing,KTM,RC16,,4,確認済
-2025,MotoGP,enea-bastianini,tech3,Red Bull KTM Tech3,KTM,RC16,,,確認済
-2025,MotoGP,maverick-vinales,tech3,Red Bull KTM Tech3,KTM,RC16,,,確認済
-2025,MotoGP,fabio-quartararo,yamaha-factory,Monster Energy Yamaha MotoGP,ヤマハ,YZR-M1,,9,確認済
-2025,MotoGP,alex-rins,yamaha-factory,Monster Energy Yamaha MotoGP,ヤマハ,YZR-M1,,,確認済
-2025,MotoGP,jack-miller,pramac,Prima Pramac Yamaha MotoGP,ヤマハ,YZR-M1,,,確認済
-2025,MotoGP,miguel-oliveira,pramac,Prima Pramac Yamaha MotoGP,ヤマハ,YZR-M1,,,確認済
-2025,MotoGP,joan-mir,honda-hrc,Honda HRC Castrol,ホンダ,RC213V,,,確認済
-2025,MotoGP,luca-marini,honda-hrc,Honda HRC Castrol,ホンダ,RC213V,,,確認済
-2025,MotoGP,johann-zarco,lcr,LCR Honda,ホンダ,RC213V,,,確認済
-2025,MotoGP,somkiat-chantra,lcr,LCR Honda,ホンダ,RC213V,,,確認済
-2026,MotoGP,marc-marquez,ducati-lenovo,Ducati Lenovo Team,ドゥカティ,デスモセディチ,,,確認済
-2026,MotoGP,francesco-bagnaia,ducati-lenovo,Ducati Lenovo Team,ドゥカティ,デスモセディチ,,,確認済
-2026,MotoGP,alex-marquez,gresini,Gresini Racing MotoGP,ドゥカティ,デスモセディチ,,,確認済
-2026,MotoGP,fermin-aldeguer,gresini,Gresini Racing MotoGP,ドゥカティ,デスモセディチ,,,確認済
-2026,MotoGP,franco-morbidelli,vr46,VR46 Racing Team,ドゥカティ,デスモセディチ,,,確認済
-2026,MotoGP,fabio-di-giannantonio,vr46,VR46 Racing Team,ドゥカティ,デスモセディチ,,,確認済
-2026,MotoGP,marco-bezzecchi,aprilia-racing,Aprilia Racing,アプリリア,RS-GP,,,確認済
-2026,MotoGP,jorge-martin,aprilia-racing,Aprilia Racing,アプリリア,RS-GP,,,確認済
-2026,MotoGP,raul-fernandez,trackhouse,Trackhouse MotoGP Team,アプリリア,RS-GP,,,確認済
-2026,MotoGP,ai-ogura,trackhouse,Trackhouse MotoGP Team,アプリリア,RS-GP,,,確認済
-2026,MotoGP,pedro-acosta,ktm-factory,Red Bull KTM Factory Racing,KTM,RC16,,,確認済
-2026,MotoGP,brad-binder,ktm-factory,Red Bull KTM Factory Racing,KTM,RC16,,,確認済
-2026,MotoGP,maverick-vinales,tech3,Red Bull KTM Tech3,KTM,RC16,,,確認済
-2026,MotoGP,enea-bastianini,tech3,Red Bull KTM Tech3,KTM,RC16,,,確認済
-2026,MotoGP,luca-marini,honda-hrc,Honda HRC,ホンダ,RC213V,,,確認済
-2026,MotoGP,joan-mir,honda-hrc,Honda HRC,ホンダ,RC213V,,,確認済
-2026,MotoGP,johann-zarco,lcr,LCR Honda,ホンダ,RC213V,,,確認済
-2026,MotoGP,diogo-moreira,lcr,LCR Honda,ホンダ,RC213V,,,確認済
-2026,MotoGP,fabio-quartararo,yamaha-factory,Monster Energy Yamaha MotoGP,ヤマハ,YZR-M1,,,確認済
-2026,MotoGP,alex-rins,yamaha-factory,Monster Energy Yamaha MotoGP,ヤマハ,YZR-M1,,,確認済
-2026,MotoGP,toprak-razgatlioglu,pramac,Prima Pramac Yamaha MotoGP,ヤマハ,YZR-M1,,,確認済
-2026,MotoGP,jack-miller,pramac,Prima Pramac Yamaha MotoGP,ヤマハ,YZR-M1,,,確認済
+﻿year,class,rider_id,team_id,entry_name,maker,machine,number,rank,points,status
+2002,MotoGP,valentino-rossi,honda-hrc,Repsol Honda Team,ホンダ,NSR500/RC211V,,1,355,確認済
+2002,MotoGP,max-biaggi,yamaha-factory,Marlboro Yamaha Team,ヤマハ,YZR-M1/YZR500,,2,215,確認済
+2002,MotoGP,tohru-ukawa,honda-hrc,Repsol Honda Team,ホンダ,NSR500/RC211V,,3,209,確認済
+2002,MotoGP,alex-barros,pons,West Honda Pons,ホンダ,NSR500/RC211V,,4,204,確認済
+2002,MotoGP,carlos-checa,yamaha-factory,Marlboro Yamaha Team,ヤマハ,YZR-M1/YZR500,,5,141,確認済
+2002,MotoGP,norifumi-abe,dantin,Antena 3 Yamaha d'Antín,ヤマハ,YZR-M1/YZR500,,6,129,確認済
+2002,MotoGP,daijiro-kato,gresini,Fortuna Honda Gresini,ホンダ,NSR500/RC211V,,7,117,確認済
+2002,MotoGP,loris-capirossi,pons,West Honda Pons,ホンダ,NSR500/RC211V,,8,109,確認済
+2002,MotoGP,kenny-roberts-jr,suzuki-factory,Telefónica Movistar Suzuki,スズキ,GSV-R,,9,99,確認済
+2002,MotoGP,olivier-jacque,tech3,Gauloises Yamaha Tech 3,ヤマハ,YZR-M1/YZR500,,10,81,確認済
+2002,MotoGP,shinya-nakano,tech3,Gauloises Yamaha Tech 3,ヤマハ,YZR-M1/YZR500,,11,68,確認済
+2002,MotoGP,nobuatsu-aoki,team-kr,Proton Team KR,プロトンKR,,,12,63,確認済
+2002,MotoGP,jurgen-van-den-goorbergh,kanemoto,Kanemoto Racing,ホンダ,NSR500/RC211V,,13,60,確認済
+2002,MotoGP,jeremy-mcwilliams,team-kr,Proton Team KR,プロトンKR,,,14,59,確認済
+2002,MotoGP,john-hopkins,yamaha-factory,Red Bull Yamaha WCM,ヤマハ,YZR-M1/YZR500,,15,58,確認済
+2002,MotoGP,sete-gibernau,suzuki-factory,Telefónica Movistar Suzuki,スズキ,GSV-R,,16,51,確認済
+2002,MotoGP,tetsuya-harada,honda-hrc,Pramac Honda Racing Team,ホンダ,NSR500/RC211V,,17,47,確認済
+2002,MotoGP,akira-ryo,suzuki-factory,Team Suzuki,スズキ,GSV-R,,18,41,確認済
+2002,MotoGP,regis-laconi,aprilia-racing,MS Aprilia Racing,アプリリア,RS Cube,,19,33,確認済
+2002,MotoGP,garry-mccoy,yamaha-factory,Red Bull Yamaha WCM,ヤマハ,YZR-M1/YZR500,,20,33,確認済
+2002,MotoGP,shinichi-ito,honda-hrc,Team HRC,ホンダ,NSR500/RC211V,,21,13,確認済
+2002,MotoGP,alex-hofmann,yamaha-factory,Red Bull Yamaha WCM,ヤマハ,YZR-M1/YZR500,,22,11,確認済
+2002,MotoGP,jose-luis-cardoso,dantin,Antena 3 Yamaha d'Antín,ヤマハ,YZR-M1/YZR500,,23,9,確認済
+2002,MotoGP,jean-michel-bayle,yamaha-factory,Red Bull Yamaha WCM,ヤマハ,YZR-M1/YZR500,,24,5,確認済
+2002,MotoGP,wataru-yoshikawa,yamaha-factory,Yamaha Racing Team,ヤマハ,YZR-M1/YZR500,,25,4,確認済
+2002,MotoGP,andrew-pitt,kawasaki-factory,Kawasaki Racing Team,カワサキ,ZX-RR,,26,4,確認済
+2002,MotoGP,pere-riba,dantin,Antena 3 Yamaha d'Antín,ヤマハ,YZR-M1/YZR500,,27,4,確認済
+2002,MotoGP,sylvain-guintoli,tech3,Yamaha Tech 3,ヤマハ,YZR-M1/YZR500,,28,0,確認済
+2002,MotoGP,yukio-kagayama,suzuki-factory,Telefónica Movistar Suzuki,スズキ,GSV-R,,29,0,確認済
+2002,MotoGP,akira-yanagawa,kawasaki-factory,Kawasaki Racing Team,カワサキ,ZX-RR,,30,0,確認済
+2002,MotoGP,david-garcia,team-kr,Proton Team KR,プロトンKR,,,31,0,確認済
+2003,MotoGP,valentino-rossi,honda-hrc,Repsol Honda,ホンダ,RC211V,,1,357,確認済
+2003,MotoGP,sete-gibernau,gresini,Telefónica Movistar Honda,ホンダ,RC211V,,2,277,確認済
+2003,MotoGP,max-biaggi,pons,Camel Pramac Pons,ホンダ,RC211V,,3,228,確認済
+2003,MotoGP,loris-capirossi,ducati-lenovo,Ducati Marlboro Team,ドゥカティ,デスモセディチ,,4,177,確認済
+2003,MotoGP,nicky-hayden,honda-hrc,Repsol Honda,ホンダ,RC211V,,5,130,確認済
+2003,MotoGP,troy-bayliss,ducati-lenovo,Ducati Marlboro Team,ドゥカティ,デスモセディチ,,6,128,確認済
+2003,MotoGP,carlos-checa,yamaha-factory,Fortuna Yamaha Team,ヤマハ,YZR-M1,,7,123,確認済
+2003,MotoGP,tohru-ukawa,pons,Camel Pramac Pons,ホンダ,RC211V,,8,123,確認済
+2003,MotoGP,alex-barros,tech3,Gauloises Yamaha Team,ヤマハ,YZR-M1,,9,101,確認済
+2003,MotoGP,shinya-nakano,dantin,d'Antín Yamaha Team,ヤマハ,YZR-M1,,10,101,確認済
+2003,MotoGP,makoto-tamada,pramac,Pramac Honda,ホンダ,RC211V,,11,87,確認済
+2003,MotoGP,olivier-jacque,tech3,Gauloises Yamaha Team,ヤマハ,YZR-M1,,12,71,確認済
+2003,MotoGP,colin-edwards,aprilia-racing,Alice Aprilia Racing,アプリリア,RS Cube,,13,62,確認済
+2003,MotoGP,noriyuki-haga,aprilia-racing,Alice Aprilia Racing,アプリリア,RS Cube,,14,47,確認済
+2003,MotoGP,marco-melandri,yamaha-factory,Fortuna Yamaha Team,ヤマハ,YZR-M1,,15,45,確認済
+2003,MotoGP,norifumi-abe,yamaha-factory,Fortuna Yamaha Team,ヤマハ,YZR-M1,,16,31,確認済
+2003,MotoGP,john-hopkins,suzuki-factory,Suzuki Grand Prix Team,スズキ,GSV-R,,17,29,確認済
+2003,MotoGP,jeremy-mcwilliams,team-kr,Proton Team KR,プロトンKR,,,18,27,確認済
+2003,MotoGP,kenny-roberts-jr,suzuki-factory,Suzuki Grand Prix Team,スズキ,GSV-R,,19,22,確認済
+2003,MotoGP,ryuichi-kiyonari,gresini,Telefónica Movistar Honda,ホンダ,RC211V,,20,22,確認済
+2003,MotoGP,nobuatsu-aoki,team-kr,Proton Team KR,プロトンKR,,,21,19,確認済
+2003,MotoGP,garry-mccoy,kawasaki-factory,Kawasaki Racing Team,カワサキ,ZX-RR,,22,11,確認済
+2003,MotoGP,alex-hofmann,kawasaki-factory,Kawasaki Racing Team,カワサキ,ZX-RR,,23,8,確認済
+2003,MotoGP,akira-ryo,suzuki-factory,Suzuki Grand Prix Team,スズキ,GSV-R,,24,6,確認済
+2003,MotoGP,yukio-kagayama,suzuki-factory,Suzuki Grand Prix Team,スズキ,GSV-R,,25,4,確認済
+2003,MotoGP,andrew-pitt,kawasaki-factory,Kawasaki Racing Team,カワサキ,ZX-RR,,26,4,確認済
+2003,MotoGP,tamaki-serizawa,moriwaki,Moriwaki Racing,モリワキ,,,27,0,確認済
+2003,MotoGP,akira-yanagawa,kawasaki-factory,Kawasaki Racing Team,カワサキ,ZX-RR,,28,0,確認済
+2003,MotoGP,jose-david-de-gea,wcm,WCM,WCM,,,29,0,要確認
+2003,MotoGP,chris-burns,wcm,WCM,WCM,,,30,0,要確認
+2003,MotoGP,daijiro-kato,gresini,Telefónica Movistar Honda,ホンダ,RC211V,,31,0,確認済
+2004,MotoGP,valentino-rossi,yamaha-factory,Gauloises Fortuna Yamaha,ヤマハ,YZR-M1,,1,304,確認済
+2004,MotoGP,sete-gibernau,gresini,Telefónica Movistar Honda MotoGP,ホンダ,RC211V,,2,257,確認済
+2004,MotoGP,max-biaggi,pons,Camel Honda,ホンダ,RC211V,,3,217,確認済
+2004,MotoGP,alex-barros,honda-hrc,Repsol Honda Team,ホンダ,RC211V,,4,165,確認済
+2004,MotoGP,colin-edwards,gresini,Telefónica Movistar Honda MotoGP,ホンダ,RC211V,,5,157,確認済
+2004,MotoGP,makoto-tamada,pons,Camel Honda,ホンダ,RC211V,,6,150,確認済
+2004,MotoGP,carlos-checa,yamaha-factory,Gauloises Fortuna Yamaha,ヤマハ,YZR-M1,,7,117,確認済
+2004,MotoGP,nicky-hayden,honda-hrc,Repsol Honda Team,ホンダ,RC211V,,8,117,確認済
+2004,MotoGP,loris-capirossi,ducati-lenovo,Ducati Marlboro Team,ドゥカティ,デスモセディチ,,9,117,確認済
+2004,MotoGP,shinya-nakano,kawasaki-factory,Kawasaki Racing Team,カワサキ,ZX-RR,,10,83,確認済
+2004,MotoGP,ruben-xaus,dantin,D'Antin MotoGP,ドゥカティ,デスモセディチ,,11,77,確認済
+2004,MotoGP,marco-melandri,tech3,Fortuna Gauloises Tech 3,ヤマハ,YZR-M1,,12,75,確認済
+2004,MotoGP,norifumi-abe,tech3,Fortuna Gauloises Tech 3,ヤマハ,YZR-M1,,13,74,確認済
+2004,MotoGP,troy-bayliss,ducati-lenovo,Ducati Marlboro Team,ドゥカティ,デスモセディチ,,14,71,確認済
+2004,MotoGP,alex-hofmann,kawasaki-factory,Kawasaki Racing Team,カワサキ,ZX-RR,,15,51,確認済
+2004,MotoGP,john-hopkins,suzuki-factory,Team Suzuki MotoGP,スズキ,GSV-R,,16,45,確認済
+2004,MotoGP,neil-hodgson,dantin,D'Antin MotoGP,ドゥカティ,デスモセディチ,,17,38,確認済
+2004,MotoGP,kenny-roberts-jr,suzuki-factory,Team Suzuki MotoGP,スズキ,GSV-R,,18,37,確認済
+2004,MotoGP,jeremy-mcwilliams,aprilia-racing,MS Aprilia Racing,アプリリア,RS Cube,,19,26,確認済
+2004,MotoGP,shane-byrne,aprilia-racing,MS Aprilia Racing,アプリリア,RS Cube,,20,18,確認済
+2004,MotoGP,nobuatsu-aoki,team-kr,Proton Team KR,プロトンKR,,,21,10,要確認
+2004,MotoGP,michel-fabrizio,wcm,WCM,WCM,,,22,8,要確認
+2004,MotoGP,yukio-kagayama,suzuki-factory,Team Suzuki MotoGP,スズキ,GSV-R,,23,7,確認済
+2004,MotoGP,olivier-jacque,moriwaki,Moriwaki Racing,モリワキ,,,24,5,確認済
+2004,MotoGP,james-haydon,team-kr,Proton Team KR,プロトンKR,,,25,4,要確認
+2004,MotoGP,james-ellison,wcm,WCM,WCM,,,26,3,要確認
+2004,MotoGP,andrew-pitt,moriwaki,Moriwaki Racing,モリワキ,,,27,2,確認済
+2004,MotoGP,youichi-ui,wcm,WCM,WCM,,,28,1,要確認
+2004,MotoGP,kurtis-roberts,team-kr,Proton Team KR,プロトンKR,,,29,1,要確認
+2004,MotoGP,tohru-ukawa,honda-hrc,HRC,ホンダ,RC211V,,30,0,確認済
+2004,MotoGP,garry-mccoy,aprilia-racing,MS Aprilia Racing,アプリリア,RS Cube,,31,0,確認済
+2004,MotoGP,chris-burns,wcm,WCM,WCM,,,32,0,要確認
+2004,MotoGP,jose-david-de-gea,wcm,WCM,WCM,,,33,0,要確認
+2004,MotoGP,gregorio-lavilla,suzuki-factory,Team Suzuki MotoGP,スズキ,GSV-R,,34,0,確認済
+2005,MotoGP,valentino-rossi,yamaha-factory,Gauloises Yamaha Team,ヤマハ,YZR-M1,,1,367,確認済
+2005,MotoGP,marco-melandri,gresini,Honda Gresini,ホンダ,RC211V,,2,220,確認済
+2005,MotoGP,nicky-hayden,honda-hrc,Repsol Honda Team,ホンダ,RC211V,,3,206,確認済
+2005,MotoGP,colin-edwards,yamaha-factory,Gauloises Yamaha Team,ヤマハ,YZR-M1,,4,179,確認済
+2005,MotoGP,max-biaggi,honda-hrc,Repsol Honda Team,ホンダ,RC211V,,5,173,確認済
+2005,MotoGP,loris-capirossi,ducati-lenovo,Ducati Marlboro Team,ドゥカティ,デスモセディチ,,6,157,確認済
+2005,MotoGP,sete-gibernau,gresini,Honda Gresini,ホンダ,RC211V,,7,150,確認済
+2005,MotoGP,alex-barros,pons,Camel Honda,ホンダ,RC211V,,8,147,確認済
+2005,MotoGP,carlos-checa,ducati-lenovo,Ducati Marlboro Team,ドゥカティ,デスモセディチ,,9,138,確認済
+2005,MotoGP,shinya-nakano,kawasaki-factory,Kawasaki Racing Team,カワサキ,ZX-RR,,10,98,確認済
+2005,MotoGP,makoto-tamada,jir,Konica Minolta Honda,ホンダ,RC211V,,11,91,確認済
+2005,MotoGP,toni-elias,tech3,Fortuna Yamaha MotoGP,ヤマハ,YZR-M1,,12,74,確認済
+2005,MotoGP,john-hopkins,suzuki-factory,Team Suzuki MotoGP,スズキ,GSV-R,,13,63,確認済
+2005,MotoGP,kenny-roberts-jr,suzuki-factory,Team Suzuki MotoGP,スズキ,GSV-R,,14,63,確認済
+2005,MotoGP,troy-bayliss,pons,Camel Honda,ホンダ,RC211V,,15,54,確認済
+2005,MotoGP,ruben-xaus,tech3,Fortuna Yamaha MotoGP,ヤマハ,YZR-M1,,16,52,確認済
+2005,MotoGP,olivier-jacque,kawasaki-factory,Kawasaki Racing Team,カワサキ,ZX-RR,,17,28,確認済
+2005,MotoGP,roberto-rolfo,pramac,Pramac d'Antin,ドゥカティ,デスモセディチ,,18,25,確認済
+2005,MotoGP,alex-hofmann,kawasaki-factory,Kawasaki Racing Team,カワサキ,ZX-RR,,19,24,確認済
+2005,MotoGP,jurgen-van-den-goorbergh,jir,Konica Minolta Honda,ホンダ,RC211V,,20,12,確認済
+2005,MotoGP,chris-vermeulen,pons,Camel Honda,ホンダ,RC211V,,21,10,確認済
+2005,MotoGP,james-ellison,wcm,Blata WCM,ブラタ,,,22,7,確認済
+2005,MotoGP,franco-battaini,wcm,Blata WCM,ブラタ,,,23,7,確認済
+2005,MotoGP,shane-byrne,team-kr,Team Roberts,プロトンKR,,,24,6,要確認
+2005,MotoGP,david-checa,tech3,Fortuna Yamaha MotoGP,ヤマハ,YZR-M1,,25,4,確認済
+2005,MotoGP,ryuichi-kiyonari,pons,Camel Honda,ホンダ,RC211V,,26,4,確認済
+2005,MotoGP,tohru-ukawa,moriwaki,Moriwaki Racing,モリワキ,,,27,1,確認済
+2005,MotoGP,nobuatsu-aoki,suzuki-factory,Team Suzuki MotoGP,スズキ,GSV-R,,28,0,確認済
+2005,MotoGP,jeremy-mcwilliams,team-kr,Team Roberts,プロトンKR,,,29,0,要確認
+2005,MotoGP,naoki-matsudo,moriwaki,Moriwaki Racing,モリワキ,,,30,0,確認済
+2005,MotoGP,shinichi-ito,ducati-lenovo,Ducati Marlboro Team,ドゥカティ,デスモセディチ,,31,0,確認済
+2005,MotoGP,kurtis-roberts,team-kr,Team Roberts,プロトンKR,,,32,0,要確認
+2006,MotoGP,nicky-hayden,honda-hrc,Repsol Honda Team,ホンダ,RC211V,,1,252,確認済
+2006,MotoGP,valentino-rossi,yamaha-factory,Camel Yamaha Team,ヤマハ,YZR-M1,,2,247,確認済
+2006,MotoGP,loris-capirossi,ducati-lenovo,Ducati Marlboro Team,ドゥカティ,デスモセディチ,,3,229,確認済
+2006,MotoGP,marco-melandri,gresini,Fortuna Honda,ホンダ,RC211V,,4,228,確認済
+2006,MotoGP,dani-pedrosa,honda-hrc,Repsol Honda Team,ホンダ,RC211V,,5,215,確認済
+2006,MotoGP,kenny-roberts-jr,team-kr,Team Roberts,ホンダ,RC211V,,6,134,確認済
+2006,MotoGP,colin-edwards,yamaha-factory,Camel Yamaha Team,ヤマハ,YZR-M1,,7,124,確認済
+2006,MotoGP,casey-stoner,lcr,Honda LCR,ホンダ,RC211V,,8,119,確認済
+2006,MotoGP,toni-elias,gresini,Fortuna Honda,ホンダ,RC211V,,9,116,確認済
+2006,MotoGP,john-hopkins,suzuki-factory,Rizla Suzuki MotoGP,スズキ,GSV-R,,10,116,確認済
+2006,MotoGP,chris-vermeulen,suzuki-factory,Rizla Suzuki MotoGP,スズキ,GSV-R,,11,98,確認済
+2006,MotoGP,makoto-tamada,jir,Konica Minolta Honda,ホンダ,RC211V,,12,96,確認済
+2006,MotoGP,sete-gibernau,ducati-lenovo,Ducati Marlboro Team,ドゥカティ,デスモセディチ,,13,95,確認済
+2006,MotoGP,shinya-nakano,kawasaki-factory,Kawasaki Racing Team,カワサキ,ZX-RR,,14,92,確認済
+2006,MotoGP,carlos-checa,tech3,Tech 3 Yamaha,ヤマハ,YZR-M1,,15,75,確認済
+2006,MotoGP,randy-de-puniet,kawasaki-factory,Kawasaki Racing Team,カワサキ,ZX-RR,,16,37,確認済
+2006,MotoGP,alex-hofmann,pramac,Pramac d'Antin MotoGP,ドゥカティ,デスモセディチ,,17,30,確認済
+2006,MotoGP,james-ellison,tech3,Tech 3 Yamaha,ヤマハ,YZR-M1,,18,26,確認済
+2006,MotoGP,troy-bayliss,ducati-lenovo,Ducati Marlboro Team,ドゥカティ,デスモセディチ,,19,25,確認済
+2006,MotoGP,jose-luis-cardoso,pramac,Pramac d'Antin MotoGP,ドゥカティ,デスモセディチ,,20,10,確認済
+2006,MotoGP,kousuke-akiyoshi,suzuki-factory,Team Suzuki MotoGP,スズキ,GSV-R,,21,3,確認済
+2006,MotoGP,garry-mccoy,srt-rnf,Ilmor SRT,ヤマハ,YZR-M1,,22,2,確認済
+2007,MotoGP,casey-stoner,ducati-lenovo,Ducati Marlboro Team,ドゥカティ,デスモセディチ,,1,367,確認済
+2007,MotoGP,dani-pedrosa,honda-hrc,Repsol Honda Team,ホンダ,RC212V,,2,242,確認済
+2007,MotoGP,valentino-rossi,yamaha-factory,Fiat Yamaha Team,ヤマハ,YZR-M1,,3,241,確認済
+2007,MotoGP,john-hopkins,suzuki-factory,Rizla Suzuki MotoGP,スズキ,GSV-R,,4,189,確認済
+2007,MotoGP,chris-vermeulen,suzuki-factory,Rizla Suzuki MotoGP,スズキ,GSV-R,,5,184,確認済
+2007,MotoGP,marco-melandri,gresini,Honda Gresini,ホンダ,RC212V,,6,160,確認済
+2007,MotoGP,loris-capirossi,ducati-lenovo,Ducati Marlboro Team,ドゥカティ,デスモセディチ,,7,155,確認済
+2007,MotoGP,colin-edwards,yamaha-factory,Fiat Yamaha Team,ヤマハ,YZR-M1,,8,149,確認済
+2007,MotoGP,nicky-hayden,honda-hrc,Repsol Honda Team,ホンダ,RC212V,,9,127,確認済
+2007,MotoGP,carlos-checa,lcr,Honda LCR,ホンダ,RC212V,,10,117,確認済
+2007,MotoGP,randy-de-puniet,kawasaki-factory,Kawasaki Racing Team,カワサキ,ZX-RR,,11,102,確認済
+2007,MotoGP,toni-elias,gresini,Honda Gresini,ホンダ,RC212V,,12,98,確認済
+2007,MotoGP,sylvain-guintoli,tech3,Dunlop Yamaha Tech 3,ヤマハ,YZR-M1,,13,75,確認済
+2007,MotoGP,shinya-nakano,jir,Konica Minolta Honda,ホンダ,RC212V,,14,72,確認済
+2007,MotoGP,alex-barros,pramac,Pramac d'Antin,ドゥカティ,デスモセディチ,,15,65,確認済
+2007,MotoGP,anthony-west,kawasaki-factory,Kawasaki Racing Team,カワサキ,ZX-RR,,16,50,確認済
+2007,MotoGP,olivier-jacque,kawasaki-factory,Kawasaki Racing Team,カワサキ,ZX-RR,,17,45,確認済
+2007,MotoGP,alex-hofmann,pramac,Pramac d'Antin,ドゥカティ,デスモセディチ,,18,35,確認済
+2007,MotoGP,makoto-tamada,tech3,Dunlop Yamaha Tech 3,ヤマハ,YZR-M1,,19,25,確認済
+2007,MotoGP,kenny-roberts-jr,team-kr,Team Roberts,ホンダ,RC212V,,20,13,確認済
+2007,MotoGP,kurtis-roberts,team-kr,Team Roberts,ホンダ,RC212V,,21,10,確認済
+2007,MotoGP,fonsi-nieto,kawasaki-factory,Kawasaki Racing Team,カワサキ,ZX-RR,,22,7,確認済
+2007,MotoGP,chaz-davies,pramac,Pramac d'Antin,ドゥカティ,デスモセディチ,,23,6,確認済
+2007,MotoGP,michel-fabrizio,gresini,Honda Gresini,ホンダ,RC212V,,24,5,確認済
+2007,MotoGP,miguel-duhamel,gresini,Honda Gresini,ホンダ,RC212V,,25,4,確認済
+2007,MotoGP,jeremy-mcwilliams,ilmor,Ilmor GP,イルモア,,,26,2,確認済
+2007,MotoGP,andrew-pitt,ilmor,Ilmor GP,イルモア,,,27,1,確認済
+2008,MotoGP,valentino-rossi,yamaha-factory,Fiat Yamaha Team,ヤマハ,YZR-M1,,1,373,確認済
+2008,MotoGP,casey-stoner,ducati-lenovo,Ducati Marlboro Team,ドゥカティ,デスモセディチ,,2,280,確認済
+2008,MotoGP,dani-pedrosa,honda-hrc,Repsol Honda Team,ホンダ,RC212V,,3,249,確認済
+2008,MotoGP,jorge-lorenzo,yamaha-factory,Fiat Yamaha Team,ヤマハ,YZR-M1,,4,190,確認済
+2008,MotoGP,andrea-dovizioso,jir,JiR Team Scot MotoGP,ホンダ,RC212V,,5,174,確認済
+2008,MotoGP,nicky-hayden,honda-hrc,Repsol Honda Team,ホンダ,RC212V,,6,155,確認済
+2008,MotoGP,colin-edwards,tech3,Tech 3 Yamaha,ヤマハ,YZR-M1,,7,144,確認済
+2008,MotoGP,chris-vermeulen,suzuki-factory,Rizla Suzuki MotoGP,スズキ,GSV-R,,8,128,確認済
+2008,MotoGP,shinya-nakano,gresini,San Carlo Honda Gresini,ホンダ,RC212V,,9,126,確認済
+2008,MotoGP,loris-capirossi,suzuki-factory,Rizla Suzuki MotoGP,スズキ,GSV-R,,10,118,確認済
+2008,MotoGP,james-toseland,tech3,Tech 3 Yamaha,ヤマハ,YZR-M1,,11,105,確認済
+2008,MotoGP,toni-elias,pramac,Alice Team,ドゥカティ,デスモセディチ,,12,92,確認済
+2008,MotoGP,sylvain-guintoli,pramac,Alice Team,ドゥカティ,デスモセディチ,,13,67,確認済
+2008,MotoGP,alex-de-angelis,gresini,San Carlo Honda Gresini,ホンダ,RC212V,,14,63,確認済
+2008,MotoGP,randy-de-puniet,lcr,LCR Honda MotoGP,ホンダ,RC212V,,15,61,確認済
+2008,MotoGP,john-hopkins,kawasaki-factory,Kawasaki Racing Team,カワサキ,ZX-RR,,16,57,確認済
+2008,MotoGP,marco-melandri,ducati-lenovo,Ducati Marlboro Team,ドゥカティ,デスモセディチ,,17,51,確認済
+2008,MotoGP,anthony-west,kawasaki-factory,Kawasaki Racing Team,カワサキ,ZX-RR,,18,50,確認済
+2008,MotoGP,ben-spies,suzuki-factory,Rizla Suzuki MotoGP,スズキ,GSV-R,,19,20,確認済
+2008,MotoGP,jamie-hacking,kawasaki-factory,Kawasaki Racing Team,カワサキ,ZX-RR,,20,5,確認済
+2008,MotoGP,tadayuki-okada,honda-hrc,Repsol Honda Team,ホンダ,RC212V,,21,2,確認済
+2008,MotoGP,nobuatsu-aoki,suzuki-factory,Rizla Suzuki MotoGP,スズキ,GSV-R,,22,0,確認済
+2008,MotoGP,kousuke-akiyoshi,suzuki-factory,Rizla Suzuki MotoGP,スズキ,GSV-R,,23,0,確認済
+2009,MotoGP,valentino-rossi,yamaha-factory,Fiat Yamaha Team,ヤマハ,YZR-M1,,1,306,確認済
+2009,MotoGP,jorge-lorenzo,yamaha-factory,Fiat Yamaha Team,ヤマハ,YZR-M1,,2,261,確認済
+2009,MotoGP,dani-pedrosa,honda-hrc,Repsol Honda Team,ホンダ,RC212V,,3,234,確認済
+2009,MotoGP,casey-stoner,ducati-lenovo,Ducati Marlboro Team,ドゥカティ,デスモセディチ,,4,220,確認済
+2009,MotoGP,colin-edwards,tech3,Monster Yamaha Tech 3,ヤマハ,YZR-M1,,5,161,確認済
+2009,MotoGP,andrea-dovizioso,honda-hrc,Repsol Honda Team,ホンダ,RC212V,,6,160,確認済
+2009,MotoGP,toni-elias,gresini,San Carlo Honda Gresini,ホンダ,RC212V,,7,115,確認済
+2009,MotoGP,alex-de-angelis,gresini,San Carlo Honda Gresini,ホンダ,RC212V,,8,111,確認済
+2009,MotoGP,loris-capirossi,suzuki-factory,Rizla Suzuki MotoGP,スズキ,GSV-R,,9,110,確認済
+2009,MotoGP,marco-melandri,hayate,Hayate Racing Team,カワサキ,ZX-RR,,10,108,確認済
+2009,MotoGP,chris-vermeulen,suzuki-factory,Rizla Suzuki MotoGP,スズキ,GSV-R,,11,106,確認済
+2009,MotoGP,randy-de-puniet,lcr,LCR Honda MotoGP,ホンダ,RC212V,,12,106,確認済
+2009,MotoGP,nicky-hayden,ducati-lenovo,Ducati Marlboro Team,ドゥカティ,デスモセディチ,,13,104,確認済
+2009,MotoGP,james-toseland,tech3,Monster Yamaha Tech 3,ヤマハ,YZR-M1,,14,92,確認済
+2009,MotoGP,mika-kallio,pramac,Pramac Racing,ドゥカティ,デスモセディチ,,15,71,確認済
+2009,MotoGP,niccolo-canepa,pramac,Pramac Racing,ドゥカティ,デスモセディチ,,16,38,確認済
+2009,MotoGP,gabor-talmacsi,jir,Scot Racing Team MotoGP,ホンダ,RC212V,,17,19,確認済
+2009,MotoGP,aleix-espargaro,pramac,Pramac Racing,ドゥカティ,デスモセディチ,,18,16,確認済
+2009,MotoGP,sete-gibernau,onde2000,Grupo Francisco Hernando,ドゥカティ,デスモセディチ,,19,12,確認済
+2009,MotoGP,ben-spies,yamaha-factory,Sterilgarda Yamaha Team,ヤマハ,YZR-M1,,20,9,確認済
+2009,MotoGP,yuki-takahashi,jir,Scot Racing Team MotoGP,ホンダ,RC212V,,21,9,確認済
+2010,MotoGP,jorge-lorenzo,yamaha-factory,Fiat Yamaha Team,ヤマハ,YZR-M1,,1,383,確認済
+2010,MotoGP,dani-pedrosa,honda-hrc,Repsol Honda Team,ホンダ,RC212V,,2,245,確認済
+2010,MotoGP,valentino-rossi,yamaha-factory,Fiat Yamaha Team,ヤマハ,YZR-M1,,3,233,確認済
+2010,MotoGP,casey-stoner,ducati-lenovo,Ducati Team,ドゥカティ,デスモセディチ,,4,225,確認済
+2010,MotoGP,andrea-dovizioso,honda-hrc,Repsol Honda Team,ホンダ,RC212V,,5,206,確認済
+2010,MotoGP,ben-spies,tech3,Monster Yamaha Tech 3,ヤマハ,YZR-M1,,6,176,確認済
+2010,MotoGP,nicky-hayden,ducati-lenovo,Ducati Team,ドゥカティ,デスモセディチ,,7,163,確認済
+2010,MotoGP,marco-simoncelli,gresini,San Carlo Honda Gresini,ホンダ,RC212V,,8,125,確認済
+2010,MotoGP,randy-de-puniet,lcr,LCR Honda MotoGP,ホンダ,RC212V,,9,116,確認済
+2010,MotoGP,marco-melandri,gresini,San Carlo Honda Gresini,ホンダ,RC212V,,10,103,確認済
+2010,MotoGP,colin-edwards,tech3,Monster Yamaha Tech 3,ヤマハ,YZR-M1,,11,103,確認済
+2010,MotoGP,hector-barbera,aspar,Páginas Amarillas Aspar,ドゥカティ,デスモセディチ,,12,90,確認済
+2010,MotoGP,alvaro-bautista,suzuki-factory,Rizla Suzuki MotoGP,スズキ,GSV-R,,13,85,確認済
+2010,MotoGP,aleix-espargaro,pramac,Pramac Racing Team,ドゥカティ,デスモセディチ,,14,65,確認済
+2010,MotoGP,hiroshi-aoyama,interwetten,Interwetten Honda MotoGP,ホンダ,RC212V,,15,53,確認済
+2010,MotoGP,loris-capirossi,suzuki-factory,Rizla Suzuki MotoGP,スズキ,GSV-R,,16,44,確認済
+2010,MotoGP,mika-kallio,pramac,Pramac Racing Team,ドゥカティ,デスモセディチ,,17,43,確認済
+2010,MotoGP,alex-de-angelis,interwetten,Interwetten Honda MotoGP,ホンダ,RC212V,,18,11,確認済
+2010,MotoGP,roger-lee-hayden,lcr,LCR Honda MotoGP,ホンダ,RC212V,,19,5,確認済
+2010,MotoGP,kousuke-akiyoshi,interwetten,Interwetten Honda MotoGP,ホンダ,RC212V,,20,4,確認済
+2010,MotoGP,carlos-checa,pramac,Pramac Racing Team,ドゥカティ,デスモセディチ,,21,1,確認済
+2010,MotoGP,wataru-yoshikawa,yamaha-factory,Fiat Yamaha Team,ヤマハ,YZR-M1,,22,0,確認済
+2011,MotoGP,casey-stoner,honda-hrc,Repsol Honda Team,ホンダ,RC212V,,1,350,確認済
+2011,MotoGP,jorge-lorenzo,yamaha-factory,Yamaha Factory Racing,ヤマハ,YZR-M1,,2,260,確認済
+2011,MotoGP,andrea-dovizioso,honda-hrc,Repsol Honda Team,ホンダ,RC212V,,3,228,確認済
+2011,MotoGP,dani-pedrosa,honda-hrc,Repsol Honda Team,ホンダ,RC212V,,4,219,確認済
+2011,MotoGP,ben-spies,yamaha-factory,Yamaha Factory Racing,ヤマハ,YZR-M1,,5,176,確認済
+2011,MotoGP,marco-simoncelli,gresini,San Carlo Honda Gresini,ホンダ,RC212V,,6,139,確認済
+2011,MotoGP,valentino-rossi,ducati-lenovo,Ducati Team,ドゥカティ,デスモセディチ,,7,139,確認済
+2011,MotoGP,nicky-hayden,ducati-lenovo,Ducati Team,ドゥカティ,デスモセディチ,,8,132,確認済
+2011,MotoGP,colin-edwards,tech3,Monster Yamaha Tech 3,ヤマハ,YZR-M1,,9,109,確認済
+2011,MotoGP,hiroshi-aoyama,gresini,San Carlo Honda Gresini,ホンダ,RC212V,,10,98,確認済
+2011,MotoGP,hector-barbera,aspar,Mapfre Aspar Team MotoGP,ドゥカティ,デスモセディチ,,11,82,確認済
+2011,MotoGP,cal-crutchlow,tech3,Monster Yamaha Tech 3,ヤマハ,YZR-M1,,12,70,確認済
+2011,MotoGP,alvaro-bautista,suzuki-factory,Rizla Suzuki MotoGP,スズキ,GSV-R,,13,67,確認済
+2011,MotoGP,karel-abraham,ab-motoracing,Cardion AB Motoracing,ドゥカティ,デスモセディチ,,14,64,確認済
+2011,MotoGP,toni-elias,lcr,LCR Honda MotoGP,ホンダ,RC212V,,15,61,確認済
+2011,MotoGP,randy-de-puniet,pramac,Pramac Racing Team,ドゥカティ,デスモセディチ,,16,49,確認済
+2011,MotoGP,loris-capirossi,pramac,Pramac Racing Team,ドゥカティ,デスモセディチ,,17,43,確認済
+2011,MotoGP,katsuyuki-nakasuga,yamaha-factory,Yamaha Factory Racing,ヤマハ,YZR-M1,,18,10,確認済
+2011,MotoGP,josh-hayes,tech3,Monster Yamaha Tech 3,ヤマハ,YZR-M1,,19,9,確認済
+2011,MotoGP,kousuke-akiyoshi,gresini,San Carlo Honda Gresini,ホンダ,RC212V,,20,7,確認済
+2011,MotoGP,john-hopkins,suzuki-factory,Rizla Suzuki MotoGP,スズキ,GSV-R,,21,6,確認済
+2011,MotoGP,shinichi-ito,honda-hrc,Honda Racing Team,ホンダ,RC212V,,22,3,確認済
+2011,MotoGP,sylvain-guintoli,pramac,Pramac Racing Team,ドゥカティ,デスモセディチ,,23,0,確認済
+2011,MotoGP,damian-cudlin,pramac,Pramac Racing Team,ドゥカティ,デスモセディチ,,24,0,確認済
+2011,MotoGP,ben-bostrom,lcr,LCR Honda MotoGP,ホンダ,RC212V,,25,0,確認済
+2012,MotoGP,jorge-lorenzo,yamaha-factory,Yamaha Factory Racing,ヤマハ,YZR-M1,,1,350,確認済
+2012,MotoGP,dani-pedrosa,honda-hrc,Repsol Honda Team,ホンダ,RC213V,,2,332,確認済
+2012,MotoGP,casey-stoner,honda-hrc,Repsol Honda Team,ホンダ,RC213V,,3,254,確認済
+2012,MotoGP,andrea-dovizioso,tech3,Monster Yamaha Tech 3,ヤマハ,YZR-M1,,4,218,確認済
+2012,MotoGP,alvaro-bautista,gresini,San Carlo Honda Gresini,ホンダ,RC213V,,5,178,確認済
+2012,MotoGP,valentino-rossi,ducati-lenovo,Ducati Team,ドゥカティ,デスモセディチ,,6,163,確認済
+2012,MotoGP,cal-crutchlow,tech3,Monster Yamaha Tech 3,ヤマハ,YZR-M1,,7,151,確認済
+2012,MotoGP,stefan-bradl,lcr,LCR Honda MotoGP,ホンダ,RC213V,,8,135,確認済
+2012,MotoGP,nicky-hayden,ducati-lenovo,Ducati Team,ドゥカティ,デスモセディチ,,9,122,確認済
+2012,MotoGP,ben-spies,yamaha-factory,Yamaha Factory Racing,ヤマハ,YZR-M1,,10,88,確認済
+2012,MotoGP,hector-barbera,pramac,Pramac Racing Team,ドゥカティ,デスモセディチ,,11,83,確認済
+2012,MotoGP,aleix-espargaro,aspar,Power Electronics Aspar,アプリリア,ART（RSV4ベース）,,12,74,確認済
+2012,MotoGP,randy-de-puniet,aspar,Power Electronics Aspar,アプリリア,ART（RSV4ベース）,,13,62,確認済
+2012,MotoGP,karel-abraham,ab-motoracing,Cardion AB Motoracing,ドゥカティ,デスモセディチ,,14,59,確認済
+2012,MotoGP,michele-pirro,gresini,San Carlo Honda Gresini,ホンダ,RC213V,,15,43,確認済
+2012,MotoGP,james-ellison,pbm,Paul Bird Motorsport,アプリリア,ART（RSV4ベース）,,16,35,要確認
+2012,MotoGP,yonny-hernandez,avintia,Avintia Blusens,その他（CRT等）,,,17,28,要確認
+2012,MotoGP,katsuyuki-nakasuga,yamaha-factory,Yamaha YSP Racing Team,ヤマハ,YZR-M1,,18,27,確認済
+2012,MotoGP,danilo-petrucci,ioda,Came IodaRacing Project,アプリリア,ART（RSV4ベース）,,19,27,要確認
+2012,MotoGP,colin-edwards,forward,NGM Mobile Forward Racing,その他（CRT等）,,,20,27,要確認
+2012,MotoGP,jonathan-rea,honda-hrc,Repsol Honda Team,ホンダ,RC213V,,21,17,確認済
+2012,MotoGP,mattia-pasini,speed-master,Speed Master,アプリリア,ART（RSV4ベース）,,22,13,要確認
+2012,MotoGP,ivan-silva,avintia,Avintia Blusens,その他（CRT等）,,,23,12,要確認
+2012,MotoGP,toni-elias,pramac,Pramac Racing Team,ドゥカティ,デスモセディチ,,24,10,確認済
+2012,MotoGP,hiroshi-aoyama,avintia,Avintia Blusens,その他（CRT等）,,,25,3,要確認
+2012,MotoGP,steve-rapp,attack,Attack Performance,その他（CRT等）,,,26,2,要確認
+2012,MotoGP,david-salom,avintia,Avintia Blusens,その他（CRT等）,,,27,1,要確認
+2012,MotoGP,roberto-rolfo,speed-master,Speed Master,アプリリア,ART（RSV4ベース）,,28,0,要確認
+2012,MotoGP,aaron-yates,gp-tech,GPTech,その他（CRT等）,,,29,0,要確認
+2012,MotoGP,franco-battaini,ab-motoracing,Cardion AB Motoracing,ドゥカティ,デスモセディチ,,30,0,確認済
+2012,MotoGP,chris-vermeulen,forward,NGM Mobile Forward Racing,その他（CRT等）,,,31,0,要確認
+2012,MotoGP,claudio-corti,avintia,Avintia Blusens,その他（CRT等）,,,32,0,要確認
+2012,MotoGP,kris-mclaren,avintia,Avintia Blusens,その他（CRT等）,,,33,0,要確認
+2013,MotoGP,marc-marquez,honda-hrc,Repsol Honda Team,ホンダ,RC213V,,1,334,確認済
+2013,MotoGP,jorge-lorenzo,yamaha-factory,Yamaha Factory Racing,ヤマハ,YZR-M1,,2,330,確認済
+2013,MotoGP,dani-pedrosa,honda-hrc,Repsol Honda Team,ホンダ,RC213V,,3,300,確認済
+2013,MotoGP,valentino-rossi,yamaha-factory,Yamaha Factory Racing,ヤマハ,YZR-M1,,4,237,確認済
+2013,MotoGP,cal-crutchlow,tech3,Monster Yamaha Tech 3,ヤマハ,YZR-M1,,5,188,確認済
+2013,MotoGP,alvaro-bautista,gresini,Go&Fun Honda Gresini,ホンダ,RC213V,,6,171,確認済
+2013,MotoGP,stefan-bradl,lcr,LCR Honda MotoGP,ホンダ,RC213V,,7,156,確認済
+2013,MotoGP,andrea-dovizioso,ducati-lenovo,Ducati Team,ドゥカティ,デスモセディチ,,8,140,確認済
+2013,MotoGP,nicky-hayden,ducati-lenovo,Ducati Team,ドゥカティ,デスモセディチ,,9,126,確認済
+2013,MotoGP,bradley-smith,tech3,Monster Yamaha Tech 3,ヤマハ,YZR-M1,,10,116,確認済
+2013,MotoGP,aleix-espargaro,aspar,Power Electronics Aspar,アプリリア,ART（RSV4ベース）,,11,93,確認済
+2013,MotoGP,andrea-iannone,pramac,Energy T.I. Pramac Racing,ドゥカティ,デスモセディチ,,12,57,確認済
+2013,MotoGP,michele-pirro,ducati-lenovo,Ducati Test Team,ドゥカティ,デスモセディチ,,13,56,確認済
+2013,MotoGP,colin-edwards,forward,NGM Mobile Forward Racing,その他（CRT等）,,,14,41,要確認
+2013,MotoGP,randy-de-puniet,aspar,Power Electronics Aspar,アプリリア,ART（RSV4ベース）,,15,36,確認済
+2013,MotoGP,hector-barbera,avintia,Avintia Blusens,その他（CRT等）,,,16,35,要確認
+2013,MotoGP,danilo-petrucci,ioda,Came IodaRacing Project,その他（CRT等）,,,17,26,要確認
+2013,MotoGP,yonny-hernandez,pbm,Paul Bird Motorsport,アプリリア,ART（RSV4ベース）,,18,21,要確認
+2013,MotoGP,claudio-corti,forward,NGM Mobile Forward Racing,その他（CRT等）,,,19,14,要確認
+2013,MotoGP,hiroshi-aoyama,avintia,Avintia Blusens,その他（CRT等）,,,20,13,要確認
+2013,MotoGP,ben-spies,pramac,Ignite Pramac Racing,ドゥカティ,デスモセディチ,,21,9,確認済
+2013,MotoGP,katsuyuki-nakasuga,yamaha-factory,Yamaha YSP Racing Team,ヤマハ,YZR-M1,,22,5,確認済
+2013,MotoGP,alex-de-angelis,pramac,Ignite Pramac Racing,ドゥカティ,デスモセディチ,,23,5,確認済
+2013,MotoGP,karel-abraham,ab-motoracing,Cardion AB Motoracing,アプリリア,ART（RSV4ベース）,,24,5,要確認
+2013,MotoGP,michael-laverty,pbm,Paul Bird Motorsport,アプリリア,ART（RSV4ベース）,,25,3,要確認
+2013,MotoGP,bryan-staring,gresini,Go&Fun Honda Gresini,ホンダ,RC213V,,26,2,確認済
+2013,MotoGP,javier-del-amor,avintia,Avintia Blusens,その他（CRT等）,,,27,1,要確認
+2013,MotoGP,luca-scassa,ab-motoracing,Cardion AB Motoracing,アプリリア,ART（RSV4ベース）,,28,0,要確認
+2013,MotoGP,lukas-pesek,ioda,Came IodaRacing Project,その他（CRT等）,,,29,0,要確認
+2013,MotoGP,martin-bauer,remus,Remus Racing Team,その他（CRT等）,,,30,0,要確認
+2013,MotoGP,damian-cudlin,pbm,Paul Bird Motorsport,アプリリア,ART（RSV4ベース）,,31,0,要確認
+2013,MotoGP,blake-young,attack,Attack Performance Racing,その他（CRT等）,,,32,0,要確認
+2013,MotoGP,ivan-silva,avintia,Avintia Blusens,その他（CRT等）,,,33,0,要確認
+2013,MotoGP,michael-barnes,gp-tech,GP Tech,その他（CRT等）,,,34,0,要確認
+2014,MotoGP,marc-marquez,honda-hrc,Repsol Honda Team,ホンダ,RC213V,,1,362,確認済
+2014,MotoGP,valentino-rossi,yamaha-factory,Movistar Yamaha MotoGP,ヤマハ,YZR-M1,,2,295,確認済
+2014,MotoGP,jorge-lorenzo,yamaha-factory,Movistar Yamaha MotoGP,ヤマハ,YZR-M1,,3,263,確認済
+2014,MotoGP,dani-pedrosa,honda-hrc,Repsol Honda Team,ホンダ,RC213V,,4,246,確認済
+2014,MotoGP,andrea-dovizioso,ducati-lenovo,Ducati Team,ドゥカティ,デスモセディチ,,5,187,確認済
+2014,MotoGP,pol-espargaro,tech3,Monster Yamaha Tech 3,ヤマハ,YZR-M1,,6,136,確認済
+2014,MotoGP,aleix-espargaro,forward,NGM Forward Racing,ヤマハ,YZR-M1,,7,126,確認済
+2014,MotoGP,bradley-smith,tech3,Monster Yamaha Tech 3,ヤマハ,YZR-M1,,8,121,確認済
+2014,MotoGP,stefan-bradl,lcr,LCR Honda MotoGP,ホンダ,RC213V,,9,117,確認済
+2014,MotoGP,andrea-iannone,pramac,Pramac Racing,ドゥカティ,デスモセディチ,,10,102,確認済
+2014,MotoGP,alvaro-bautista,gresini,Go&Fun Honda Gresini,ホンダ,RC213V,,11,89,確認済
+2014,MotoGP,scott-redding,gresini,Go&Fun Honda Gresini,ホンダ,RC213V,,12,81,確認済
+2014,MotoGP,cal-crutchlow,ducati-lenovo,Ducati Team,ドゥカティ,デスモセディチ,,13,74,確認済
+2014,MotoGP,hiroshi-aoyama,aspar,Drive M7 Aspar,ホンダ,RC213V,,14,68,確認済
+2014,MotoGP,yonny-hernandez,pramac,Energy T.I. Pramac Racing,ドゥカティ,デスモセディチ,,15,53,確認済
+2014,MotoGP,nicky-hayden,aspar,Drive M7 Aspar,ホンダ,RC213V,,16,47,確認済
+2014,MotoGP,karel-abraham,ab-motoracing,Cardion AB Motoracing,ホンダ,RC213V,,17,33,確認済
+2014,MotoGP,hector-barbera,avintia,Avintia Racing,その他（CRT等）,,,18,26,要確認
+2014,MotoGP,michele-pirro,ducati-lenovo,Ducati Team,ドゥカティ,デスモセディチ,,19,18,確認済
+2014,MotoGP,danilo-petrucci,ioda,Octo IodaRacing Team,アプリリア,ART（RSV4ベース）,,20,17,要確認
+2014,MotoGP,alex-de-angelis,forward,NGM Forward Racing,ヤマハ,YZR-M1,,21,14,確認済
+2014,MotoGP,colin-edwards,forward,NGM Forward Racing,ヤマハ,YZR-M1,,22,11,確認済
+2014,MotoGP,broc-parkes,pbm,Paul Bird Motorsport,アプリリア,ART（RSV4ベース）,,23,9,要確認
+2014,MotoGP,michael-laverty,pbm,Paul Bird Motorsport,アプリリア,ART（RSV4ベース）,,24,9,要確認
+2014,MotoGP,mike-di-meglio,avintia,Avintia Racing,その他（CRT等）,,,25,9,要確認
+2014,MotoGP,katsuyuki-nakasuga,yamaha-factory,Yamalube Racing Team with YSP,ヤマハ,YZR-M1,,26,4,確認済
+2014,MotoGP,leon-camier,aspar,Drive M7 Aspar,ホンダ,RC213V,,27,1,確認済
+2014,MotoGP,michel-fabrizio,ioda,Octo IodaRacing Team,アプリリア,ART（RSV4ベース）,,28,0,要確認
+2014,MotoGP,randy-de-puniet,suzuki-factory,Team Suzuki MotoGP,スズキ,GSV-R,,29,0,確認済
+2015,MotoGP,jorge-lorenzo,yamaha-factory,Movistar Yamaha MotoGP,ヤマハ,YZR-M1,,1,330,確認済
+2015,MotoGP,valentino-rossi,yamaha-factory,Movistar Yamaha MotoGP,ヤマハ,YZR-M1,,2,325,確認済
+2015,MotoGP,marc-marquez,honda-hrc,Repsol Honda Team,ホンダ,RC213V,,3,242,確認済
+2015,MotoGP,dani-pedrosa,honda-hrc,Repsol Honda Team,ホンダ,RC213V,,4,206,確認済
+2015,MotoGP,andrea-iannone,ducati-lenovo,Ducati Team,ドゥカティ,デスモセディチ,,5,188,確認済
+2015,MotoGP,bradley-smith,tech3,Monster Yamaha Tech 3,ヤマハ,YZR-M1,,6,181,確認済
+2015,MotoGP,andrea-dovizioso,ducati-lenovo,Ducati Team,ドゥカティ,デスモセディチ,,7,162,確認済
+2015,MotoGP,cal-crutchlow,lcr,LCR Honda,ホンダ,RC213V,,8,125,確認済
+2015,MotoGP,pol-espargaro,tech3,Monster Yamaha Tech 3,ヤマハ,YZR-M1,,9,114,確認済
+2015,MotoGP,danilo-petrucci,pramac,Octo Pramac Racing,ドゥカティ,デスモセディチ,,10,113,確認済
+2015,MotoGP,aleix-espargaro,suzuki-factory,Team Suzuki Ecstar,スズキ,GSX-RR,,11,105,確認済
+2015,MotoGP,maverick-vinales,suzuki-factory,Team Suzuki Ecstar,スズキ,GSX-RR,,12,97,確認済
+2015,MotoGP,scott-redding,marc-vds,"EG 0,0 Marc VDS",ホンダ,RC213V,,13,84,確認済
+2015,MotoGP,yonny-hernandez,pramac,Octo Pramac Racing,ドゥカティ,デスモセディチ,,14,56,確認済
+2015,MotoGP,hector-barbera,avintia,Avintia Racing,ドゥカティ,デスモセディチ,,15,33,確認済
+2015,MotoGP,alvaro-bautista,aprilia-racing,Aprilia Racing Team Gresini,アプリリア,RS-GP,,16,31,確認済
+2015,MotoGP,loris-baz,forward,Forward Racing,ヤマハ,YZR-M1,,17,28,確認済
+2015,MotoGP,stefan-bradl,forward,Athinà Forward Racing,ヤマハ,YZR-M1,,18,17,確認済
+2015,MotoGP,jack-miller,lcr,LCR Honda,ホンダ,RC213V,,19,17,確認済
+2015,MotoGP,nicky-hayden,aspar,Aspar MotoGP Team,ホンダ,RC213V,,20,16,確認済
+2015,MotoGP,michele-pirro,ducati-lenovo,Ducati Team,ドゥカティ,デスモセディチ,,21,12,確認済
+2015,MotoGP,eugene-laverty,aspar,Aspar MotoGP Team,ホンダ,RC213V,,22,9,確認済
+2015,MotoGP,katsuyuki-nakasuga,yamaha-factory,Yamaha Factory Racing Team,ヤマハ,YZR-M1,,23,8,確認済
+2015,MotoGP,mike-di-meglio,avintia,Avintia Racing,ドゥカティ,デスモセディチ,,24,8,確認済
+2015,MotoGP,hiroshi-aoyama,honda-hrc,Repsol Honda Team,ホンダ,RC213V,,25,5,確認済
+2015,MotoGP,takumi-takahashi,honda-hrc,Team HRC with Nissin,ホンダ,RC213V,,26,4,確認済
+2015,MotoGP,toni-elias,forward,Forward Racing,ヤマハ,YZR-M1,,27,2,確認済
+2015,MotoGP,alex-de-angelis,ioda,E-Motion IodaRacing Team,アプリリア,RS-GP,,28,2,要確認
+2015,MotoGP,karel-abraham,ab-motoracing,AB Motoracing,ホンダ,RC213V,,29,0,確認済
+2015,MotoGP,marco-melandri,aprilia-racing,Aprilia Racing Team Gresini,アプリリア,RS-GP,,30,0,確認済
+2015,MotoGP,claudio-corti,forward,Forward Racing,ヤマハ,YZR-M1,,31,0,確認済
+2015,MotoGP,kousuke-akiyoshi,ab-motoracing,AB Motoracing,ホンダ,RC213V,,32,0,確認済
+2015,MotoGP,anthony-west,ab-motoracing,AB Motoracing,ホンダ,RC213V,,33,0,確認済
+2015,MotoGP,michael-laverty,aprilia-racing,Aprilia Racing Team Gresini,アプリリア,RS-GP,,34,0,確認済
+2015,MotoGP,damian-cudlin,ioda,E-Motion IodaRacing Team,アプリリア,RS-GP,,35,0,要確認
+2015,MotoGP,broc-parkes,ioda,E-Motion IodaRacing Team,アプリリア,RS-GP,,36,0,要確認
+2016,MotoGP,marc-marquez,honda-hrc,Repsol Honda Team,ホンダ,RC213V,,1,298,確認済
+2016,MotoGP,valentino-rossi,yamaha-factory,Movistar Yamaha MotoGP,ヤマハ,YZR-M1,,2,249,確認済
+2016,MotoGP,jorge-lorenzo,yamaha-factory,Movistar Yamaha MotoGP,ヤマハ,YZR-M1,,3,233,確認済
+2016,MotoGP,maverick-vinales,suzuki-factory,Team Suzuki Ecstar,スズキ,GSX-RR,,4,202,確認済
+2016,MotoGP,andrea-dovizioso,ducati-lenovo,Ducati Team,ドゥカティ,デスモセディチ,,5,171,確認済
+2016,MotoGP,dani-pedrosa,honda-hrc,Repsol Honda Team,ホンダ,RC213V,,6,155,確認済
+2016,MotoGP,cal-crutchlow,lcr,LCR Honda,ホンダ,RC213V,,7,141,確認済
+2016,MotoGP,pol-espargaro,tech3,Monster Yamaha Tech 3,ヤマハ,YZR-M1,,8,134,確認済
+2016,MotoGP,andrea-iannone,ducati-lenovo,Ducati Team,ドゥカティ,デスモセディチ,,9,112,確認済
+2016,MotoGP,hector-barbera,avintia,Avintia Racing,ドゥカティ,デスモセディチ,,10,102,確認済
+2016,MotoGP,aleix-espargaro,suzuki-factory,Team Suzuki Ecstar,スズキ,GSX-RR,,11,93,確認済
+2016,MotoGP,alvaro-bautista,aprilia-racing,Aprilia Racing Team Gresini,アプリリア,RS-GP,,12,82,確認済
+2016,MotoGP,eugene-laverty,aspar,Pull & Bear Aspar Team,ドゥカティ,デスモセディチ,,13,77,確認済
+2016,MotoGP,danilo-petrucci,pramac,Octo Pramac Yakhnich,ドゥカティ,デスモセディチ,,14,75,確認済
+2016,MotoGP,scott-redding,pramac,Octo Pramac Yakhnich,ドゥカティ,デスモセディチ,,15,74,確認済
+2016,MotoGP,stefan-bradl,aprilia-racing,Aprilia Racing Team Gresini,アプリリア,RS-GP,,16,63,確認済
+2016,MotoGP,bradley-smith,tech3,Monster Yamaha Tech 3,ヤマハ,YZR-M1,,17,62,確認済
+2016,MotoGP,jack-miller,marc-vds,"Estrella Galicia 0,0 Marc VDS",ホンダ,RC213V,,18,57,確認済
+2016,MotoGP,michele-pirro,ducati-lenovo,Ducati Team,ドゥカティ,デスモセディチ,,19,36,確認済
+2016,MotoGP,loris-baz,avintia,Avintia Racing,ドゥカティ,デスモセディチ,,20,35,確認済
+2016,MotoGP,tito-rabat,marc-vds,"Estrella Galicia 0,0 Marc VDS",ホンダ,RC213V,,21,29,確認済
+2016,MotoGP,yonny-hernandez,aspar,Pull & Bear Aspar Team,ドゥカティ,デスモセディチ,,22,20,確認済
+2016,MotoGP,katsuyuki-nakasuga,yamaha-factory,Yamalube Yamaha Factory Racing,ヤマハ,YZR-M1,,23,5,確認済
+2016,MotoGP,alex-lowes,tech3,Monster Yamaha Tech 3,ヤマハ,YZR-M1,,24,3,確認済
+2016,MotoGP,hiroshi-aoyama,honda-hrc,Repsol Honda Team,ホンダ,RC213V,,25,1,確認済
+2016,MotoGP,nicky-hayden,marc-vds,"Estrella Galicia 0,0 Marc VDS",ホンダ,RC213V,,26,1,確認済
+2016,MotoGP,mike-jones,avintia,Avintia Racing,ドゥカティ,デスモセディチ,,27,1,確認済
+2016,MotoGP,mika-kallio,ktm-factory,Red Bull KTM Factory Racing,KTM,RC16,,28,0,確認済
+2016,MotoGP,javier-fores,avintia,Avintia Racing,ドゥカティ,デスモセディチ,,29,0,確認済
+2017,MotoGP,marc-marquez,honda-hrc,Repsol Honda Team,ホンダ,RC213V,,1,298,確認済
+2017,MotoGP,andrea-dovizioso,ducati-lenovo,Ducati Team,ドゥカティ,デスモセディチ,,2,261,確認済
+2017,MotoGP,maverick-vinales,yamaha-factory,Movistar Yamaha MotoGP,ヤマハ,YZR-M1,,3,230,確認済
+2017,MotoGP,dani-pedrosa,honda-hrc,Repsol Honda Team,ホンダ,RC213V,,4,210,確認済
+2017,MotoGP,valentino-rossi,yamaha-factory,Movistar Yamaha MotoGP,ヤマハ,YZR-M1,,5,208,確認済
+2017,MotoGP,johann-zarco,tech3,Monster Yamaha Tech 3,ヤマハ,YZR-M1,,6,174,確認済
+2017,MotoGP,jorge-lorenzo,ducati-lenovo,Ducati Team,ドゥカティ,デスモセディチ,,7,137,確認済
+2017,MotoGP,danilo-petrucci,pramac,Octo Pramac Racing,ドゥカティ,デスモセディチ,,8,124,確認済
+2017,MotoGP,cal-crutchlow,lcr,LCR Honda,ホンダ,RC213V,,9,112,確認済
+2017,MotoGP,jonas-folger,tech3,Monster Yamaha Tech 3,ヤマハ,YZR-M1,,10,84,確認済
+2017,MotoGP,jack-miller,marc-vds,"EG 0,0 Marc VDS",ホンダ,RC213V,,11,82,確認済
+2017,MotoGP,alvaro-bautista,aspar,Pull&Bear Aspar Team,ドゥカティ,デスモセディチ,,12,75,確認済
+2017,MotoGP,andrea-iannone,suzuki-factory,Team Suzuki Ecstar,スズキ,GSX-RR,,13,70,確認済
+2017,MotoGP,scott-redding,pramac,Octo Pramac Racing,ドゥカティ,デスモセディチ,,14,64,確認済
+2017,MotoGP,aleix-espargaro,aprilia-racing,Aprilia Racing Team Gresini,アプリリア,RS-GP,,15,62,確認済
+2017,MotoGP,alex-rins,suzuki-factory,Team Suzuki Ecstar,スズキ,GSX-RR,,16,59,確認済
+2017,MotoGP,pol-espargaro,ktm-factory,Red Bull KTM Factory Racing,KTM,RC16,,17,55,確認済
+2017,MotoGP,loris-baz,avintia,Reale Avintia Racing,ドゥカティ,デスモセディチ,,18,45,確認済
+2017,MotoGP,tito-rabat,marc-vds,"EG 0,0 Marc VDS",ホンダ,RC213V,,19,35,確認済
+2017,MotoGP,karel-abraham,aspar,Pull&Bear Aspar Team,ドゥカティ,デスモセディチ,,20,32,確認済
+2017,MotoGP,bradley-smith,ktm-factory,Red Bull KTM Factory Racing,KTM,RC16,,21,29,確認済
+2017,MotoGP,hector-barbera,avintia,Reale Avintia Racing,ドゥカティ,デスモセディチ,,22,28,確認済
+2017,MotoGP,michele-pirro,ducati-lenovo,Ducati Team,ドゥカティ,デスモセディチ,,23,25,確認済
+2017,MotoGP,mika-kallio,ktm-factory,Red Bull KTM Factory Racing,KTM,RC16,,24,11,確認済
+2017,MotoGP,sam-lowes,aprilia-racing,Aprilia Racing Team Gresini,アプリリア,RS-GP,,25,5,確認済
+2017,MotoGP,katsuyuki-nakasuga,yamaha-factory,Yamalube Yamaha Factory Racing,ヤマハ,YZR-M1,,26,4,確認済
+2017,MotoGP,sylvain-guintoli,suzuki-factory,Team Suzuki Ecstar,スズキ,GSX-RR,,27,1,確認済
+2017,MotoGP,michael-van-der-mark,tech3,Monster Yamaha Tech 3,ヤマハ,YZR-M1,,28,0,確認済
+2017,MotoGP,takuya-tsuda,suzuki-factory,Team Suzuki Ecstar,スズキ,GSX-RR,,29,0,確認済
+2017,MotoGP,hiroshi-aoyama,marc-vds,"EG 0,0 Marc VDS",ホンダ,RC213V,,30,0,確認済
+2017,MotoGP,broc-parkes,tech3,Monster Yamaha Tech 3,ヤマハ,YZR-M1,,31,0,確認済
+2017,MotoGP,kohta-nozane,tech3,Monster Yamaha Tech 3,ヤマハ,YZR-M1,,32,0,確認済
+2018,MotoGP,marc-marquez,honda-hrc,Repsol Honda Team,ホンダ,RC213V,,1,321,確認済
+2018,MotoGP,andrea-dovizioso,ducati-lenovo,Ducati Team,ドゥカティ,デスモセディチ,,2,245,確認済
+2018,MotoGP,valentino-rossi,yamaha-factory,Movistar Yamaha MotoGP,ヤマハ,YZR-M1,,3,198,確認済
+2018,MotoGP,maverick-vinales,yamaha-factory,Movistar Yamaha MotoGP,ヤマハ,YZR-M1,,4,193,確認済
+2018,MotoGP,alex-rins,suzuki-factory,Team Suzuki Ecstar,スズキ,GSX-RR,,5,169,確認済
+2018,MotoGP,johann-zarco,tech3,Monster Yamaha Tech 3,ヤマハ,YZR-M1,,6,158,確認済
+2018,MotoGP,cal-crutchlow,lcr,LCR Honda Castrol,ホンダ,RC213V,,7,148,確認済
+2018,MotoGP,danilo-petrucci,pramac,Alma Pramac Racing,ドゥカティ,デスモセディチ,,8,144,確認済
+2018,MotoGP,jorge-lorenzo,ducati-lenovo,Ducati Team,ドゥカティ,デスモセディチ,,9,134,確認済
+2018,MotoGP,andrea-iannone,suzuki-factory,Team Suzuki Ecstar,スズキ,GSX-RR,,10,133,確認済
+2018,MotoGP,dani-pedrosa,honda-hrc,Repsol Honda Team,ホンダ,RC213V,,11,117,確認済
+2018,MotoGP,alvaro-bautista,aspar,Ángel Nieto Team,ドゥカティ,デスモセディチ,,12,105,確認済
+2018,MotoGP,jack-miller,pramac,Alma Pramac Racing,ドゥカティ,デスモセディチ,,13,91,確認済
+2018,MotoGP,pol-espargaro,ktm-factory,Red Bull KTM Factory Racing,KTM,RC16,,14,51,確認済
+2018,MotoGP,franco-morbidelli,marc-vds,"EG 0,0 Marc VDS",ホンダ,RC213V,,15,50,確認済
+2018,MotoGP,hafizh-syahrin,tech3,Monster Yamaha Tech 3,ヤマハ,YZR-M1,,16,46,確認済
+2018,MotoGP,aleix-espargaro,aprilia-racing,Aprilia Racing Team Gresini,アプリリア,RS-GP,,17,44,確認済
+2018,MotoGP,bradley-smith,ktm-factory,Red Bull KTM Factory Racing,KTM,RC16,,18,38,確認済
+2018,MotoGP,tito-rabat,avintia,Reale Avintia Racing,ドゥカティ,デスモセディチ,,19,35,確認済
+2018,MotoGP,takaaki-nakagami,lcr,LCR Honda Idemitsu,ホンダ,RC213V,,20,33,確認済
+2018,MotoGP,scott-redding,aprilia-racing,Aprilia Racing Team Gresini,アプリリア,RS-GP,,21,20,確認済
+2018,MotoGP,michele-pirro,ducati-lenovo,Ducati Team,ドゥカティ,デスモセディチ,,22,14,確認済
+2018,MotoGP,karel-abraham,aspar,Ángel Nieto Team,ドゥカティ,デスモセディチ,,23,12,確認済
+2018,MotoGP,stefan-bradl,honda-hrc,HRC Honda Team,ホンダ,RC213V,,24,10,確認済
+2018,MotoGP,mika-kallio,ktm-factory,Red Bull KTM Factory Racing,KTM,RC16,,25,6,確認済
+2018,MotoGP,katsuyuki-nakasuga,yamaha-factory,Yamalube Yamaha Factory Racing,ヤマハ,YZR-M1,,26,2,確認済
+2018,MotoGP,xavier-simeon,avintia,Reale Avintia Racing,ドゥカティ,デスモセディチ,,27,1,確認済
+2018,MotoGP,jordi-torres,avintia,Reale Avintia Racing,ドゥカティ,デスモセディチ,,28,1,確認済
+2018,MotoGP,thomas-luthi,marc-vds,"EG 0,0 Marc VDS",ホンダ,RC213V,,29,0,確認済
+2018,MotoGP,mike-jones,aspar,Ángel Nieto Team,ドゥカティ,デスモセディチ,,30,0,確認済
+2018,MotoGP,sylvain-guintoli,suzuki-factory,Team Suzuki Ecstar,スズキ,GSX-RR,,31,0,確認済
+2018,MotoGP,christophe-ponsson,avintia,Reale Avintia Racing,ドゥカティ,デスモセディチ,,32,0,確認済
+2018,MotoGP,loris-baz,ktm-factory,Red Bull KTM Factory Racing,KTM,RC16,,33,0,確認済
+2019,MotoGP,marc-marquez,honda-hrc,Repsol Honda Team,ホンダ,RC213V,,1,420,確認済
+2019,MotoGP,andrea-dovizioso,ducati-lenovo,Ducati Team,ドゥカティ,デスモセディチ,,2,269,確認済
+2019,MotoGP,maverick-vinales,yamaha-factory,Monster Energy Yamaha MotoGP,ヤマハ,YZR-M1,,3,211,確認済
+2019,MotoGP,alex-rins,suzuki-factory,Team Suzuki Ecstar,スズキ,GSX-RR,,4,205,確認済
+2019,MotoGP,fabio-quartararo,srt-rnf,Petronas Yamaha SRT,ヤマハ,YZR-M1,,5,192,確認済
+2019,MotoGP,danilo-petrucci,ducati-lenovo,Ducati Team,ドゥカティ,デスモセディチ,,6,176,確認済
+2019,MotoGP,valentino-rossi,yamaha-factory,Monster Energy Yamaha MotoGP,ヤマハ,YZR-M1,,7,174,確認済
+2019,MotoGP,jack-miller,pramac,Pramac Racing,ドゥカティ,デスモセディチ,,8,165,確認済
+2019,MotoGP,cal-crutchlow,lcr,LCR Honda Castrol,ホンダ,RC213V,,9,133,確認済
+2019,MotoGP,franco-morbidelli,srt-rnf,Petronas Yamaha SRT,ヤマハ,YZR-M1,,10,115,確認済
+2019,MotoGP,pol-espargaro,ktm-factory,Red Bull KTM Factory Racing,KTM,RC16,,11,100,確認済
+2019,MotoGP,joan-mir,suzuki-factory,Team Suzuki Ecstar,スズキ,GSX-RR,,12,92,確認済
+2019,MotoGP,takaaki-nakagami,lcr,LCR Honda Idemitsu,ホンダ,RC213V,,13,74,確認済
+2019,MotoGP,aleix-espargaro,aprilia-racing,Aprilia Racing Team Gresini,アプリリア,RS-GP,,14,63,確認済
+2019,MotoGP,francesco-bagnaia,pramac,Pramac Racing,ドゥカティ,デスモセディチ,,15,54,確認済
+2019,MotoGP,andrea-iannone,aprilia-racing,Aprilia Racing Team Gresini,アプリリア,RS-GP,,16,43,確認済
+2019,MotoGP,miguel-oliveira,tech3,Red Bull KTM Tech3,KTM,RC16,,17,33,確認済
+2019,MotoGP,johann-zarco,ktm-factory,Red Bull KTM Factory Racing,KTM,RC16,,18,30,確認済
+2019,MotoGP,jorge-lorenzo,honda-hrc,Repsol Honda Team,ホンダ,RC213V,,19,28,確認済
+2019,MotoGP,tito-rabat,avintia,Reale Avintia Racing,ドゥカティ,デスモセディチ,,20,23,確認済
+2019,MotoGP,stefan-bradl,honda-hrc,Team HRC,ホンダ,RC213V,,21,16,確認済
+2019,MotoGP,michele-pirro,ducati-lenovo,Ducati Team,ドゥカティ,デスモセディチ,,22,9,確認済
+2019,MotoGP,hafizh-syahrin,tech3,Red Bull KTM Tech3,KTM,RC16,,23,9,確認済
+2019,MotoGP,karel-abraham,avintia,Reale Avintia Racing,ドゥカティ,デスモセディチ,,24,9,確認済
+2019,MotoGP,sylvain-guintoli,suzuki-factory,Team Suzuki Ecstar,スズキ,GSX-RR,,25,7,確認済
+2019,MotoGP,mika-kallio,ktm-factory,Red Bull KTM Factory Racing,KTM,RC16,,26,7,確認済
+2019,MotoGP,bradley-smith,aprilia-racing,Aprilia Racing Team Gresini,アプリリア,RS-GP,,27,0,確認済
+2019,MotoGP,iker-lecuona,tech3,Red Bull KTM Tech3,KTM,RC16,,28,0,確認済
+2020,MotoGP,joan-mir,suzuki-factory,Team Suzuki Ecstar,スズキ,GSX-RR,,1,171,確認済
+2020,MotoGP,franco-morbidelli,srt-rnf,Petronas Yamaha SRT,ヤマハ,YZR-M1,,2,158,確認済
+2020,MotoGP,alex-rins,suzuki-factory,Team Suzuki Ecstar,スズキ,GSX-RR,,3,139,確認済
+2020,MotoGP,andrea-dovizioso,ducati-lenovo,Ducati Team,ドゥカティ,デスモセディチ,,4,135,確認済
+2020,MotoGP,pol-espargaro,ktm-factory,Red Bull KTM Factory Racing,KTM,RC16,,5,135,確認済
+2020,MotoGP,maverick-vinales,yamaha-factory,Monster Energy Yamaha MotoGP,ヤマハ,YZR-M1,,6,132,確認済
+2020,MotoGP,jack-miller,pramac,Pramac Racing,ドゥカティ,デスモセディチ,,7,132,確認済
+2020,MotoGP,fabio-quartararo,srt-rnf,Petronas Yamaha SRT,ヤマハ,YZR-M1,,8,127,確認済
+2020,MotoGP,miguel-oliveira,tech3,Red Bull KTM Tech3,KTM,RC16,,9,125,確認済
+2020,MotoGP,takaaki-nakagami,lcr,LCR Honda Idemitsu,ホンダ,RC213V,,10,116,確認済
+2020,MotoGP,brad-binder,ktm-factory,Red Bull KTM Factory Racing,KTM,RC16,,11,87,確認済
+2020,MotoGP,danilo-petrucci,ducati-lenovo,Ducati Team,ドゥカティ,デスモセディチ,,12,78,確認済
+2020,MotoGP,johann-zarco,pons,Esponsorama Racing,ホンダ,RC213V,,13,77,確認済
+2020,MotoGP,alex-marquez,honda-hrc,Repsol Honda Team,ホンダ,RC213V,,14,74,確認済
+2020,MotoGP,valentino-rossi,yamaha-factory,Monster Energy Yamaha MotoGP,ヤマハ,YZR-M1,,15,66,確認済
+2020,MotoGP,francesco-bagnaia,pramac,Pramac Racing,ドゥカティ,デスモセディチ,,16,47,確認済
+2020,MotoGP,aleix-espargaro,aprilia-racing,Aprilia Racing Team Gresini,アプリリア,RS-GP,,17,42,確認済
+2020,MotoGP,cal-crutchlow,lcr,LCR Honda Castrol,ホンダ,RC213V,,18,32,確認済
+2020,MotoGP,stefan-bradl,honda-hrc,Repsol Honda Team,ホンダ,RC213V,,19,27,確認済
+2020,MotoGP,iker-lecuona,tech3,Red Bull KTM Tech3,KTM,RC16,,20,27,確認済
+2020,MotoGP,bradley-smith,aprilia-racing,Aprilia Racing Team Gresini,アプリリア,RS-GP,,21,12,確認済
+2020,MotoGP,tito-rabat,pons,Esponsorama Racing,ホンダ,RC213V,,22,10,確認済
+2020,MotoGP,michele-pirro,pramac,Pramac Racing,ドゥカティ,デスモセディチ,,23,4,確認済
+2020,MotoGP,mika-kallio,tech3,Red Bull KTM Tech3,KTM,RC16,,24,0,確認済
+2020,MotoGP,lorenzo-savadori,aprilia-racing,Aprilia Racing Team Gresini,アプリリア,RS-GP,,25,0,確認済
+2020,MotoGP,marc-marquez,honda-hrc,Repsol Honda Team,ホンダ,RC213V,,26,0,確認済
+2020,MotoGP,garrett-gerloff,yamaha-factory,Monster Energy Yamaha MotoGP,ヤマハ,YZR-M1,,27,0,確認済
+2021,MotoGP,fabio-quartararo,yamaha-factory,Monster Energy Yamaha MotoGP,ヤマハ,YZR-M1,,1,278,確認済
+2021,MotoGP,francesco-bagnaia,ducati-lenovo,Ducati Lenovo Team,ドゥカティ,デスモセディチ,,2,252,確認済
+2021,MotoGP,joan-mir,suzuki-factory,Team Suzuki Ecstar,スズキ,GSX-RR,,3,208,確認済
+2021,MotoGP,jack-miller,ducati-lenovo,Ducati Lenovo Team,ドゥカティ,デスモセディチ,,4,181,確認済
+2021,MotoGP,johann-zarco,pramac,Pramac Racing,ドゥカティ,デスモセディチ,,5,173,確認済
+2021,MotoGP,brad-binder,ktm-factory,Red Bull KTM Factory Racing,KTM,RC16,,6,151,確認済
+2021,MotoGP,marc-marquez,honda-hrc,Repsol Honda Team,ホンダ,RC213V,,7,142,確認済
+2021,MotoGP,aleix-espargaro,aprilia-racing,Aprilia Racing Team Gresini,アプリリア,RS-GP,,8,120,確認済
+2021,MotoGP,jorge-martin,pramac,Pramac Racing,ドゥカティ,デスモセディチ,,9,111,確認済
+2021,MotoGP,maverick-vinales,yamaha-factory,Monster Energy Yamaha MotoGP,ヤマハ,YZR-M1,,10,106,確認済
+2021,MotoGP,enea-bastianini,pons,Avintia Esponsorama,ホンダ,RC213V,,11,102,確認済
+2021,MotoGP,pol-espargaro,honda-hrc,Repsol Honda Team,ホンダ,RC213V,,12,100,確認済
+2021,MotoGP,alex-rins,suzuki-factory,Team Suzuki Ecstar,スズキ,GSX-RR,,13,99,確認済
+2021,MotoGP,miguel-oliveira,ktm-factory,Red Bull KTM Factory Racing,KTM,RC16,,14,94,確認済
+2021,MotoGP,takaaki-nakagami,lcr,LCR Honda Idemitsu,ホンダ,RC213V,,15,76,確認済
+2021,MotoGP,alex-marquez,lcr,LCR Honda Castrol,ホンダ,RC213V,,16,70,確認済
+2021,MotoGP,franco-morbidelli,srt-rnf,Petronas Yamaha SRT,ヤマハ,YZR-M1,,17,47,確認済
+2021,MotoGP,valentino-rossi,srt-rnf,Petronas Yamaha SRT,ヤマハ,YZR-M1,,18,44,確認済
+2021,MotoGP,luca-marini,avintia,Sky VR46 Avintia,ドゥカティ,デスモセディチ,,19,41,確認済
+2021,MotoGP,iker-lecuona,tech3,Tech3 KTM Factory Racing,KTM,RC16,,20,39,確認済
+2021,MotoGP,danilo-petrucci,tech3,Tech3 KTM Factory Racing,KTM,RC16,,21,37,確認済
+2021,MotoGP,stefan-bradl,honda-hrc,Repsol Honda Team,ホンダ,RC213V,,22,14,確認済
+2021,MotoGP,michele-pirro,pramac,Pramac Racing,ドゥカティ,デスモセディチ,,23,12,確認済
+2021,MotoGP,andrea-dovizioso,srt-rnf,Petronas Yamaha SRT,ヤマハ,YZR-M1,,24,12,確認済
+2021,MotoGP,dani-pedrosa,ktm-factory,Red Bull KTM Factory Racing,KTM,RC16,,25,6,確認済
+2021,MotoGP,lorenzo-savadori,aprilia-racing,Aprilia Racing Team Gresini,アプリリア,RS-GP,,26,4,確認済
+2021,MotoGP,tito-rabat,pramac,Pramac Racing,ドゥカティ,デスモセディチ,,27,1,確認済
+2021,MotoGP,cal-crutchlow,srt-rnf,Petronas Yamaha SRT,ヤマハ,YZR-M1,,28,0,確認済
+2021,MotoGP,garrett-gerloff,srt-rnf,Petronas Yamaha SRT,ヤマハ,YZR-M1,,29,0,確認済
+2021,MotoGP,jake-dixon,srt-rnf,Petronas Yamaha SRT,ヤマハ,YZR-M1,,30,0,確認済
+2022,MotoGP,francesco-bagnaia,ducati-lenovo,Ducati Lenovo Team,ドゥカティ,デスモセディチ,,1,265,確認済
+2022,MotoGP,fabio-quartararo,yamaha-factory,Monster Energy Yamaha MotoGP,ヤマハ,YZR-M1,,2,248,確認済
+2022,MotoGP,enea-bastianini,gresini,Gresini Racing MotoGP,ドゥカティ,デスモセディチ,,3,219,確認済
+2022,MotoGP,aleix-espargaro,aprilia-racing,Aprilia Racing,アプリリア,RS-GP,,4,212,確認済
+2022,MotoGP,jack-miller,ducati-lenovo,Ducati Lenovo Team,ドゥカティ,デスモセディチ,,5,189,確認済
+2022,MotoGP,brad-binder,ktm-factory,Red Bull KTM Factory Racing,KTM,RC16,,6,188,確認済
+2022,MotoGP,alex-rins,suzuki-factory,Team Suzuki Ecstar,スズキ,GSX-RR,,7,173,確認済
+2022,MotoGP,johann-zarco,pramac,Pramac Racing,ドゥカティ,デスモセディチ,,8,166,確認済
+2022,MotoGP,jorge-martin,pramac,Pramac Racing,ドゥカティ,デスモセディチ,,9,152,確認済
+2022,MotoGP,miguel-oliveira,ktm-factory,Red Bull KTM Factory Racing,KTM,RC16,,10,149,確認済
+2022,MotoGP,maverick-vinales,aprilia-racing,Aprilia Racing,アプリリア,RS-GP,,11,122,確認済
+2022,MotoGP,luca-marini,vr46,Mooney VR46 Racing Team,ドゥカティ,デスモセディチ,,12,120,確認済
+2022,MotoGP,marc-marquez,honda-hrc,Repsol Honda Team,ホンダ,RC213V,,13,113,確認済
+2022,MotoGP,marco-bezzecchi,vr46,Mooney VR46 Racing Team,ドゥカティ,デスモセディチ,,14,111,確認済
+2022,MotoGP,joan-mir,suzuki-factory,Team Suzuki Ecstar,スズキ,GSX-RR,,15,87,確認済
+2022,MotoGP,pol-espargaro,honda-hrc,Repsol Honda Team,ホンダ,RC213V,,16,56,確認済
+2022,MotoGP,alex-marquez,lcr,LCR Honda Castrol,ホンダ,RC213V,,17,50,確認済
+2022,MotoGP,takaaki-nakagami,lcr,LCR Honda Idemitsu,ホンダ,RC213V,,18,48,確認済
+2022,MotoGP,franco-morbidelli,yamaha-factory,Monster Energy Yamaha MotoGP,ヤマハ,YZR-M1,,19,42,確認済
+2022,MotoGP,fabio-di-giannantonio,gresini,Gresini Racing MotoGP,ドゥカティ,デスモセディチ,,20,24,確認済
+2022,MotoGP,andrea-dovizioso,srt-rnf,WithU Yamaha RNF MotoGP Team,ヤマハ,YZR-M1,,21,15,確認済
+2022,MotoGP,raul-fernandez,tech3,Tech3 KTM Factory Racing,KTM,RC16,,22,14,確認済
+2022,MotoGP,remy-gardner,tech3,Tech3 KTM Factory Racing,KTM,RC16,,23,13,確認済
+2022,MotoGP,darryn-binder,srt-rnf,WithU Yamaha RNF MotoGP Team,ヤマハ,YZR-M1,,24,12,確認済
+2022,MotoGP,cal-crutchlow,srt-rnf,WithU Yamaha RNF MotoGP Team,ヤマハ,YZR-M1,,25,10,確認済
+2022,MotoGP,stefan-bradl,honda-hrc,Repsol Honda Team,ホンダ,RC213V,,26,2,確認済
+2022,MotoGP,michele-pirro,ducati-lenovo,Aruba.it Racing,ドゥカティ,デスモセディチ,,27,0,確認済
+2022,MotoGP,lorenzo-savadori,aprilia-racing,Aprilia Racing,アプリリア,RS-GP,,28,0,確認済
+2022,MotoGP,tetsuta-nagashima,honda-hrc,HRC Team,ホンダ,RC213V,,29,0,確認済
+2022,MotoGP,danilo-petrucci,suzuki-factory,Team Suzuki Ecstar,スズキ,GSX-RR,,30,0,確認済
+2022,MotoGP,kazuki-watanabe,suzuki-factory,Team Suzuki Ecstar,スズキ,GSX-RR,,31,0,確認済
+2022,MotoGP,takuya-tsuda,suzuki-factory,Team Suzuki Ecstar,スズキ,GSX-RR,,32,0,確認済
+2023,MotoGP,francesco-bagnaia,ducati-lenovo,Ducati Lenovo Team,ドゥカティ,デスモセディチ,,1,467,確認済
+2023,MotoGP,jorge-martin,pramac,Prima Pramac Racing,ドゥカティ,デスモセディチ,,2,428,確認済
+2023,MotoGP,marco-bezzecchi,vr46,Mooney VR46 Racing Team,ドゥカティ,デスモセディチ,,3,329,確認済
+2023,MotoGP,brad-binder,ktm-factory,Red Bull KTM Factory Racing,KTM,RC16,,4,293,確認済
+2023,MotoGP,johann-zarco,pramac,Prima Pramac Racing,ドゥカティ,デスモセディチ,,5,225,確認済
+2023,MotoGP,aleix-espargaro,aprilia-racing,Aprilia Racing,アプリリア,RS-GP,,6,206,確認済
+2023,MotoGP,maverick-vinales,aprilia-racing,Aprilia Racing,アプリリア,RS-GP,,7,204,確認済
+2023,MotoGP,luca-marini,vr46,Mooney VR46 Racing Team,ドゥカティ,デスモセディチ,,8,201,確認済
+2023,MotoGP,alex-marquez,gresini,Gresini Racing MotoGP,ドゥカティ,デスモセディチ,,9,177,確認済
+2023,MotoGP,fabio-quartararo,yamaha-factory,Monster Energy Yamaha MotoGP,ヤマハ,YZR-M1,,10,172,確認済
+2023,MotoGP,jack-miller,ktm-factory,Red Bull KTM Factory Racing,KTM,RC16,,11,163,確認済
+2023,MotoGP,fabio-di-giannantonio,gresini,Gresini Racing MotoGP,ドゥカティ,デスモセディチ,,12,151,確認済
+2023,MotoGP,franco-morbidelli,yamaha-factory,Monster Energy Yamaha MotoGP,ヤマハ,YZR-M1,,13,102,確認済
+2023,MotoGP,marc-marquez,honda-hrc,Repsol Honda Team,ホンダ,RC213V,,14,96,確認済
+2023,MotoGP,enea-bastianini,ducati-lenovo,Ducati Lenovo Team,ドゥカティ,デスモセディチ,,15,84,確認済
+2023,MotoGP,miguel-oliveira,srt-rnf,CryptoDATA RNF MotoGP Team,アプリリア,RS-GP,,16,76,確認済
+2023,MotoGP,augusto-fernandez,tech3,GASGAS Factory Racing Tech3,KTM,RC16,,17,71,確認済
+2023,MotoGP,takaaki-nakagami,lcr,LCR Honda Idemitsu,ホンダ,RC213V,,18,56,確認済
+2023,MotoGP,alex-rins,lcr,LCR Honda Castrol,ホンダ,RC213V,,19,54,確認済
+2023,MotoGP,raul-fernandez,srt-rnf,CryptoDATA RNF MotoGP Team,アプリリア,RS-GP,,20,51,確認済
+2023,MotoGP,dani-pedrosa,ktm-factory,Red Bull KTM Factory Racing,KTM,RC16,,21,32,確認済
+2023,MotoGP,joan-mir,honda-hrc,Repsol Honda Team,ホンダ,RC213V,,22,26,確認済
+2023,MotoGP,pol-espargaro,tech3,GASGAS Factory Racing Tech3,KTM,RC16,,23,15,確認済
+2023,MotoGP,lorenzo-savadori,srt-rnf,CryptoDATA RNF MotoGP Team,アプリリア,RS-GP,,24,12,確認済
+2023,MotoGP,jonas-folger,tech3,GASGAS Factory Racing Tech3,KTM,RC16,,25,9,確認済
+2023,MotoGP,stefan-bradl,lcr,LCR Honda Castrol,ホンダ,RC213V,,26,8,確認済
+2023,MotoGP,michele-pirro,ducati-lenovo,Ducati Lenovo Team,ドゥカティ,デスモセディチ,,27,5,確認済
+2023,MotoGP,danilo-petrucci,ducati-lenovo,Ducati Lenovo Team,ドゥカティ,デスモセディチ,,28,5,確認済
+2023,MotoGP,cal-crutchlow,yamaha-factory,Yamalube RS4GP Racing Team,ヤマハ,YZR-M1,,29,3,確認済
+2023,MotoGP,iker-lecuona,lcr,LCR Honda Castrol,ホンダ,RC213V,,30,0,確認済
+2023,MotoGP,alvaro-bautista,ducati-lenovo,Aruba.it Racing,ドゥカティ,デスモセディチ,,31,0,確認済
+2024,MotoGP,jorge-martin,pramac,Prima Pramac Racing,ドゥカティ,デスモセディチ,,1,,確認済
+2024,MotoGP,francesco-bagnaia,ducati-lenovo,Ducati Lenovo Team,ドゥカティ,デスモセディチ,,2,,確認済
+2024,MotoGP,marc-marquez,gresini,Gresini Racing MotoGP,ドゥカティ,デスモセディチ,,3,,確認済
+2024,MotoGP,enea-bastianini,ducati-lenovo,Ducati Lenovo Team,ドゥカティ,デスモセディチ,,4,,確認済
+2024,MotoGP,franco-morbidelli,pramac,Prima Pramac Racing,ドゥカティ,デスモセディチ,,,,確認済
+2024,MotoGP,alex-marquez,gresini,Gresini Racing MotoGP,ドゥカティ,デスモセディチ,,,,確認済
+2024,MotoGP,marco-bezzecchi,vr46,Pertamina Enduro VR46 Racing Team,ドゥカティ,デスモセディチ,,,,確認済
+2024,MotoGP,fabio-di-giannantonio,vr46,Pertamina Enduro VR46 Racing Team,ドゥカティ,デスモセディチ,,,,確認済
+2024,MotoGP,aleix-espargaro,aprilia-racing,Aprilia Racing,アプリリア,RS-GP,,,,確認済
+2024,MotoGP,maverick-vinales,aprilia-racing,Aprilia Racing,アプリリア,RS-GP,,,,確認済
+2024,MotoGP,miguel-oliveira,trackhouse,Trackhouse Racing,アプリリア,RS-GP,,,,確認済
+2024,MotoGP,raul-fernandez,trackhouse,Trackhouse Racing,アプリリア,RS-GP,,,,確認済
+2024,MotoGP,brad-binder,ktm-factory,Red Bull KTM Factory Racing,KTM,RC16,,,,確認済
+2024,MotoGP,jack-miller,ktm-factory,Red Bull KTM Factory Racing,KTM,RC16,,,,確認済
+2024,MotoGP,pedro-acosta,tech3,Red Bull GASGAS Tech3,KTM,RC16,,,,確認済
+2024,MotoGP,augusto-fernandez,tech3,Red Bull GASGAS Tech3,KTM,RC16,,,,確認済
+2024,MotoGP,fabio-quartararo,yamaha-factory,Monster Energy Yamaha MotoGP,ヤマハ,YZR-M1,,,,確認済
+2024,MotoGP,alex-rins,yamaha-factory,Monster Energy Yamaha MotoGP,ヤマハ,YZR-M1,,,,確認済
+2024,MotoGP,joan-mir,honda-hrc,Repsol Honda Team,ホンダ,RC213V,,,,確認済
+2024,MotoGP,luca-marini,honda-hrc,Repsol Honda Team,ホンダ,RC213V,,,,確認済
+2024,MotoGP,johann-zarco,lcr,LCR Honda,ホンダ,RC213V,,,,確認済
+2024,MotoGP,takaaki-nakagami,lcr,LCR Honda,ホンダ,RC213V,,,,確認済
+2025,MotoGP,marc-marquez,ducati-lenovo,Ducati Lenovo Team,ドゥカティ,デスモセディチ,,1,,確認済
+2025,MotoGP,alex-marquez,gresini,BK8 Gresini Racing MotoGP,ドゥカティ,デスモセディチ,,2,,確認済
+2025,MotoGP,marco-bezzecchi,aprilia-racing,Aprilia Racing,アプリリア,RS-GP,,3,,確認済
+2025,MotoGP,pedro-acosta,ktm-factory,Red Bull KTM Factory Racing,KTM,RC16,,4,,確認済
+2025,MotoGP,francesco-bagnaia,ducati-lenovo,Ducati Lenovo Team,ドゥカティ,デスモセディチ,,5,,確認済
+2025,MotoGP,fabio-di-giannantonio,vr46,Pertamina Enduro VR46 Racing Team,ドゥカティ,デスモセディチ,,6,,確認済
+2025,MotoGP,franco-morbidelli,vr46,Pertamina Enduro VR46 Racing Team,ドゥカティ,デスモセディチ,,7,,確認済
+2025,MotoGP,fermin-aldeguer,gresini,BK8 Gresini Racing MotoGP,ドゥカティ,デスモセディチ,,8,,確認済
+2025,MotoGP,fabio-quartararo,yamaha-factory,Monster Energy Yamaha MotoGP,ヤマハ,YZR-M1,,9,,確認済
+2025,MotoGP,raul-fernandez,trackhouse,Trackhouse MotoGP Team,アプリリア,RS-GP,,10,,確認済
+2025,MotoGP,jorge-martin,aprilia-racing,Aprilia Racing,アプリリア,RS-GP,,,,確認済
+2025,MotoGP,ai-ogura,trackhouse,Trackhouse MotoGP Team,アプリリア,RS-GP,,,,確認済
+2025,MotoGP,brad-binder,ktm-factory,Red Bull KTM Factory Racing,KTM,RC16,,,,確認済
+2025,MotoGP,enea-bastianini,tech3,Red Bull KTM Tech3,KTM,RC16,,,,確認済
+2025,MotoGP,maverick-vinales,tech3,Red Bull KTM Tech3,KTM,RC16,,,,確認済
+2025,MotoGP,alex-rins,yamaha-factory,Monster Energy Yamaha MotoGP,ヤマハ,YZR-M1,,,,確認済
+2025,MotoGP,jack-miller,pramac,Prima Pramac Yamaha MotoGP,ヤマハ,YZR-M1,,,,確認済
+2025,MotoGP,miguel-oliveira,pramac,Prima Pramac Yamaha MotoGP,ヤマハ,YZR-M1,,,,確認済
+2025,MotoGP,joan-mir,honda-hrc,Honda HRC Castrol,ホンダ,RC213V,,,,確認済
+2025,MotoGP,luca-marini,honda-hrc,Honda HRC Castrol,ホンダ,RC213V,,,,確認済
+2025,MotoGP,johann-zarco,lcr,LCR Honda,ホンダ,RC213V,,,,確認済
+2025,MotoGP,somkiat-chantra,lcr,LCR Honda,ホンダ,RC213V,,,,確認済
+2026,MotoGP,marc-marquez,ducati-lenovo,Ducati Lenovo Team,ドゥカティ,デスモセディチ,,,,確認済
+2026,MotoGP,francesco-bagnaia,ducati-lenovo,Ducati Lenovo Team,ドゥカティ,デスモセディチ,,,,確認済
+2026,MotoGP,alex-marquez,gresini,Gresini Racing MotoGP,ドゥカティ,デスモセディチ,,,,確認済
+2026,MotoGP,fermin-aldeguer,gresini,Gresini Racing MotoGP,ドゥカティ,デスモセディチ,,,,確認済
+2026,MotoGP,franco-morbidelli,vr46,VR46 Racing Team,ドゥカティ,デスモセディチ,,,,確認済
+2026,MotoGP,fabio-di-giannantonio,vr46,VR46 Racing Team,ドゥカティ,デスモセディチ,,,,確認済
+2026,MotoGP,marco-bezzecchi,aprilia-racing,Aprilia Racing,アプリリア,RS-GP,,,,確認済
+2026,MotoGP,jorge-martin,aprilia-racing,Aprilia Racing,アプリリア,RS-GP,,,,確認済
+2026,MotoGP,raul-fernandez,trackhouse,Trackhouse MotoGP Team,アプリリア,RS-GP,,,,確認済
+2026,MotoGP,ai-ogura,trackhouse,Trackhouse MotoGP Team,アプリリア,RS-GP,,,,確認済
+2026,MotoGP,pedro-acosta,ktm-factory,Red Bull KTM Factory Racing,KTM,RC16,,,,確認済
+2026,MotoGP,brad-binder,ktm-factory,Red Bull KTM Factory Racing,KTM,RC16,,,,確認済
+2026,MotoGP,maverick-vinales,tech3,Red Bull KTM Tech3,KTM,RC16,,,,確認済
+2026,MotoGP,enea-bastianini,tech3,Red Bull KTM Tech3,KTM,RC16,,,,確認済
+2026,MotoGP,luca-marini,honda-hrc,Honda HRC,ホンダ,RC213V,,,,確認済
+2026,MotoGP,joan-mir,honda-hrc,Honda HRC,ホンダ,RC213V,,,,確認済
+2026,MotoGP,johann-zarco,lcr,LCR Honda,ホンダ,RC213V,,,,確認済
+2026,MotoGP,diogo-moreira,lcr,LCR Honda,ホンダ,RC213V,,,,確認済
+2026,MotoGP,fabio-quartararo,yamaha-factory,Monster Energy Yamaha MotoGP,ヤマハ,YZR-M1,,,,確認済
+2026,MotoGP,alex-rins,yamaha-factory,Monster Energy Yamaha MotoGP,ヤマハ,YZR-M1,,,,確認済
+2026,MotoGP,toprak-razgatlioglu,pramac,Prima Pramac Yamaha MotoGP,ヤマハ,YZR-M1,,,,確認済
+2026,MotoGP,jack-miller,pramac,Prima Pramac Yamaha MotoGP,ヤマハ,YZR-M1,,,,確認済
