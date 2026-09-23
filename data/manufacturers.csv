@@ -17,3 +17,15 @@ WCM,wcm,英国,#4a5a6a,英国のプライベートチーム兼コンストラク
 イルモア,ilmor,英国,#2b2b6b,F1エンジンでも知られるイルモア。2006〜07年参戦
 BMW,bmw,ドイツ,#1c69d4,CRT期にスーターなどのシャシーへエンジンを供給（S1000RRベース）
 その他（CRT等）,other,—,#888888,CRT／Open期の市販車ベース・独自シャシー車など。詳細は要確認
+ズッター,suter,スイス,#b22b2b,Moto2初期の有力シャシー。2012年マルク・マルケスが王座
+スピードアップ,speed-up,イタリア,#d4a017,Moto2のシャシー。2021年からボスコスクーロ名義
+ボスコスクーロ,boscoscuro,イタリア,#e0b000,旧スピードアップ。2024年小椋藍がMoto2王座
+テック3,tech3-chassis,フランス,#1f3d7a,テック3自製のMoto2シャシー（〜2018年）
+モトビ,motobi,イタリア,#7a5a2b,"JiRのMoto2シャシー（TSR製）<span class=""chk"">要確認</span>"
+FTR,ftr,英国,#4b6b8a,英国のシャシーメーカー。Moto2・Moto3初期
+MZ,mz,ドイツ,#3a5a3a,旧東独の名門。Moto2はMZ-RE
+ハスクバーナ,husqvarna,スウェーデン,#1a3a6a,KTM傘下。Moto3に参戦
+マヒンドラ,mahindra,インド,#b83232,2011〜17年にMoto3（125cc）参戦
+ガスガス,gasgas,スペイン,#c8102e,KTM傘下。Moto3に参戦
+CFMoto,cfmoto,中国,#1e90ff,中国メーカー。Moto3に参戦
+不明,unknown,—,#bbbbbb,車両メーカー未確認の参戦記録

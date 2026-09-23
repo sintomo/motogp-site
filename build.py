@@ -577,12 +577,12 @@ for r in riders:
         ys = sorted({e["year"] for e in ce})
         ranked = [e for e in ce if e["rank_i"]]
         best = min(ranked, key=lambda e: (e["rank_i"], e["year"])) if ranked else None
-        pts = [int(float(e["points"])) for e in ce if e.get("points")]
+        pts = [float(e["points"]) for e in ce if e.get("points")]
         facts.append((f"{code} 参戦", f"{ys[0]}〜{ys[-1]}年（{len(ys)}シーズン）"))
         if best:
             facts.append((f"{code} 最高位", f'{best["rank_i"]}位（{best["year"]}年）'))
         if pts:
-            facts.append((f"{code} 通算ポイント", f"{sum(pts)}点" + ("（一部年のみ）" if len(pts) < len(ce) else "")))
+            facts.append((f"{code} 通算ポイント", f"{sum(pts):.1f}".rstrip("0").rstrip(".") + "点" + ("（一部年のみ）" if len(pts) < len(ce) else "")))
     b.append('<dl class="facts">' + "".join(f"<div><dt>{k}</dt><dd>{v}</dd></div>" for k, v in facts) + "</dl>")
     if r.get("profile"):
         b.append(f'<p class="prose">{r["profile"]}</p>')
