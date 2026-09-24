@@ -29,6 +29,7 @@ motogp-site/
 ├─ content/           文章ページ（規則・技術・時代史など）
 ├─ templates/base.html  全ページ共通の枠（ヘッダー・メニュー・フッター）
 ├─ static/            CSS・JS（docs/assets/ にコピーされる）
+├─ tools/             データ収集スクリプト（公式リザルト・Wikipedia取込み。詳細は tools/README.md）
 └─ docs/              完成したサイト（自動作成・GitHub Pagesの公開対象）
 ```
 
@@ -69,7 +70,7 @@ motogp-site/
 | champions.csv | 全クラスの歴代王者 | year, class, rider_id, rider_name, nationality, maker, status |
 | seasons.csv | シーズン概要（年×クラス） | year, class, rounds, runner_up_id, constructor_champion, summary, rule_changes, status |
 | entries.csv | 参戦記録（年×クラス×ライダー。スポット参戦含む） | year, class, rider_id, team_id（空欄可）, entry_name, maker, machine, number, rank, points, status |
-| races.csv | レース（年×クラス×ラウンド） | year, class, round, session（RAC＝決勝／SPR＝スプリント）, gp_code, gp_name_ja, circuit, date, winner_id, status, note, source |
+| races.csv | レース（年×クラス×ラウンド） | year, class, round, session（RAC＝決勝／SPR＝スプリント／RAC2＝MotoEレース2）, gp_code, gp_name_ja, circuit, date, winner_id, status, note, source |
 | results.csv | レース結果（1レース×1ライダー） | year, class, round, session, pos, rider_id, number, team, maker, points, result（FIN完走／DNFリタイア／DNS不出走／DSQ失格／EXC除外） |
 | timeline.csv | トップの年表 | year, category, text, major |
 | class_bars.csv | クラス変遷グラフ | label, from, to, color, text |
@@ -79,6 +80,19 @@ motogp-site/
 | japanese.csv | 日本人ライダー | name, era, note |
 | circuits.csv | サーキット | name, info, note |
 | sources.csv | 出典 | title, url, used_for |
+
+### 収録データ（2026年9月時点）
+| 項目 | 件数 |
+|---|---|
+| レース | 3,652（1949〜2025年 全クラス） |
+| レース結果 | 72,618行 |
+| 参戦記録 | 13,300行（ワイルドカード・スポット参戦含む） |
+| ライダー | 3,443名 |
+| 歴代王者 | 230件（全件ライダーページにリンク） |
+| 作成ページ | 約7,700 |
+
+- 出典：MotoGP公式リザルト（API・PDF）を優先。欠けている分は英語版Wikipediaで補完（661レース。races.csv の source 列に記録）
+- 未収録：サイドカー、1953・1955・1957年125ccの年間順位
 
 ### 列のルール
 - **id**：半角小文字・数字・ハイフンのみ。ページのURLになる（例：`marc-marquez` → `riders/marc-marquez.html`）。一度決めたら変えない
@@ -112,12 +126,17 @@ motogp-site/
 | 段階 | 範囲 | 状況 |
 |---|---|---|
 | 0 | 仕組み（データ設計・作成スクリプト・チェック） | 完了 |
-| 1 | MotoGP時代（2002〜2026年）最高峰 | シーズン概要25年分・王者は入力済。参戦一覧は2024〜2026年のみ → 2002〜2023年を追加予定 |
-| 2 | 1949〜2025年 全クラス 全参戦者・全レース結果 | 入力済（公式リザルト。2001年以前は一部英語版Wikipediaで補完。サイドカーは未収録）。2026年は MotoGP の参戦一覧のみ |
-| 3 | 500cc時代（1949〜2001年） | 入力済（段階2に含む） |
-| 4 | 中・小排気量の全シーズン、レース単位の結果 | 未着手 |
+| 1 | 1949〜2025年 全クラス 参戦一覧・シーズン概要・王者 | 完了 |
+| 2 | 1949〜2025年 全クラス レース単位の結果（スプリント・MotoEレース2含む） | 完了 |
+| 3 | 2026年シーズンのレース結果 | 未着手（参戦一覧は MotoGP のみ入力済） |
+| 4 | サイドカー、ライダープロフィールの拡充（出典付き） | 未着手 |
 
-## 8. 仕組みの修正
+## 8. データ収集ツール（tools/）
+公式リザルト等からCSVを作り直す時に使う。普段の更新では不要。
+手順・各スクリプトの役割は `tools/README.md` を参照。
+- 取得データのキャッシュ（tools/cache/、tools/pdf/ など）は .gitignore で除外
+
+## 9. 仕組みの修正
 - 見た目：`static/css/style.css`（色・フォントは先頭の変数）
 - 共通の枠：`templates/base.html`
 - ページの構成・集計：`build.py`（シーズン／ライダー／チーム／メーカー各ページの作成処理）
