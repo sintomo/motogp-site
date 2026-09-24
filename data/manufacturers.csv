@@ -29,3 +29,392 @@ MZ,mz,ドイツ,#3a5a3a,旧東独の名門。Moto2はMZ-RE
 ガスガス,gasgas,スペイン,#c8102e,KTM傘下。Moto3に参戦
 CFMoto,cfmoto,中国,#1e90ff,中国メーカー。Moto3に参戦
 不明,unknown,—,#bbbbbb,車両メーカー未確認の参戦記録
+マラグーティ,malaguti,イタリア,#5a7d2b,125ccに参戦したイタリアのメーカー
+ローンチン,loncin,中国,#b0302a,中国のメーカー。2000年代に125ccへ参戦
+イタルジェット,italjet,イタリア,#2a6fb0,イタリアのメーカー。125ccに参戦
+ファンティック,fantic,イタリア,#e05a1a,イタリアのメーカー
+セール,seel,—,#777777,公式リザルト上の表記「Seel」
+ハオジュエ,haojue,中国,#aa2233,中国のメーカー
+セイバー,sabre,英国,#556677,公式リザルト上の表記「Sabre V4」
+ROCヤマハ,roc-yamaha,フランス,#3a5f9e,ROC製車体にヤマハのエンジン
+TSR,tsr,日本,#224488,テクニカル・スポーツ・レーシング（鈴鹿）
+FGR,fgr,—,#666666,公式リザルト上の表記「FGR」
+フリバ,friba,—,#888888,公式リザルト上の表記「Friba」
+ポンス・カレックス,pons-kalex,スペイン/ドイツ,#888888,公式表記「Pons Kalex」（2010〜11年Moto2）
+ICP,icp,イタリア,#888888,公式表記「I.C.P.」
+RSV,rsv,—,#888888,公式表記「RSV」
+ビモータ,bimota,イタリア,#888888,イタリアのコンストラクター。Moto2に参戦
+プロモハリス,promoharris,英国,#888888,公式表記「Promoharris」
+ADV,adv,—,#888888,公式表記「ADV」
+BQR,bqr,スペイン,#888888,ブルー・ミッショネス／BQR（CRT・Moto2）
+BQR-FTR,bqr-ftr,スペイン,#888888,公式表記「BQR-FTR」
+フォースGP210,force-gp210,—,#888888,公式表記「Force GP210」
+MZ-FTR,mz-ftr,—,#888888,公式表記「MZ FTR」
+AJR,ajr,スペイン,#888888,公式表記「AJR」
+MIRレーシング,mir-racing,スペイン,#888888,公式表記「MIR Racing」
+MIRホンダ,mir-honda,スペイン,#888888,公式表記「MIR Honda」
+RBB,rbb,—,#888888,公式表記「RBB」
+ランブレッタ,lambretta,イタリア,#888888,2010年125ccに参戦
+テンケイト,ten-kate,オランダ,#888888,公式表記「Ten Kate」
+ART,art,イタリア,#888888,アプリリア・レーシング・テクノロジー（CRT、RSV4ベース）
+イオダ,ioda,イタリア,#888888,公式表記「Ioda」
+イオダ・ズッター,ioda-suter,イタリア/スイス,#888888,公式表記「Ioda-Suter」
+APR,apr,—,#888888,公式表記「APR」
+BCL,bcl,—,#888888,公式表記「BCL」
+インモテック,inmotec,スペイン,#888888,公式表記「Inmotec」
+FTRホンダ,ftr-honda,英国/日本,#888888,公式表記「FTR Honda」
+カレックスKTM,kalex-ktm,ドイツ/オーストリア,#888888,公式表記「Kalex KTM」（2012〜13年Moto3）
+ズッターホンダ,suter-honda,スイス/日本,#888888,公式表記「Suter Honda」
+TSRホンダ,tsr-honda,日本,#888888,公式表記「TSR Honda」
+オラル,oral,イタリア,#888888,公式表記「Oral」
+FGRホンダ,fgr-honda,—,#888888,公式表記「FGR Honda」
+KRPホンダ,krp-honda,英国,#888888,公式表記「KRP Honda」
+FTRカワサキ,ftr-kawasaki,英国/日本,#888888,公式表記「FTR Kawasaki」（CRT）
+PBM,pbm,英国,#888888,ポール・バード・モータースポーツ（CRT）
+S&Bズッター,sb-suter,—,#888888,公式表記「S&B Suter」
+トランスフォーマーズ,transfiormers,—,#888888,公式表記「Transfiormers」
+バッカーホンダ,bakker-honda,オランダ,#888888,公式表記「Bakker Honda」
+ブレット,bullet,—,#888888,公式表記「Bullet」
+フォワード・ヤマハ,forward-yamaha,スイス/日本,#888888,公式表記「Forward Yamaha」（Open）
+アビンティア,avintia,スペイン,#888888,公式表記「Avintia」（CRT）
+フォワードKLX,forward-klx,スイス,#888888,公式表記「Forward KLX」
+ケータハム・ズッター,caterham-suter,マレーシア/スイス,#888888,公式表記「Caterham Suter」
+テイラーメイド,taylor-made,—,#888888,公式表記「Taylor Made」
+NTS,nts,日本,#888888,NTSのMoto2シャシー
+FTR KTM,ftr-ktm,英国/オーストリア,#888888,公式表記「FTR KTM」
+TVR,tvr,—,#888888,公式表記「TVR」
+プジョー,peugeot,フランス,#888888,Moto3に参戦（2016〜17年）
+TM,tm,イタリア,#888888,TMレーシング
+エネルジカ,energica,イタリア,#888888,MotoE（2019〜22年）のワンメイク車両
+フォワード,forward,スイス,#888888,フォワード・レーシングのMoto2シャシー
+IAMT,iamt,—,#888888,公式表記「IAMT」
+トライアンフ,triumph,英国,#888888,Moto2のエンジン供給（2019年〜）
+カジバ,cagiva,イタリア,#c8102e,1980〜90年代の500ccに参戦したイタリアのメーカー
+ハリス・ヤマハ,harris-yamaha,英国,#556b8f,ハリス製車体にヤマハのエンジン（公式表記「Harris Yamaha」）
+モデナスKR3,modenas-kr3,マレーシア/米国,#6b4f2a,チームKRの3気筒500cc（公式表記「Modenas KR3」）
+JJコバス,jj-cobas,スペイン,#b5651d,スペインのコンストラクター
+パトン,paton,イタリア,#8b0000,イタリアの小規模メーカー
+ガッツァニーガ,gazzaniga,イタリア,#777777,公式表記「Gazzaniga」
+リエフ,rieju,スペイン,#777777,公式表記「Rieju」
+ELF,elf,フランス,#1f4e9e,エルフの500cc実験車
+MuZ,muz,ドイツ,#3a5a3a,旧MZ。公式表記「Muz Weber」など
+ロータックス,rotax,オーストリア,#777777,公式表記「Rotax」
+リブレンティ,librenti,イタリア,#777777,公式表記「Librenti」
+パルス,pulse,英国,#777777,公式表記「Pulse」
+ERPホンダ,erp-honda,—,#777777,公式表記「ERP Honda」
+カザル,casal,ポルトガル,#777777,公式表記「Casal」
+T.S.,ts,—,#777777,公式表記「T.S.」
+ルミ,rumi,イタリア,#777777,公式表記「Rumi」
+プレジール,plaisir,—,#777777,公式表記「Plaisir」
+VRP,vrp,—,#777777,公式表記「VRP」
+AGV,agv,イタリア,#777777,公式表記「AGV」
+シュヴァリエ,chevallier,フランス,#777777,公式表記「Chevallier」
+EMCホンダ,emc-honda,—,#777777,公式表記「EMC-Honda」
+ノートン,norton,英国,#333333,英国の名門
+ヤマハ・バルトル,yamaha-bartol,—,#777777,公式表記「Yamaha-Bartol」
+マイコ,maico,ドイツ,#777777,ドイツのメーカー
+トーハツ,tohatsu,日本,#777777,日本のメーカー
+ジョンソン・ヤマハ,johnson-yamaha,—,#777777,公式表記「Johnson Yamaha」
+モルビデリ,maker,—,#999999,公式リザルト／英語版Wikipediaの表記「モルビデリ」
+MBA,mba,—,#999999,公式リザルト／英語版Wikipediaの表記「MBA」
+Ad Majora,ad-majora,—,#999999,公式リザルト／英語版Wikipediaの表記「Ad Majora」
+Cotton,cotton,—,#999999,公式リザルト／英語版Wikipediaの表記「Cotton」
+Motobecane,motobecane,—,#999999,公式リザルト／英語版Wikipediaの表記「Motobecane」
+Minarelli,minarelli,—,#999999,公式リザルト／英語版Wikipediaの表記「Minarelli」
+Iprem,iprem,—,#999999,公式リザルト／英語版Wikipediaの表記「Iprem」
+Condor,condor,—,#999999,公式リザルト／英語版Wikipediaの表記「Condor」
+GB Bender,gb-bender,—,#999999,公式リザルト／英語版Wikipediaの表記「GB Bender」
+クライドラー,maker-x,—,#999999,公式リザルト／英語版Wikipediaの表記「クライドラー」
+Solo,solo,—,#999999,公式リザルト／英語版Wikipediaの表記「Solo」
+Sanvenero,sanvenero,—,#999999,公式リザルト／英語版Wikipediaの表記「Sanvenero」
+Siroko,siroko,—,#999999,公式リザルト／英語版Wikipediaの表記「Siroko」
+Armstrong,armstrong,—,#999999,公式リザルト／英語版Wikipediaの表記「Armstrong」
+Bartol,bartol,—,#999999,公式リザルト／英語版Wikipediaの表記「Bartol」
+Pernod,pernod,—,#999999,公式リザルト／英語版Wikipediaの表記「Pernod」
+EGA,ega,—,#999999,公式リザルト／英語版Wikipediaの表記「EGA」
+RJB,rjb,—,#999999,公式リザルト／英語版Wikipediaの表記「RJB」
+Sachs,sachs,—,#999999,公式リザルト／英語版Wikipediaの表記「Sachs」
+Villa,villa,—,#999999,公式リザルト／英語版Wikipediaの表記「Villa」
+TYL,tyl,—,#999999,公式リザルト／英語版Wikipediaの表記「TYL」
+ブルタコ,maker-x-x,—,#999999,公式リザルト／英語版Wikipediaの表記「ブルタコ」
+MDC,mdc,—,#999999,公式リザルト／英語版Wikipediaの表記「MDC」
+Malanca,malanca,—,#999999,公式リザルト／英語版Wikipediaの表記「Malanca」
+ABF,abf,—,#999999,公式リザルト／英語版Wikipediaの表記「ABF」
+RYB,ryb,—,#999999,公式リザルト／英語版Wikipediaの表記「RYB」
+Tomos,tomos,—,#999999,公式リザルト／英語版Wikipediaの表記「Tomos」
+Sebe,sebe,—,#999999,公式リザルト／英語版Wikipediaの表記「Sebe」
+Waddon,waddon,—,#999999,公式リザルト／英語版Wikipediaの表記「Waddon」
+ガレリ,maker-x-x-x,—,#999999,公式リザルト／英語版Wikipediaの表記「ガレリ」
+Juventa,juventa,—,#999999,公式リザルト／英語版Wikipediaの表記「Juventa」
+HGH,hgh,—,#999999,公式リザルト／英語版Wikipediaの表記「HGH」
+リアル,maker-x-x-x-x,—,#999999,公式リザルト／英語版Wikipediaの表記「リアル」
+BBFT,bbft,—,#999999,公式リザルト／英語版Wikipediaの表記「BBFT」
+Schuster,schuster,—,#999999,公式リザルト／英語版Wikipediaの表記「Schuster」
+Hess,hess,—,#999999,公式リザルト／英語版Wikipediaの表記「Hess」
+Engl,engl,—,#999999,公式リザルト／英語版Wikipediaの表記「Engl」
+FKN,fkn,—,#999999,公式リザルト／英語版Wikipediaの表記「FKN」
+Paolucci,paolucci,—,#999999,公式リザルト／英語版Wikipediaの表記「Paolucci」
+H.H.,h-h,—,#999999,公式リザルト／英語版Wikipediaの表記「H.H.」
+Rossi,rossi,—,#999999,公式リザルト／英語版Wikipediaの表記「Rossi」
+UFO,ufo,—,#999999,公式リザルト／英語版Wikipediaの表記「UFO」
+Motul,motul,—,#999999,公式リザルト／英語版Wikipediaの表記「Motul」
+フィオール,maker-x-x-x-x-x,—,#999999,公式リザルト／英語版Wikipediaの表記「フィオール」
+Morena,morena,—,#999999,公式リザルト／英語版Wikipediaの表記「Morena」
+CF250,cf250,—,#999999,公式リザルト／英語版Wikipediaの表記「CF250」
+EMC,emc,—,#999999,公式リザルト／英語版Wikipediaの表記「EMC」
+Autisa,autisa,—,#999999,公式リザルト／英語版Wikipediaの表記「Autisa」
+Starol,starol,—,#999999,公式リザルト／英語版Wikipediaの表記「Starol」
+クラウザー,maker-x-x-x-x-x-x,—,#999999,公式リザルト／英語版Wikipediaの表記「クラウザー」
+M1,m1,—,#999999,公式リザルト／英語版Wikipediaの表記「M1」
+Kawadrom,kawadrom,—,#999999,公式リザルト／英語版Wikipediaの表記「Kawadrom」
+Ziegler,ziegler,—,#999999,公式リザルト／英語版Wikipediaの表記「Ziegler」
+SBM,sbm,—,#999999,公式リザルト／英語版Wikipediaの表記「SBM」
+MTK,mtk,—,#999999,公式リザルト／英語版Wikipediaの表記「MTK」
+Rudge,rudge,—,#999999,公式リザルト／英語版Wikipediaの表記「Rudge」
+Moda,moda,—,#999999,公式リザルト／英語版Wikipediaの表記「Moda」
+Sever,sever,—,#999999,公式リザルト／英語版Wikipediaの表記「Sever」
+PRS,prs,—,#999999,公式リザルト／英語版Wikipediaの表記「PRS」
+Juchem,juchem,—,#999999,公式リザルト／英語版Wikipediaの表記「Juchem」
+Moam,moam,—,#999999,公式リザルト／英語版Wikipediaの表記「Moam」
+Ducombs,ducombs,—,#999999,公式リザルト／英語版Wikipediaの表記「Ducombs」
+Monnet,monnet,—,#999999,公式リザルト／英語版Wikipediaの表記「Monnet」
+Roemer HF,roemer-hf,—,#999999,公式リザルト／英語版Wikipediaの表記「Roemer HF」
+Waibel,waibel,—,#999999,公式リザルト／英語版Wikipediaの表記「Waibel」
+Laserelli,laserelli,—,#999999,公式リザルト／英語版Wikipediaの表記「Laserelli」
+LGM,lgm,—,#999999,公式リザルト／英語版Wikipediaの表記「LGM」
+ツェンダップ,maker-x-x-x-x-x-x-x,—,#999999,公式リザルト／英語版Wikipediaの表記「ツェンダップ」
+Lusuardi,lusuardi,—,#999999,公式リザルト／英語版Wikipediaの表記「Lusuardi」
+Eberhardt,eberhardt,—,#999999,公式リザルト／英語版Wikipediaの表記「Eberhardt」
+Harmsen,harmsen,—,#999999,公式リザルト／英語版Wikipediaの表記「Harmsen」
+Hummel,hummel,—,#999999,公式リザルト／英語版Wikipediaの表記「Hummel」
+BZ,bz,—,#999999,公式リザルト／英語版Wikipediaの表記「BZ」
+Rispens,rispens,—,#999999,公式リザルト／英語版Wikipediaの表記「Rispens」
+Jas,jas,—,#999999,公式リザルト／英語版Wikipediaの表記「Jas」
+RB,rb,—,#999999,公式リザルト／英語版Wikipediaの表記「RB」
+Chevallier-RS500,chevallier-rs500,—,#999999,公式リザルト／英語版Wikipediaの表記「Chevallier-RS500」
+Aprilia-Rotax,aprilia-rotax,—,#999999,公式リザルト／英語版Wikipediaの表記「Aprilia-Rotax」
+EBB,ebb,—,#999999,公式リザルト／英語版Wikipediaの表記「EBB」
+Roemer Juchem,roemer-juchem,—,#999999,公式リザルト／英語版Wikipediaの表記「Roemer Juchem」
+Parisienne,parisienne,—,#999999,公式リザルト／英語版Wikipediaの表記「Parisienne」
+MIG,mig,—,#999999,公式リザルト／英語版Wikipediaの表記「MIG」
+MIG-Rotax,mig-rotax,—,#999999,公式リザルト／英語版Wikipediaの表記「MIG-Rotax」
+Malanca/MBA,malanca-mba,—,#999999,公式リザルト／英語版Wikipediaの表記「Malanca/MBA」
+Parenti,parenti,—,#999999,公式リザルト／英語版Wikipediaの表記「Parenti」
+Ametoli,ametoli,—,#999999,公式リザルト／英語版Wikipediaの表記「Ametoli」
+LCR,lcr,—,#999999,公式リザルト／英語版Wikipediaの表記「LCR」
+ヤワ,jawa,チェコスロバキア,#999999,チェコのメーカー
+KLS,kls,—,#999999,公式リザルト／英語版Wikipediaの表記「KLS」
+Waibel Special,waibel-special,—,#999999,公式リザルト／英語版Wikipediaの表記「Waibel Special」
+Tunturi,tunturi,—,#999999,公式リザルト／英語版Wikipediaの表記「Tunturi」
+GMV,gmv,—,#999999,公式リザルト／英語版Wikipediaの表記「GMV」
+Zanella,zanella,—,#999999,公式リザルト／英語版Wikipediaの表記「Zanella」
+CJB,cjb,—,#999999,公式リザルト／英語版Wikipediaの表記「CJB」
+Esch,esch,—,#999999,公式リザルト／英語版Wikipediaの表記「Esch」
+Imatra,imatra,—,#999999,公式リザルト／英語版Wikipediaの表記「Imatra」
+Chevallier-NS500,chevallier-ns500,—,#999999,公式リザルト／英語版Wikipediaの表記「Chevallier-NS500」
+Elf3-RS500,elf3-rs500,—,#999999,公式リザルト／英語版Wikipediaの表記「Elf3-RS500」
+HG-RS500,hg-rs500,—,#999999,公式リザルト／英語版Wikipediaの表記「HG-RS500」
+Bakker-RG500,bakker-rg500,—,#999999,公式リザルト／英語版Wikipediaの表記「Bakker-RG500」
+Armstrong-Rotax,armstrong-rotax,—,#999999,公式リザルト／英語版Wikipediaの表記「Armstrong-Rotax」
+Assmex,assmex,—,#999999,公式リザルト／英語版Wikipediaの表記「Assmex」
+Seel Elit,seel-elit,—,#999999,公式リザルト／英語版Wikipediaの表記「Seel Elit」
+Ducados,ducados,—,#999999,公式リザルト／英語版Wikipediaの表記「Ducados」
+Fior-Honda,fior-honda,—,#999999,公式リザルト／英語版Wikipediaの表記「Fior-Honda」
+Defi,defi,—,#999999,公式リザルト／英語版Wikipediaの表記「Defi」
+Seufert,seufert,—,#999999,公式リザルト／英語版Wikipediaの表記「Seufert」
+Aprilia AFI-Rotax,aprilia-afi-rotax,—,#999999,公式リザルト／英語版Wikipediaの表記「Aprilia AFI-Rotax」
+Sekitoba,sekitoba,—,#999999,公式リザルト／英語版Wikipediaの表記「Sekitoba」
+Paton-RS500,paton-rs500,—,#999999,公式リザルト／英語版Wikipediaの表記「Paton-RS500」
+Eigenbau,eigenbau,—,#999999,公式リザルト／英語版Wikipediaの表記「Eigenbau」
+V115,v115,—,#999999,公式リザルト／英語版Wikipediaの表記「V115」
+Bakker,bakker,—,#999999,公式リザルト／英語版Wikipediaの表記「Bakker」
+パリラ,parilla,—,#999999,公式リザルト／英語版Wikipediaの表記「Parilla」
+ERM,erm,—,#999999,公式リザルト／英語版Wikipediaの表記「ERM」
+XX,xx,—,#999999,公式リザルト／英語版Wikipediaの表記「XX」
+Unknown,unknown-x,—,#999999,公式リザルト／英語版Wikipediaの表記「Unknown」
+Rotax EMC,rotax-emc,—,#999999,公式リザルト／英語版Wikipediaの表記「Rotax EMC」
+MBA LCR,mba-lcr,—,#999999,公式リザルト／英語版Wikipediaの表記「MBA LCR」
+Diamant,diamant,—,#999999,公式リザルト／英語版Wikipediaの表記「Diamant」
+Rotax-Krauser,rotax-krauser,—,#999999,公式リザルト／英語版Wikipediaの表記「Rotax-Krauser」
+モトグッツィ,moto-guzzi,イタリア,#8a1c1c,1950年代の350ccで活躍したイタリアのメーカー
+ヴェロセット,velocette,英国,#333333,英国の名門。1949〜50年の350cc王者
+AJS,ajs,英国,#333333,1949年の500cc王者メーカー
+ベネリ,benelli,イタリア,#1b5e20,イタリアのメーカー
+ケーニッヒ,koenig,ドイツ,#555555,ドイツの水平対向エンジンのメーカー
+アエルマッキ,aermacchi,イタリア,#555555,イタリアのメーカー（ハーレーダビッドソン傘下）
+マッチレス,matchless,英国,#333333,英国のメーカー
+オッサ,ossa,スペイン,#555555,スペインのメーカー
+ヤマティ,jamathi,オランダ,#555555,オランダの50ccメーカー
+モンテサ,montesa,スペイン,#555555,スペインのメーカー
+CZ,cz,チェコスロバキア,#555555,チェコのメーカー
+Seeley,seeley,—,#999999,公式リザルト／英語版Wikipediaの表記「Seeley」
+Münch-URS,munch-urs,—,#999999,公式リザルト／英語版Wikipediaの表記「Münch-URS」
+Linto,linto,—,#999999,公式リザルト／英語版Wikipediaの表記「Linto」
+Cemoto,cemoto,—,#999999,公式リザルト／英語版Wikipediaの表記「Cemoto」
+Broad-Yamaha,broad-yamaha,—,#999999,公式リザルト／英語版Wikipediaの表記「Broad-Yamaha」
+Liengme,liengme,—,#999999,公式リザルト／英語版Wikipediaの表記「Liengme」
+Padgett Yamaha,padgett-yamaha,—,#999999,公式リザルト／英語版Wikipediaの表記「Padgett Yamaha」
+Coleman-Suzuki,coleman-suzuki,—,#999999,公式リザルト／英語版Wikipediaの表記「Coleman-Suzuki」
+Hurst-Seeley,hurst-seeley,—,#999999,公式リザルト／英語版Wikipediaの表記「Hurst-Seeley」
+Monark,monark,—,#999999,公式リザルト／英語版Wikipediaの表記「Monark」
+Yamsel,yamsel,—,#999999,公式リザルト／英語版Wikipediaの表記「Yamsel」
+Yamasaki,yamasaki,—,#999999,公式リザルト／英語版Wikipediaの表記「Yamasaki」
+Yamaha-Yamsel,yamaha-yamsel,—,#999999,公式リザルト／英語版Wikipediaの表記「Yamaha-Yamsel」
+Seel Yamaha,seel-yamaha,—,#999999,公式リザルト／英語版Wikipediaの表記「Seel Yamaha」
+Chat Yamaha,chat-yamaha,—,#999999,公式リザルト／英語版Wikipediaの表記「Chat Yamaha」
+Lee-Yamaha,lee-yamaha,—,#999999,公式リザルト／英語版Wikipediaの表記「Lee-Yamaha」
+Dugdale Yamaha,dugdale-yamaha,—,#999999,公式リザルト／英語版Wikipediaの表記「Dugdale Yamaha」
+Hemeyla,hemeyla,—,#999999,公式リザルト／英語版Wikipediaの表記「Hemeyla」
+MZ-EGB,mz-egb,—,#999999,公式リザルト／英語版Wikipediaの表記「MZ-EGB」
+Ahra,ahra,—,#999999,公式リザルト／英語版Wikipediaの表記「Ahra」
+Tartan Kawasakii,tartan-kawasakii,—,#999999,公式リザルト／英語版Wikipediaの表記「Tartan Kawasakii」
+Jada-Suzuki,jada-suzuki,—,#999999,公式リザルト／英語版Wikipediaの表記「Jada-Suzuki」
+Riemanoc-Yamaha,riemanoc-yamaha,—,#999999,公式リザルト／英語版Wikipediaの表記「Riemanoc-Yamaha」
+Jada,jada,—,#999999,公式リザルト／英語版Wikipediaの表記「Jada」
+Cunningham-Suzuki,cunningham-suzuki,—,#999999,公式リザルト／英語版Wikipediaの表記「Cunningham-Suzuki」
+Petty-Norton,petty-norton,—,#999999,公式リザルト／英語版Wikipediaの表記「Petty-Norton」
+Cowles-Matchless,cowles-matchless,—,#999999,公式リザルト／英語版Wikipediaの表記「Cowles-Matchless」
+Mularny,mularny,—,#999999,公式リザルト／英語版Wikipediaの表記「Mularny」
+Velocette-Metisse,velocette-metisse,—,#999999,公式リザルト／英語版Wikipediaの表記「Velocette-Metisse」
+Crooks-Suzuki,crooks-suzuki,—,#999999,公式リザルト／英語版Wikipediaの表記「Crooks-Suzuki」
+Oakley-Seeley,oakley-seeley,—,#999999,公式リザルト／英語版Wikipediaの表記「Oakley-Seeley」
+Metisse-Matchless,metisse-matchless,—,#999999,公式リザルト／英語版Wikipediaの表記「Metisse-Matchless」
+Mitsui,mitsui,—,#999999,公式リザルト／英語版Wikipediaの表記「Mitsui」
+ブリヂストン,bridgestone,—,#999999,公式リザルト／英語版Wikipediaの表記「Bridgestone」
+モンディアル,mondial,—,#999999,公式リザルト／英語版Wikipediaの表記「Mondial」
+Cowles-Yamaha,cowles-yamaha,—,#999999,公式リザルト／英語版Wikipediaの表記「Cowles-Yamaha」
+Cowles Matchless,cowles-matchless-x,—,#999999,公式リザルト／英語版Wikipediaの表記「Cowles Matchless」
+Roton,roton,—,#999999,公式リザルト／英語版Wikipediaの表記「Roton」
+Riga,riga,—,#999999,公式リザルト／英語版Wikipediaの表記「Riga」
+TR500,tr500,—,#999999,公式リザルト／英語版Wikipediaの表記「TR500」
+H1R-RW,h1r-rw,—,#999999,公式リザルト／英語版Wikipediaの表記「H1R-RW」
+MV500,mv500,—,#999999,公式リザルト／英語版Wikipediaの表記「MV500」
+Smac,smac,—,#999999,公式リザルト／英語版Wikipediaの表記「Smac」
+Harley Davidson,harley-davidson,—,#999999,公式リザルト／英語版Wikipediaの表記「Harley Davidson」
+HM,hm,—,#999999,公式リザルト／英語版Wikipediaの表記「HM」
+Piovaticci,piovaticci,—,#999999,公式リザルト／英語版Wikipediaの表記「Piovaticci」
+DRS,drs,—,#999999,公式リザルト／英語版Wikipediaの表記「DRS」
+HD-Yamaha,hd-yamaha,—,#999999,公式リザルト／英語版Wikipediaの表記「HD-Yamaha」
+Yamaha/TZ,yamaha-tz,—,#999999,公式リザルト／英語版Wikipediaの表記「Yamaha/TZ」
+Carem,carem,—,#999999,公式リザルト／英語版Wikipediaの表記「Carem」
+Special,special,—,#999999,公式リザルト／英語版Wikipediaの表記「Special」
+Bender,bender,—,#999999,公式リザルト／英語版Wikipediaの表記「Bender」
+Ringhini,ringhini,—,#999999,公式リザルト／英語版Wikipediaの表記「Ringhini」
+YZ634A,yz634a,—,#999999,公式リザルト／英語版Wikipediaの表記「YZ634A」
+RR500,rr500,—,#999999,公式リザルト／英語版Wikipediaの表記「RR500」
+Condor AGV,condor-agv,—,#999999,公式リザルト／英語版Wikipediaの表記「Condor AGV」
+Bastard,bastard,—,#999999,公式リザルト／英語版Wikipediaの表記「Bastard」
+Dugdale,dugdale,—,#999999,公式リザルト／英語版Wikipediaの表記「Dugdale」
+SMZ,smz,—,#999999,公式リザルト／英語版Wikipediaの表記「SMZ」
+Danfay Yamaha,danfay-yamaha,—,#999999,公式リザルト／英語版Wikipediaの表記「Danfay Yamaha」
+Mcveigh Yamaha,mcveigh-yamaha,—,#999999,公式リザルト／英語版Wikipediaの表記「Mcveigh Yamaha」
+Danfay Maxton yamaha,danfay-maxton-yamaha,—,#999999,公式リザルト／英語版Wikipediaの表記「Danfay Maxton yamaha」
+Oakley-Yamaha,oakley-yamaha,—,#999999,公式リザルト／英語版Wikipediaの表記「Oakley-Yamaha」
+A.B.F.,a-b-f,—,#999999,公式リザルト／英語版Wikipediaの表記「A.B.F.」
+Nava DRS,nava-drs,—,#999999,公式リザルト／英語版Wikipediaの表記「Nava DRS」
+Seel Special,seel-special,—,#999999,公式リザルト／英語版Wikipediaの表記「Seel Special」
+LGM Daspa,lgm-daspa,—,#999999,公式リザルト／英語版Wikipediaの表記「LGM Daspa」
+Motoshop,motoshop,—,#999999,公式リザルト／英語版Wikipediaの表記「Motoshop」
+Delta Fantic,delta-fantic,—,#999999,公式リザルト／英語版Wikipediaの表記「Delta Fantic」
+Muench,muench,—,#999999,公式リザルト／英語版Wikipediaの表記「Muench」
+Villa-Aermacchi,villa-aermacchi,—,#999999,公式リザルト／英語版Wikipediaの表記「Villa-Aermacchi」
+B&C Honda,b-c-honda,—,#999999,公式リザルト／英語版Wikipediaの表記「B&C Honda」
+Guazzoni,guazzoni,—,#999999,公式リザルト／英語版Wikipediaの表記「Guazzoni」
+MZ-MZ-RE,mz-mz-re,—,#999999,公式リザルト／英語版Wikipediaの表記「MZ-MZ-RE」
+Suzuki-Maico,suzuki-maico,—,#999999,公式リザルト／英語版Wikipediaの表記「Suzuki-Maico」
+Yamaha-Maico,yamaha-maico,—,#999999,公式リザルト／英語版Wikipediaの表記「Yamaha-Maico」
+Tatran,tatran,—,#999999,公式リザルト／英語版Wikipediaの表記「Tatran」
+Metisse,metisse,—,#999999,公式リザルト／英語版Wikipediaの表記「Metisse」
+Delta,delta,—,#999999,公式リザルト／英語版Wikipediaの表記「Delta」
+Piovaticci-Maico-Maico Piovaticci,piovaticci-maico-maico-piovaticci,—,#999999,公式リザルト／英語版Wikipediaの表記「Piovaticci-Maico-Maico Piovaticci」
+Kawasaki-Yamaha-Benelli,kawasaki-yamaha-benelli,—,#999999,公式リザルト／英語版Wikipediaの表記「Kawasaki-Yamaha-Benelli」
+Special-Bender,special-bender,—,#999999,公式リザルト／英語版Wikipediaの表記「Special-Bender」
+Maico-Yamaha,maico-yamaha,—,#999999,公式リザルト／英語版Wikipediaの表記「Maico-Yamaha」
+Van Veen-Kreidler,van-veen-kreidler,—,#999999,公式リザルト／英語版Wikipediaの表記「Van Veen-Kreidler」
+Malanca-Morbidelli,malanca-morbidelli,—,#999999,公式リザルト／英語版Wikipediaの表記「Malanca-Morbidelli」
+Yamaha-Suzuki,yamaha-suzuki,—,#999999,公式リザルト／英語版Wikipediaの表記「Yamaha-Suzuki」
+Yamaha BR,yamaha-br,—,#999999,公式リザルト／英語版Wikipediaの表記「Yamaha BR」
+Dugdale Maxton Yamaha,dugdale-maxton-yamaha,—,#999999,公式リザルト／英語版Wikipediaの表記「Dugdale Maxton Yamaha」
+D.R.M.,d-r-m,—,#999999,公式リザルト／英語版Wikipediaの表記「D.R.M.」
+Hermetite-SuzukiI,hermetite-suzukii,—,#999999,公式リザルト／英語版Wikipediaの表記「Hermetite-SuzukiI」
+Nava,nava,—,#999999,公式リザルト／英語版Wikipediaの表記「Nava」
+Yamaha-Morbidelli,yamaha-morbidelli,—,#999999,公式リザルト／英語版Wikipediaの表記「Yamaha-Morbidelli」
+Bultaco-Minarelli,bultaco-minarelli,—,#999999,公式リザルト／英語版Wikipediaの表記「Bultaco-Minarelli」
+GB Bender-Morbidelli,gb-bender-morbidelli,—,#999999,公式リザルト／英語版Wikipediaの表記「GB Bender-Morbidelli」
+GB,gb,—,#999999,公式リザルト／英語版Wikipediaの表記「GB」
+Padgett Kawasaki,padgett-kawasaki,—,#999999,公式リザルト／英語版Wikipediaの表記「Padgett Kawasaki」
+Sandroni,sandroni,—,#999999,公式リザルト／英語版Wikipediaの表記「Sandroni」
+Ega Honda,ega-honda,—,#999999,公式リザルト／英語版Wikipediaの表記「Ega Honda」
+BSL,bsl,—,#999999,公式リザルト／英語版Wikipediaの表記「BSL」
+NER Honda,ner-honda,—,#999999,公式リザルト／英語版Wikipediaの表記「NER Honda」
+Proton,proton,—,#999999,公式リザルト／英語版Wikipediaの表記「Proton」
+ERP,erp,—,#999999,公式リザルト／英語版Wikipediaの表記「ERP」
+E-NER,e-ner,—,#999999,公式リザルト／英語版Wikipediaの表記「E-NER」
+JJ Cobas/Honda,jj-cobas-honda,—,#999999,公式リザルト／英語版Wikipediaの表記「JJ Cobas/Honda」
+NER,ner,—,#999999,公式リザルト／英語版Wikipediaの表記「NER」
+NSU,nsu,西ドイツ,#444444,1950年代の125cc・250ccで活躍
+DKW,dkw,西ドイツ,#444444,ドイツのメーカー
+モト・モリーニ,moto-morini,イタリア,#555555,イタリアのメーカー
+BSA,bsa,英国,#333333,英国のメーカー
+エクセルシオール,excelsior,英国,#555555,英国のメーカー
+LB,lb,—,#999999,公式リザルト／英語版Wikipediaの表記「LB」
+Sparta,sparta,—,#999999,公式リザルト／英語版Wikipediaの表記「Sparta」
+Horex,horex,—,#999999,公式リザルト／英語版Wikipediaの表記「Horex」
+Adler,adler,—,#999999,公式リザルト／英語版Wikipediaの表記「Adler」
+Lube,lube,—,#999999,公式リザルト／英語版Wikipediaの表記「Lube」
+LEF,lef,—,#999999,公式リザルト／英語版Wikipediaの表記「LEF」
+GMS-NSU,gms-nsu,—,#999999,公式リザルト／英語版Wikipediaの表記「GMS-NSU」
+Münch,munch,—,#999999,公式リザルト／英語版Wikipediaの表記「Münch」
+Bianchi,bianchi,—,#999999,公式リザルト／英語版Wikipediaの表記「Bianchi」
+S250,s250,—,#999999,公式リザルト／英語版Wikipediaの表記「S250」
+S350,s350,—,#999999,公式リザルト／英語版Wikipediaの表記「S350」
+Triton,triton,—,#999999,公式リザルト／英語版Wikipediaの表記「Triton」
+CKB,ckb,—,#999999,公式リザルト／英語版Wikipediaの表記「CKB」
+Ckb,ckb-x,—,#999999,公式リザルト／英語版Wikipediaの表記「Ckb」
+Ducson,ducson,—,#999999,公式リザルト／英語版Wikipediaの表記「Ducson」
+Pyrkijca,pyrkijca,—,#999999,公式リザルト／英語版Wikipediaの表記「Pyrkijca」
+Ckeb,ckeb,—,#999999,公式リザルト／英語版Wikipediaの表記「Ckeb」
+CKEB,ckeb-x,—,#999999,公式リザルト／英語版Wikipediaの表記「CKEB」
+Greeves,greeves,—,#999999,公式リザルト／英語版Wikipediaの表記「Greeves」
+RD,rd,—,#999999,公式リザルト／英語版Wikipediaの表記「RD」
+Lancefield,lancefield,—,#999999,公式リザルト／英語版Wikipediaの表記「Lancefield」
+Jawa-CZ,jawa-cz,—,#999999,公式リザルト／英語版Wikipediaの表記「Jawa-CZ」
+Vostok,vostok,—,#999999,公式リザルト／英語版Wikipediaの表記「Vostok」
+Royal Enfield,royal-enfield,—,#999999,公式リザルト／英語版Wikipediaの表記「Royal Enfield」
+Villiers,villiers,—,#999999,公式リザルト／英語版Wikipediaの表記「Villiers」
+Hannah-Paton,hannah-paton,—,#999999,公式リザルト／英語版Wikipediaの表記「Hannah-Paton」
+Hannah Paton,hannah-paton-x,—,#999999,公式リザルト／英語版Wikipediaの表記「Hannah Paton」
+Reimo,reimo,—,#999999,公式リザルト／英語版Wikipediaの表記「Reimo」
+Arter-Matchless,arter-matchless,—,#999999,公式リザルト／英語版Wikipediaの表記「Arter-Matchless」
+Manning-Norton,manning-norton,—,#999999,公式リザルト／英語版Wikipediaの表記「Manning-Norton」
+ČZ,cz-x,—,#999999,公式リザルト／英語版Wikipediaの表記「ČZ」
+Higley-Matchless,higley-matchless,—,#999999,公式リザルト／英語版Wikipediaの表記「Higley-Matchless」
+Westlake,westlake,—,#999999,公式リザルト／英語版Wikipediaの表記「Westlake」
+Gazelle,gazelle,—,#999999,公式リザルト／英語版Wikipediaの表記「Gazelle」
+Humber-Crescent,humber-crescent,—,#999999,公式リザルト／英語版Wikipediaの表記「Humber-Crescent」
+Brown Special,brown-special,—,#999999,公式リザルト／英語版Wikipediaの表記「Brown Special」
+Metisse-URS,metisse-urs,—,#999999,公式リザルト／英語版Wikipediaの表記「Metisse-URS」
+Crescent,crescent,—,#999999,公式リザルト／英語版Wikipediaの表記「Crescent」
+Brown,brown,—,#999999,公式リザルト／英語版Wikipediaの表記「Brown」
+Kuhn Seeley,kuhn-seeley,—,#999999,公式リザルト／英語版Wikipediaの表記「Kuhn Seeley」
+Rabassa,rabassa,—,#999999,公式リザルト／英語版Wikipediaの表記「Rabassa」
+Crooks Suzuki,crooks-suzuki-x,—,#999999,公式リザルト／英語版Wikipediaの表記「Crooks Suzuki」
+EMC-Puch,emc-puch,—,#999999,公式リザルト／英語版Wikipediaの表記「EMC-Puch」
+Reg,reg,—,#999999,公式リザルト／英語版Wikipediaの表記「Reg」
+Rd Special,rd-special,—,#999999,公式リザルト／英語版Wikipediaの表記「Rd Special」
+MZ-Ducati,mz-ducati,—,#999999,公式リザルト／英語版Wikipediaの表記「MZ-Ducati」
+MZ-MV Augusta,mz-mv-augusta,—,#999999,公式リザルト／英語版Wikipediaの表記「MZ-MV Augusta」
+Bultaco-DKW,bultaco-dkw,—,#999999,公式リザルト／英語版Wikipediaの表記「Bultaco-DKW」
+USSRC,ussrc,—,#999999,公式リザルト／英語版Wikipediaの表記「USSRC」
+Ducati-Honda,ducati-honda,—,#999999,公式リザルト／英語版Wikipediaの表記「Ducati-Honda」
+Bultaco-MZ,bultaco-mz,—,#999999,公式リザルト／英語版Wikipediaの表記「Bultaco-MZ」
+Valkada-Honda,valkada-honda,—,#999999,公式リザルト／英語版Wikipediaの表記「Valkada-Honda」
+Montesa-Villa,montesa-villa,—,#999999,公式リザルト／英語版Wikipediaの表記「Montesa-Villa」
+Villa-Brown,villa-brown,—,#999999,公式リザルト／英語版Wikipediaの表記「Villa-Brown」
+Cowles-AJS,cowles-ajs,—,#999999,公式リザルト／英語版Wikipediaの表記「Cowles-AJS」
+Brownyam,brownyam,—,#999999,公式リザルト／英語版Wikipediaの表記「Brownyam」
+Lawton-Aermacchi,lawton-aermacchi,—,#999999,公式リザルト／英語版Wikipediaの表記「Lawton-Aermacchi」
+Drixton-Aermacchi,drixton-aermacchi,—,#999999,公式リザルト／英語版Wikipediaの表記「Drixton-Aermacchi」
+J.C.B.Honda,j-c-b-honda,—,#999999,公式リザルト／英語版Wikipediaの表記「J.C.B.Honda」
+NED DB Racing Team,ned-db-racing-team,—,#999999,公式リザルト／英語版Wikipediaの表記「NED DB Racing Team」
+Harris,harris,—,#999999,公式リザルト／英語版Wikipediaの表記「Harris」

@@ -1,3 +1,7 @@
 __pycache__/
 *.pyc
 ~$*
+tools/cache/
+tools/pdf/
+tools/era_*.json
+tools/__pycache__/

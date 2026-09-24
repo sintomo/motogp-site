@@ -68,10 +68,11 @@ def warn(src, msg):
 # ------------------------------------------------------------
 # CSV 読み込み（Excelの「CSV UTF-8」推奨。Shift-JIS保存でも読める）
 # ------------------------------------------------------------
-def load(name, required=()):
+def load(name, required=(), optional=False):
     path = os.path.join(DATA, name)
     if not os.path.exists(path):
-        err(name, "ファイルがありません")
+        if not optional:
+            err(name, "ファイルがありません")
         return []
     raw = open(path, "rb").read()
     for enc in ("utf-8-sig", "cp932"):
@@ -123,7 +124,9 @@ teams = load("teams.csv", ["id", "name_ja"])
 makers = load("manufacturers.csv", ["name_ja", "id"])
 champions = load("champions.csv", ["year", "class", "rider_name"])
 seasons = load("seasons.csv", ["year", "class"])
-entries = load("entries.csv", ["year", "class", "rider_id", "team_id", "maker"])
+entries = load("entries.csv", ["year", "class", "rider_id", "maker"])
+races = load("races.csv", ["year", "class", "round", "session", "gp_code"], optional=True)
+results = load("results.csv", ["year", "class", "round", "session", "rider_id", "result"], optional=True)
 timeline = load("timeline.csv", ["year", "category", "text"])
 class_bars = load("class_bars.csv", ["label", "from", "to", "color", "text"])
 machines = load("machines.csv", ["name", "class"])
@@ -197,7 +200,7 @@ for r in entries:
     r["rank_i"] = as_int(r, "rank", True)
     if r["rider_id"] not in RID:
         err(r["_src"], f"rider_id「{r['rider_id']}」が riders.csv にありません")
-    if r["team_id"] not in TID:
+    if r.get("team_id") and r["team_id"] not in TID:
         err(r["_src"], f"team_id「{r['team_id']}」が teams.csv にありません")
     if r["maker"] not in MK:
         err(r["_src"], f"メーカー「{r['maker']}」が manufacturers.csv にありません")
@@ -206,12 +209,38 @@ for r in entries:
         warn(r["_src"], f"{r['year']}年 {r['class']} に同じライダーが複数行（代役・移籍なら問題なし）")
     seen.add(k)
 
+RESULT_JA = {"FIN": "完走", "DNF": "リタイア", "DNS": "不出走", "DSQ": "失格", "EXC": "除外", "DNQ": "予選落ち"}
+SESSION_JA = {"RAC": "決勝", "RAC2": "決勝レース2", "SPR": "スプリント"}
+race_keys = set()
+for r in races:
+    r["year"] = as_int(r, "year"); r["round_i"] = as_int(r, "round")
+    check_class(r)
+    if r["session"] not in SESSION_JA:
+        err(r["_src"], f"session は RAC／RAC2／SPR（今: {r['session']}）")
+    k = (r["year"], r["class"], r["round_i"], r["session"])
+    if k in race_keys:
+        err(r["_src"], "同じレースが重複しています")
+    race_keys.add(k)
+    if r.get("winner_id") and r["winner_id"] not in RID:
+        err(r["_src"], f"winner_id「{r['winner_id']}」が riders.csv にありません")
+for r in results:
+    r["year"] = as_int(r, "year"); r["round_i"] = as_int(r, "round")
+    r["pos_i"] = as_int(r, "pos", True)
+    if (r["year"], r["class"], r["round_i"], r["session"]) not in race_keys:
+        err(r["_src"], "races.csv に該当レースがありません")
+    if r["rider_id"] not in RID:
+        err(r["_src"], f"rider_id「{r['rider_id']}」が riders.csv にありません")
+    if r["result"] not in RESULT_JA:
+        err(r["_src"], f"result は {'/'.join(RESULT_JA)} のいずれか（今: {r['result']}）")
+    if r.get("maker") and r["maker"] not in MK:
+        err(r["_src"], f"メーカー「{r['maker']}」が manufacturers.csv にありません")
+
 for r in timeline + battles:
     r["year_i"] = as_int(r, "year")
 for r in class_bars:
     as_int(r, "from"); as_int(r, "to")
 
-used_riders = {r.get("rider_id") for r in champions} | {r["rider_id"] for r in entries} | {r.get("runner_up_id") for r in seasons}
+used_riders = {r.get("rider_id") for r in champions} | {r["rider_id"] for r in entries} | {r.get("runner_up_id") for r in seasons} | {r["rider_id"] for r in results}
 for r in riders:
     if r["id"] not in used_riders:
         warn(r["_src"], f"ライダー「{r['id']}」はどこからも参照されていません")
@@ -260,9 +289,9 @@ def rider_link(root, rid, fallback=""):
     return a(root, f"riders/{rid}.html", E(r["name_ja"])) if r else E(fallback)
 
 
-def team_link(root, tid):
+def team_link(root, tid, fallback=""):
     t = TID.get(tid)
-    return a(root, f"teams/{tid}.html", E(t["name_ja"])) if t else E(tid)
+    return a(root, f"teams/{tid}.html", E(t["name_ja"])) if t else E(fallback or tid or "—")
 
 
 def maker_link(root, name):
@@ -350,7 +379,7 @@ for e in entries:
     ENT_BY_RIDER[e["rider_id"]].append(e)
     ENT_BY_TEAM[e["team_id"]].append(e)
     ENT_BY_MAKER[e["maker"]].append(e)
-SEASON_YEARS = sorted(set(CH_BY) | set(SEASON_ROWS) | set(ENT_BY_YEAR))
+SEASON_YEARS = sorted(set(CH_BY) | set(SEASON_ROWS) | set(ENT_BY_YEAR) | {r["year"] for r in races})
 TITLES = defaultdict(list)
 for c in champions:
     if c.get("rider_id"):
@@ -360,6 +389,32 @@ for s in seasons:
     if s.get("runner_up_id"):
         RUNNER[s["runner_up_id"]].append(s)
 cls_order = lambda code: CLS.get(code, {}).get("order", 99)
+# レース
+GP_JA = {}
+RACE = {}
+RACES_BY_YC = defaultdict(list)     # (year, class) -> races
+for r in races:
+    k = (r["year"], r["class"], r["round_i"], r["session"])
+    RACE[k] = r
+    RACES_BY_YC[(r["year"], r["class"])].append(r)
+for v in RACES_BY_YC.values():
+    v.sort(key=lambda r: (r["round_i"], ["SPR", "RAC", "RAC2"].index(r["session"])))
+RES_BY_RACE = defaultdict(list)
+RES_BY_RIDER = defaultdict(list)
+for x in results:
+    RES_BY_RACE[(x["year"], x["class"], x["round_i"], x["session"])].append(x)
+    RES_BY_RIDER[x["rider_id"]].append(x)
+for v in RES_BY_RACE.values():
+    v.sort(key=lambda x: (x["pos_i"] is None, x["pos_i"] or 0, list(RESULT_JA).index(x["result"])))
+RACE_YEARS = {r["year"] for r in races}
+
+
+def race_path(r):
+    return f'races/{r["year"]}/{r["class"].lower()}-{r["round_i"]:02d}{ {"SPR": "-spr", "RAC2": "-r2"}.get(r["session"], "")}.html'
+
+
+def race_title(r):
+    return f'{r["year"]}年 {r.get("gp_name_ja") or r["gp_code"]} {r["class"]} {SESSION_JA[r["session"]]}'
 
 # ------------------------------------------------------------
 # 埋め込みブロック（content/*.html の <!--@名前--> を置換）
@@ -487,7 +542,8 @@ for y in reversed(SEASON_YEARS):
     rows.append([a("{{root}}", f"seasons/{y}.html", yr(y)),
                  (rider_link("{{root}}", prem.get("rider_id"), prem["rider_name"]) + f'（{E(prem["class"])}）') if prem else "—",
                  f"{len(top)}クラス" if top else "—",
-                 "◯" if ENT_BY_YEAR.get(y) else ""])
+                 "◯" if ENT_BY_YEAR.get(y) else "",
+                 "◯" if y in RACE_YEARS else ""])
 decades = sorted({(y // 10) * 10 for y in SEASON_YEARS}, reverse=True)
 body = (f'<h1>シーズン</h1><p class="sub">1949年から現在までの各シーズン。MotoGP時代（2002年〜）から順次、参戦チーム・ライダーを追加中。</p>'
         + '<p class="jump">' + " ".join(f'<a href="#d{d}">{d}年代</a>' for d in decades) + '</p>')
@@ -495,7 +551,7 @@ by_dec = defaultdict(list)
 for r, y in zip(rows, reversed(SEASON_YEARS)):
     by_dec[(y // 10) * 10].append(r)
 for d in decades:
-    body += f'<h3 id="d{d}">{d}年代</h3>' + table(["年", "最高峰王者", "王者掲載クラス", "参戦一覧"], by_dec[d])
+    body += f'<h3 id="d{d}">{d}年代</h3>' + table(["年", "最高峰王者", "王者掲載クラス", "参戦一覧", "レース結果"], by_dec[d])
 write("seasons/index.html", ptitle("シーズン"), f'<section class="page">{body}</section>', "seasons")
 
 for i, y in enumerate(SEASON_YEARS):
@@ -515,6 +571,17 @@ for i, y in enumerate(SEASON_YEARS):
             b.append(f'<p class="prose">{E(s["summary"])}</p>')
         if s.get("rule_changes"):
             b.append(f'<p class="prose"><b>主な規則変更：</b>{E(s["rule_changes"])}（詳細は{a("{{root}}", "rules.html", "規則")}）</p>')
+    # レース結果（クラス別カレンダー）
+    for code in sorted({c for (yy, c) in RACES_BY_YC if yy == y}, key=cls_order):
+        trs = []
+        for r in RACES_BY_YC[(y, code)]:
+            res = RES_BY_RACE.get((y, code, r["round_i"], r["session"]), [])
+            w = next((x for x in res if x["pos_i"] == 1), None)
+            trs.append([f'{r["round_i"]}' + {"SPR": "（スプリント）", "RAC2": "（レース2）"}.get(r["session"], ""),
+                        a("{{root}}", race_path(r), E(r.get("gp_name_ja") or r["gp_code"])) if res else E(r.get("gp_name_ja") or r["gp_code"]),
+                        E(r.get("circuit", "")), E(r.get("date", "")),
+                        (rider_link("{{root}}", w["rider_id"]) + f'<div class="note">{maker_link("{{root}}", w.get("maker", ""))}</div>') if w else ('<span class="note">' + E(r.get("note") or "結果未入力") + "</span>")])
+        b.append(f'<h3>{E(code)} レース結果（{len(trs)}戦）</h3>' + table(["Rd", "グランプリ", "サーキット", "決勝日", "優勝"], trs))
     # 参戦チーム・ライダー
     ents = ENT_BY_YEAR.get(y, [])
     for code in sorted({e["class"] for e in ents}, key=cls_order):
@@ -522,18 +589,20 @@ for i, y in enumerate(SEASON_YEARS):
         by_team = defaultdict(list)
         order = []
         for e in ce:
-            if e["team_id"] not in by_team:
-                order.append(e["team_id"])
-            by_team[e["team_id"]].append(e)
+            tk = e.get("team_id") or ("~" + e.get("entry_name", ""))
+            if tk not in by_team:
+                order.append(tk)
+            by_team[tk].append(e)
         trs = []
-        for tid in order:
-            es = by_team[tid]
-            trs.append([team_link("{{root}}", tid) + f'<div class="note">{E(es[0].get("entry_name", ""))}</div>',
+        for tk in order:
+            es = by_team[tk]
+            tid = es[0].get("team_id", "")
+            trs.append([(team_link("{{root}}", tid) + f'<div class="note">{E(es[0].get("entry_name", ""))}</div>') if tid else E(es[0].get("entry_name", "") or "—"),
                         maker_link("{{root}}", es[0]["maker"]) + (badge("要確認") if any(x.get("status") == "要確認" for x in es) else "") + (f'<div class="note">{E(es[0].get("machine", ""))}</div>' if es[0].get("machine") else ""),
                         "<br>".join(rider_link("{{root}}", e["rider_id"]) + (f' <span class="note">#{E(e["number"])}</span>' if e.get("number") else "") for e in es),
                         "<br>".join(rank_txt(e) for e in es)])
         b.append(f'<h3>{E(code)} 参戦チーム・ライダー</h3>' + table(["チーム", "メーカー", "ライダー", "年間順位"], trs)
-                 + '<p class="note">年間順位は判明分のみ。空欄は未入力。「要確認」の行はメーカー・車両の特定が不確か。</p>')
+                 + '<p class="note">年間順位は判明分のみ（ポイント獲得者）。「—」はノーポイント。「要確認」の行はメーカー・車両の特定が不確か。</p>')
     # 全クラス王者
     ch = sorted(CH_BY.get(y, []), key=lambda c: cls_order(c["class"]))
     if ch:
@@ -547,6 +616,30 @@ for i, y in enumerate(SEASON_YEARS):
     b.append('<nav class="pager"><span>' + (a("{{root}}", f"seasons/{prev}.html", f"← {prev}年") if prev else "")
              + '</span><span>' + (a("{{root}}", f"seasons/{nxt}.html", f"{nxt}年 →") if nxt else "") + "</span></nav>")
     write(f"seasons/{y}.html", ptitle(f"{y}年シーズン"), f'<section class="page">{"".join(b)}</section>', "seasons")
+
+# ---------- レース ----------
+for (y, code), rs in RACES_BY_YC.items():
+    for i, r in enumerate(rs):
+        res = RES_BY_RACE.get((y, code, r["round_i"], r["session"]), [])
+        if not res:
+            continue
+        fin = [x for x in res if x["result"] == "FIN"]
+        facts = [("クラス", E(code)), ("ラウンド", f'第{r["round_i"]}戦'), ("決勝日", E(r.get("date", "")) or "—"),
+                 ("サーキット", E(r.get("circuit", "")) or "—"), ("完走", f"{len(fin)}台／出走{sum(1 for x in res if x['result'] != 'DNS')}台")]
+        rows = [[str(x["pos_i"]) if x["pos_i"] else RESULT_JA[x["result"]], E(x.get("number", "")),
+                 rider_link("{{root}}", x["rider_id"]), E(x.get("team", "")), maker_link("{{root}}", x.get("maker", "")) if x.get("maker") else "",
+                 (x.get("points", "") if x.get("points") not in ("", "0") else "")] for x in res]
+        prev = rs[i - 1] if i > 0 else None
+        nxt = rs[i + 1] if i < len(rs) - 1 else None
+        body = (f'<p class="crumb">{a("{{root}}", "seasons/index.html", "シーズン")} ＞ {a("{{root}}", f"seasons/{y}.html", f"{y}年")} ＞ {E(r.get("gp_name_ja") or r["gp_code"])}</p>'
+                f'<h1>{E(race_title(r))}{badge(r.get("status", ""))}</h1>'
+                + '<dl class="facts">' + "".join(f"<div><dt>{k}</dt><dd>{v}</dd></div>" for k, v in facts) + "</dl>"
+                + table(["順位", "No.", "ライダー", "チーム（エントリー名）", "メーカー", "ポイント"], rows)
+                + (f'<p class="note">{E(r["note"])}</p>' if r.get("note") else "")
+                + '<p class="note">チーム名は公式リザルトの表記（長い名前は途中までの場合あり）。出典：MotoGP公式リザルト。</p>'
+                + '<nav class="pager"><span>' + (a("{{root}}", race_path(prev), f'← {E(prev.get("gp_name_ja") or prev["gp_code"])}') if prev else "")
+                + '</span><span>' + (a("{{root}}", race_path(nxt), f'{E(nxt.get("gp_name_ja") or nxt["gp_code"])} →') if nxt else "") + "</span></nav>")
+        write(race_path(r), ptitle(race_title(r)), f'<section class="page">{body}</section>', "seasons")
 
 # ---------- ライダー ----------
 def years_of(rid):
@@ -569,7 +662,11 @@ for r in riders:
     rid = r["id"]
     b = [f'<p class="crumb">{a("{{root}}", "riders/index.html", "ライダー")} ＞ {E(r["name_ja"])}</p>',
          f'<h1>{E(r["name_ja"])}{badge(r.get("status", ""))}</h1><p class="sub">{E(r.get("name_en", ""))}</p>']
-    facts = [("国籍", E(r.get("nationality", "")) or "—"), ("生年", f'{r["birth_year"]}年' if r.get("birth_year") else "—"),
+    facts = [("国籍", E(r.get("nationality", "")) or "—"),
+             ("生年月日" if r.get("birth_date") else "生年", E(r["birth_date"]) if r.get("birth_date") else (f'{r["birth_year"]}年' if r.get("birth_year") else "—"))]
+    if r.get("birthplace"):
+        facts.append(("出身地", E(r["birthplace"])))
+    facts += [
              ("世界タイトル", f'{len(TITLES.get(rid, []))}回（登録分）')]
     # 参戦記録からの自動集計（クラス別）
     for code in sorted({e["class"] for e in ENT_BY_RIDER.get(rid, [])}, key=cls_order):
@@ -583,6 +680,18 @@ for r in riders:
             facts.append((f"{code} 最高位", f'{best["rank_i"]}位（{best["year"]}年）'))
         if pts:
             facts.append((f"{code} 通算ポイント", f"{sum(pts):.1f}".rstrip("0").rstrip(".") + "点" + ("（一部年のみ）" if len(pts) < len(ce) else "")))
+    # レース結果からの集計（決勝のみ）
+    rr = [x for x in RES_BY_RIDER.get(rid, []) if x["session"] in ("RAC", "RAC2")]
+    for code in sorted({x["class"] for x in rr}, key=cls_order):
+        cr = [x for x in rr if x["class"] == code]
+        st = [x for x in cr if x["result"] != "DNS"]
+        w = sum(1 for x in cr if x["pos_i"] == 1)
+        pod = sum(1 for x in cr if x["pos_i"] and x["pos_i"] <= 3)
+        facts.append((f"{code} 決勝", f"出走{len(st)}回・優勝{w}回・表彰台{pod}回（登録分）"))
+    sp = [x for x in RES_BY_RIDER.get(rid, []) if x["session"] == "SPR"]
+    for code in sorted({x["class"] for x in sp}, key=cls_order):
+        cs = [x for x in sp if x["class"] == code]
+        facts.append((f"{code} スプリント", f'出走{sum(1 for x in cs if x["result"] != "DNS")}回・優勝{sum(1 for x in cs if x["pos_i"] == 1)}回・表彰台{sum(1 for x in cs if x["pos_i"] and x["pos_i"] <= 3)}回'))
     b.append('<dl class="facts">' + "".join(f"<div><dt>{k}</dt><dd>{v}</dd></div>" for k, v in facts) + "</dl>")
     if r.get("profile"):
         b.append(f'<p class="prose">{r["profile"]}</p>')
@@ -592,10 +701,16 @@ for r in riders:
     ru = sorted(RUNNER.get(rid, []), key=lambda s: s["year"])
     if ru:
         b.append("<h3>ランキング2位</h3><p>" + "、".join(a("{{root}}", f'seasons/{s["year"]}.html', f'{s["year"]}年') + f'（{E(s["class"])}）' for s in ru) + "</p>")
+    wins = sorted([x for x in rr if x["pos_i"] == 1], key=lambda x: (x["year"], x["round_i"]))
+    if wins:
+        b.append("<h3>優勝したレース</h3>" + table(["年", "クラス", "グランプリ", "メーカー"],
+                 [[yr_link("{{root}}", x["year"]), E(x["class"]),
+                   a("{{root}}", race_path(RACE[(x["year"], x["class"], x["round_i"], x["session"])]), E(RACE[(x["year"], x["class"], x["round_i"], x["session"])].get("gp_name_ja", ""))),
+                   maker_link("{{root}}", x.get("maker", ""))] for x in wins]))
     es = sorted(ENT_BY_RIDER.get(rid, []), key=lambda e: e["year"])
     if es:
         b.append("<h3>所属の移り変わり</h3>" + table(["年", "クラス", "チーム", "メーカー", "年間順位"],
-                 [[a("{{root}}", f'seasons/{e["year"]}.html', yr(e["year"])), E(e["class"]), team_link("{{root}}", e["team_id"]),
+                 [[a("{{root}}", f'seasons/{e["year"]}.html', yr(e["year"])), E(e["class"]), team_link("{{root}}", e.get("team_id", ""), e.get("entry_name", "")),
                    maker_link("{{root}}", e["maker"]), rank_txt(e)] for e in es]))
     else:
         b.append('<p class="note">参戦記録は未入力。</p>')

@@ -62,13 +62,15 @@ motogp-site/
 
 | ファイル | 内容 | 主な列 |
 |---|---|---|
-| riders.csv | ライダー | id, name_ja, name_en, nationality, birth_year, profile, status |
+| riders.csv | ライダー | id, name_ja, name_en, nationality, birth_year, birth_date, birthplace, profile, status, api_id（公式データのID） |
 | teams.csv | チーム（スポンサー名が変わっても1チーム） | id, name_ja, country, note, status |
 | manufacturers.csv | メーカー | name_ja, id, country, color, note |
 | classes.csv | クラス定義 | code, group, order, from, to, note |
 | champions.csv | 全クラスの歴代王者 | year, class, rider_id, rider_name, nationality, maker, status |
 | seasons.csv | シーズン概要（年×クラス） | year, class, rounds, runner_up_id, constructor_champion, summary, rule_changes, status |
-| entries.csv | 参戦記録（年×クラス×ライダー） | year, class, rider_id, team_id, entry_name, maker, machine, number, rank, status |
+| entries.csv | 参戦記録（年×クラス×ライダー。スポット参戦含む） | year, class, rider_id, team_id（空欄可）, entry_name, maker, machine, number, rank, points, status |
+| races.csv | レース（年×クラス×ラウンド） | year, class, round, session（RAC＝決勝／SPR＝スプリント）, gp_code, gp_name_ja, circuit, date, winner_id, status, note, source |
+| results.csv | レース結果（1レース×1ライダー） | year, class, round, session, pos, rider_id, number, team, maker, points, result（FIN完走／DNFリタイア／DNS不出走／DSQ失格／EXC除外） |
 | timeline.csv | トップの年表 | year, category, text, major |
 | class_bars.csv | クラス変遷グラフ | label, from, to, color, text |
 | machines.csv | マシン図鑑 | name, class, maker, years, engine, note |
@@ -111,8 +113,8 @@ motogp-site/
 |---|---|---|
 | 0 | 仕組み（データ設計・作成スクリプト・チェック） | 完了 |
 | 1 | MotoGP時代（2002〜2026年）最高峰 | シーズン概要25年分・王者は入力済。参戦一覧は2024〜2026年のみ → 2002〜2023年を追加予定 |
-| 2 | Moto2・Moto3（2010年〜）、250cc・125cc（2002〜2009年） | 王者のみ入力済 |
-| 3 | 500cc時代（1949〜2001年） | 王者のみ入力済 |
+| 2 | 1949〜2025年 全クラス 全参戦者・全レース結果 | 入力済（公式リザルト。2001年以前は一部英語版Wikipediaで補完。サイドカーは未収録）。2026年は MotoGP の参戦一覧のみ |
+| 3 | 500cc時代（1949〜2001年） | 入力済（段階2に含む） |
 | 4 | 中・小排気量の全シーズン、レース単位の結果 | 未着手 |
 
 ## 8. 仕組みの修正
